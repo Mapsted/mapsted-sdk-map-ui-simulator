@@ -283,7 +283,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import MapstedCore;
 @import ObjectiveC;
 @import UIKit;
-@import __ObjC;
 #endif
 
 #endif
@@ -848,7 +847,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import MapstedCore;
 @import ObjectiveC;
 @import UIKit;
-@import __ObjC;
 #endif
 
 #endif
