@@ -34231,364 +34231,364 @@
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30308,
+      "offset": 30357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30664,
+      "offset": 30713,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31170,
+      "offset": 31219,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31175,
+      "offset": 31224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31428,
+      "offset": 31477,
       "length": 12,
       "value": "\"fourpoints\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31653,
+      "offset": 31702,
       "length": 11,
       "value": "\"imageTint\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31771,
+      "offset": 31820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31822,
+      "offset": 31871,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31913,
+      "offset": 31962,
       "length": 11,
       "value": "\"nav_start\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32045,
+      "offset": 32094,
       "length": 35,
       "value": "\"RouteNavigation.MyCurrentLocation\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32282,
+      "offset": 32331,
       "length": 18,
       "value": "\"Current Location\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32376,
+      "offset": 32425,
       "length": 14,
       "value": "\"darkestWhite\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32626,
+      "offset": 32675,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32670,
+      "offset": 32719,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32747,
+      "offset": 32796,
       "length": 11,
       "value": "\"nav_start\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32914,
+      "offset": 32963,
       "length": 9,
       "value": "\"nav_end\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33064,
+      "offset": 33113,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33141,
+      "offset": 33190,
       "length": 11,
       "value": "\"nav_start\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33308,
+      "offset": 33357,
       "length": 17,
       "value": "\"unfilled_circle\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33694,
+      "offset": 33743,
       "length": 35,
       "value": "\"RouteNavigation.ChooseDestination\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33796,
+      "offset": 33845,
       "length": 20,
       "value": "\"Choose Destination\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33865,
+      "offset": 33914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33962,
+      "offset": 34011,
       "length": 13,
       "value": "\"darkerWhite\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34133,
+      "offset": 34182,
       "length": 12,
       "value": "\"lightWhite\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34504,
+      "offset": 34553,
       "length": 12,
       "value": "\"lightWhite\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34763,
+      "offset": 34812,
       "length": 12,
       "value": "\"lightWhite\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34988,
+      "offset": 35037,
       "length": 12,
       "value": "\"lightWhite\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35187,
+      "offset": 35236,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35192,
+      "offset": 35241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 35427,
+      "offset": 35476,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35554,
+      "offset": 35603,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35700,
+      "offset": 35749,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36065,
+      "offset": 36114,
       "length": 5,
       "value": "\"❌\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 36153,
+      "offset": 36202,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 36226,
+      "offset": 36275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 36379,
+      "offset": 36428,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36939,
+      "offset": 36988,
       "length": 12,
       "value": "\"lightWhite\""
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "Array",
-      "offset": 37992,
+      "offset": 38041,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 38267,
+      "offset": 38316,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39010,
+      "offset": 39059,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39604,
+      "offset": 39653,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39644,
+      "offset": 39693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39742,
+      "offset": 39791,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39747,
+      "offset": 39796,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39830,
+      "offset": 39879,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 39990,
+      "offset": 40039,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 40506,
+      "offset": 40555,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 40528,
+      "offset": 40577,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 40533,
+      "offset": 40582,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "Array",
-      "offset": 40556,
+      "offset": 40605,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41043,
+      "offset": 41092,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parthbhatt\/Documents\/Mapsted\/Workspace\/Release-5.0_Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41105,
+      "offset": 41154,
       "length": 5,
       "value": "false"
     },
