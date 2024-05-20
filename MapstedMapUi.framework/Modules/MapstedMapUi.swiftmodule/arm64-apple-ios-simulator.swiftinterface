@@ -13,6 +13,7 @@ import LocationMarketing
 import MapstedAlerts
 import MapstedComponentsUI
 import MapstedCore
+import MapstedLocationShare
 import MapstedMap
 import MapstedTriggersCore
 import MessageUI
@@ -57,8 +58,10 @@ extension MapstedCore.CMSCategory : Swift.Identifiable {
   @_Concurrency.MainActor(unsafe) public func viewMapOverlay(item: MapstedMap.MapOverlayItem)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public class func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func prepare(for segue: UIKit.UIStoryboardSegue, sender: Any?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func showLoadingSpinner(text: Swift.String)
   @_Concurrency.MainActor(unsafe) public func hideLoadingSpinner()
   @_Concurrency.MainActor(unsafe) public func selectAndDrawProperty(propertyId: Swift.Int, callback: @escaping ((Swift.Bool) -> Swift.Void))
@@ -86,6 +89,9 @@ extension MapstedMapUi.MapstedMapUiViewController : UIKit.UITableViewDelegate {
 extension MapstedMapUi.MapstedMapUiViewController : UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension MapstedMapUi.MapstedMapUiViewController : MapstedLocationShare.ShareLiveLocationListener {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onShareLiveLocationEnabled(enabled: Swift.Bool)
 }
 extension MapstedMapUi.MapstedMapUiViewController : MapstedCore.MNDeepLinkDelegate {
   @_Concurrency.MainActor(unsafe) public func processDeepLink(uri: Foundation.URL, completion: ((Swift.Bool) -> Swift.Void)?)
