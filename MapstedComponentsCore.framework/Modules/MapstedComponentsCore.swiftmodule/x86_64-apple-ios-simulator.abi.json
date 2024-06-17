@@ -867,6 +867,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE12cropToCircleABSgyF",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE12cropToCircleABSgyF",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -905,6 +906,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE6resize10targetSizeAB_So6CGRectVtSo6CGSizeV_tF",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE6resize10targetSizeAB_So6CGRectVtSo6CGSizeV_tF",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -938,6 +940,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE7resized7toWidthABSg0D10Foundation7CGFloatV_tF",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE7resized7toWidthABSg0D8Graphics7CGFloatV_tF",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -971,6 +974,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE7resized14withPercentageABSg0D10Foundation7CGFloatV_tF",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE7resized14withPercentageABSg0D8Graphics7CGFloatV_tF",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -990,6 +994,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE10isPortraitSbvp",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE10isPortraitSbvp",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -1008,6 +1013,7 @@
                 "usr": "s:So7UIImageC21MapstedComponentsCoreE10isPortraitSbvg",
                 "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE10isPortraitSbvg",
                 "moduleName": "MapstedComponentsCore",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -1029,6 +1035,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE11isLandscapeSbvp",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE11isLandscapeSbvp",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -1047,6 +1054,7 @@
                 "usr": "s:So7UIImageC21MapstedComponentsCoreE11isLandscapeSbvg",
                 "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE11isLandscapeSbvg",
                 "moduleName": "MapstedComponentsCore",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -1068,6 +1076,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE7breadth0D10Foundation7CGFloatVvp",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE7breadth0D8Graphics7CGFloatVvp",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -1086,6 +1095,7 @@
                 "usr": "s:So7UIImageC21MapstedComponentsCoreE7breadth0D10Foundation7CGFloatVvg",
                 "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE7breadth0D8Graphics7CGFloatVvg",
                 "moduleName": "MapstedComponentsCore",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -1107,6 +1117,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE11breadthSizeSo6CGSizeVvp",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE11breadthSizeSo6CGSizeVvp",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -1125,6 +1136,7 @@
                 "usr": "s:So7UIImageC21MapstedComponentsCoreE11breadthSizeSo6CGSizeVvg",
                 "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE11breadthSizeSo6CGSizeVvg",
                 "moduleName": "MapstedComponentsCore",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -1146,6 +1158,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE11breadthRectSo6CGRectVvp",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE11breadthRectSo6CGRectVvp",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -1164,6 +1177,7 @@
                 "usr": "s:So7UIImageC21MapstedComponentsCoreE11breadthRectSo6CGRectVvg",
                 "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE11breadthRectSo6CGRectVvg",
                 "moduleName": "MapstedComponentsCore",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -1205,6 +1219,7 @@
             "usr": "s:So7UIImageC21MapstedComponentsCoreE7rounded4with5widthABSgSo7UIColorC_0D10Foundation7CGFloatVtF",
             "mangledName": "$sSo7UIImageC21MapstedComponentsCoreE7rounded4with5widthABSgSo7UIColorC_0D8Graphics7CGFloatVtF",
             "moduleName": "MapstedComponentsCore",
+            "isOpen": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -1300,214 +1315,25 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Structs\/TableViewSection.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Structs\/TableViewSection.swift",
       "kind": "IntegerLiteral",
       "offset": 318,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 214,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 338,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 345,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 724,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1076,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1188,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 1994,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2009,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2034,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2046,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2356,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2380,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2463,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2488,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2566,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "FloatLiteral",
-      "offset": 2591,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4083,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4272,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4292,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4350,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4370,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4571,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4585,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4633,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4645,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4689,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4761,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsCore\/MapstedComponentsCore\/Extensions\/UIImage+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4774,
-      "length": 1,
-      "value": "2"
     }
   ]
 }
