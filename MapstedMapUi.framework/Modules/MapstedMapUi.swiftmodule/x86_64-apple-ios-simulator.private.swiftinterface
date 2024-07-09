@@ -50,7 +50,7 @@ extension MapstedCore.CMSCategory : Swift.Identifiable {
   @_Concurrency.MainActor(unsafe) public func deleteAllTags()
   @_Concurrency.MainActor(unsafe) public func refreshTags(closure: (() -> ())? = nil, plotTags: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) public func displayPropertyOnMap(completion: (() -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) public func displayOnMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int, completion: (() -> ())? = nil)
+  @_Concurrency.MainActor(unsafe) public func displayOnMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int?, floorId: Swift.Int?, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) public func displayMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) public func createNewTag(propertyId: Swift.Int)
   @_Concurrency.MainActor(unsafe) public func showTagManager(propertyId: Swift.Int)
@@ -226,7 +226,7 @@ public enum RouteInterruptionMode {
   @_Concurrency.MainActor(unsafe) final public func zoomTo(level: Swift.Float)
   @_Concurrency.MainActor(unsafe) final public func zoomToUserLocation()
   @_Concurrency.MainActor(unsafe) final public func displayOnMap(tag: MapstedCore.MNTag, completion: (() -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) final public func displayOnMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int, completion: (() -> ())? = nil)
+  @_Concurrency.MainActor(unsafe) final public func displayOnMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int? = -1, floorId: Swift.Int? = -1, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) final public func displayMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) final public func connectWifiBluetoothBannerText() -> Swift.String?
   @_Concurrency.MainActor(unsafe) final public func displayPropertyOnMap(propertyId: Swift.Int, completion: (() -> ())? = nil)
@@ -300,6 +300,7 @@ extension MapstedMapUi.MapstedMapUiInternalViewController {
   @_Concurrency.MainActor(unsafe) final public func showAlerts(alerts: [MapstedAlerts.AlertSearchable])
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.MapSelectionProtocol {
+  @_Concurrency.MainActor(unsafe) final public func displayOnMap(dataType: MapstedCore.MNDataType?, render: Swift.Bool, propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int, completion: (() -> ())?)
   @_Concurrency.MainActor(unsafe) final public func makeChooseFrom(searchEntityGroup: MapstedCore.SearchEntity)
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.MNSearchDelegate {

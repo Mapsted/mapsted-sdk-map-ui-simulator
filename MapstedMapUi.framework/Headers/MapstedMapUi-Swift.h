@@ -351,11 +351,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
-- (void)setPositionVisibilityWithVisible:(BOOL)visible;
-@end
-
 @class MNPosition;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionChangeListener>
@@ -366,6 +361,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
+- (void)setPositionVisibilityWithVisible:(BOOL)visible;
+@end
+
 
 
 @class UICollectionView;
@@ -374,6 +373,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
 
 
 
@@ -924,11 +924,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
-- (void)setPositionVisibilityWithVisible:(BOOL)visible;
-@end
-
 @class MNPosition;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionChangeListener>
@@ -939,6 +934,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
+- (void)setPositionVisibilityWithVisible:(BOOL)visible;
+@end
+
 
 
 @class UICollectionView;
@@ -947,6 +946,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
 
 
 

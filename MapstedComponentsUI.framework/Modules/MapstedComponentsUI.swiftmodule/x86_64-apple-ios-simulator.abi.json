@@ -36098,1428 +36098,1428 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3467,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3485,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3502,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3517,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserContainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3534,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 532,
       "length": 28,
       "value": "\"serial_queue_for_estimates\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 637,
       "length": 28,
       "value": "\"serial_queue_for_landmarks\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
       "kind": "Array",
       "offset": 725,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
       "kind": "Dictionary",
       "offset": 772,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
       "kind": "Dictionary",
       "offset": 916,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 2182,
       "length": 10,
       "value": "\"reuse_id\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 1469,
       "length": 25,
       "value": "\"DEFAULT_CELL_DIENTIFIER\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "Array",
       "offset": 1598,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1833,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1920,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1868,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1956,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 2709,
       "length": 15,
       "value": "\"icon_collapse\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 2782,
       "length": 13,
       "value": "\"icon_expand\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 4468,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 4861,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 4949,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 5122,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 5337,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 5397,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 5545,
       "length": 4,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 5685,
       "length": 16,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 5700,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 5816,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 6017,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/ExploreTableViewCell\/ExploreTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 954,
       "length": 20,
       "value": "\"MapstedComponentsUI.ExploreTableViewCell\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 27,
       "value": "\"SearchResultTableViewCell\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
       "kind": "Dictionary",
       "offset": 611,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
       "kind": "BooleanLiteral",
       "offset": 710,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/SearchResultsManager.swift",
       "kind": "BooleanLiteral",
       "offset": 918,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 815,
       "length": 3,
       "value": "239"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 819,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 831,
       "length": 3,
       "value": "240"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 835,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 846,
       "length": 3,
       "value": "244"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 850,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "FloatLiteral",
       "offset": 862,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/TextField\/KWTextField.swift",
       "kind": "FloatLiteral",
       "offset": 918,
       "length": 4,
       "value": "17.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UITableView+.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UITableView+.swift",
       "kind": "BooleanLiteral",
       "offset": 344,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "Array",
       "offset": 321,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 367,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "Array",
       "offset": 489,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 552,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UIView+.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UIView+.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 21,
       "value": "\"ID_SEGUE_SHOW_GROUP\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 15,
       "value": "\"EntityChooser\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 368,
       "length": 28,
       "value": "\"serial_queue_for_landmarks\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 28,
       "value": "\"serial_queue_for_estimates\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "Array",
       "offset": 734,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "Dictionary",
       "offset": 781,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "Dictionary",
       "offset": 848,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/SearchableChooserViewController.swift",
       "kind": "StringLiteral",
       "offset": 1929,
       "length": 10,
       "value": "\"reuse_id\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 316,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 440,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
       "kind": "Array",
       "offset": 261,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Tags\/TagsCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 508,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 5,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 4,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 3,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 6,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 10,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 5,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 4,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 3,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 6,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 10,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 5,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 4,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 3,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 6,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/SearchResultSection.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 10,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 783,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 892,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 1013,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1125,
       "length": 3,
       "value": "239"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1129,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1141,
       "length": 3,
       "value": "240"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1145,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1156,
       "length": 3,
       "value": "244"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 1160,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 1172,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 2234,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/KWCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 2268,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutInfo.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutInfo.swift",
       "kind": "FloatLiteral",
       "offset": 348,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutInfo.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/LayoutInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 387,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 21,
       "value": "\"Entity.MainEntities\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 7,
       "value": "\"Malls\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 19,
       "value": "\"Section.Buildings\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 11,
       "value": "\"Buildings\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 421,
       "length": 13,
       "value": "\"Indoor.POIs\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 445,
       "length": 20,
       "value": "\"Points of Interest\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 13,
       "value": "\"Indoor.Tags\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 6,
       "value": "\"Tags\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 14,
       "value": "\"Indoor.Feeds\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 681,
       "length": 12,
       "value": "\"News Feeds\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 782,
       "length": 20,
       "value": "\"Section.Categories\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 12,
       "value": "\"Categories\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 910,
       "length": 8,
       "value": "\"Alerts\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 929,
       "length": 8,
       "value": "\"Alerts\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 12,
       "value": "\"MapOverlay\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 13,
       "value": "\"Map Overlay\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1152,
       "length": 10,
       "value": "\"Entities\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 10,
       "value": "\"Entities\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 15,
       "value": "\"Results for: \""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1301,
       "length": 15,
       "value": "\"Results for: \""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1405,
       "length": 9,
       "value": "\"Recents\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 9,
       "value": "\"Recents\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 14,
       "value": "\"List.ViewAll\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1548,
       "length": 10,
       "value": "\"View All\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1661,
       "length": 28,
       "value": "\"List.NoRecentsToDisplayYet\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1700,
       "length": 27,
       "value": "\"No recents to display yet\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1827,
       "length": 25,
       "value": "\"List.NoDataToDisplayYet\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1863,
       "length": 24,
       "value": "\"No data to display yet\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1986,
       "length": 24,
       "value": "\"MultipleBuildings.Text\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2021,
       "length": 24,
       "value": "\"No data to display yet\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2142,
       "length": 19,
       "value": "\"No Entities Found\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2172,
       "length": 19,
       "value": "\"No Entities Found\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2279,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2298,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2395,
       "length": 9,
       "value": "\"Nearest\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2415,
       "length": 9,
       "value": "\"Nearest\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2510,
       "length": 6,
       "value": "\"Near\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2527,
       "length": 6,
       "value": "\"Near\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2629,
       "length": 17,
       "value": "\"locations found\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2657,
       "length": 17,
       "value": "\"locations found\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2766,
       "length": 15,
       "value": "\"item(s) found\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2792,
       "length": 15,
       "value": "\"item(s) found\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2908,
       "length": 23,
       "value": "\"Search for categories\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2942,
       "length": 23,
       "value": "\"Search for categories\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3053,
       "length": 8,
       "value": "\"Choose\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3072,
       "length": 8,
       "value": "\"Choose\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3166,
       "length": 6,
       "value": "\"View\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3183,
       "length": 6,
       "value": "\"View\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3300,
       "length": 36,
       "value": "\"Unable to determine your position.\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3347,
       "length": 36,
       "value": "\"Unable to determine your position.\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3490,
       "length": 35,
       "value": "\"Unable to find the nearest entity\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3536,
       "length": 35,
       "value": "\"Unable to find the nearest entity\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3668,
       "length": 37,
       "value": "\"Unexpected error. Please try again.\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3716,
       "length": 37,
       "value": "\"Unexpected error. Please try again.\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1711,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1717,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1727,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/CollectionView\/CollectionViewCell\/KeywordCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1739,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 635,
       "length": 2,
       "value": "78"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 665,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 690,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 737,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 809,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 980,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/CategoryCarouselView\/CategoryCarouselViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1542,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 22,
       "value": "\"ExploreTableViewCell\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 641,
       "length": 23,
       "value": "\"ArbitraryLocationCell\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 22,
       "value": "\"ExploreTableViewCell\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 641,
       "length": 23,
       "value": "\"ArbitraryLocationCell\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 909,
       "length": 43,
       "value": "\"tags has \""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 4,
       "value": "\" tags\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "Array",
       "offset": 861,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 1053,
       "length": 52,
       "value": "\"groupedExplores has \""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "StringLiteral",
       "offset": 1098,
       "length": 5,
       "value": "\" items\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "Dictionary",
       "offset": 1004,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "Array",
       "offset": 1319,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "IntegerLiteral",
       "offset": 3883,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Search\/ExploreResultsManager.swift",
       "kind": "IntegerLiteral",
       "offset": 3798,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/KeywordCellLayout.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/KeywordCellLayout.swift",
       "kind": "Array",
       "offset": 325,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/KeywordCellLayout.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/KeywordCellLayout.swift",
       "kind": "IntegerLiteral",
       "offset": 363,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/KeywordCellLayout.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/Keywords\/KeywordLayout\/KeywordCellLayout.swift",
       "kind": "IntegerLiteral",
       "offset": 396,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UIImage+.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UIImage+.swift",
       "kind": "IntegerLiteral",
       "offset": 366,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UIImage+.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/UIImage+.swift",
       "kind": "IntegerLiteral",
       "offset": 377,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/String+.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/String+.swift",
       "kind": "StringLiteral",
       "offset": 165,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/String+.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/String+.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
       "kind": "StringLiteral",
       "offset": 407,
       "length": 15,
       "value": "\"EntityChooser\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 15,
       "value": "\"EntityChooser\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
       "kind": "StringLiteral",
       "offset": 607,
       "length": 15,
       "value": "\"EntityChooser\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 24,
       "value": "\"EntityChooserContainer\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
       "kind": "StringLiteral",
       "offset": 811,
       "length": 19,
       "value": "\"SearchableChooser\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Api\/ComponentFactory.swift",
       "kind": "StringLiteral",
       "offset": 878,
       "length": 19,
       "value": "\"SearchableChooser\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-eanpcjujfrpwxmhkmgavhlajwnol\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-gllohhpboqwscufzchvpkqyscfcf\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 733,
       "length": 12,
       "value": "\"GeneralTag\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-eanpcjujfrpwxmhkmgavhlajwnol\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-gllohhpboqwscufzchvpkqyscfcf\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 15,
       "value": "\"icon_collapse\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-eanpcjujfrpwxmhkmgavhlajwnol\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-gllohhpboqwscufzchvpkqyscfcf\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 13,
       "value": "\"icon_expand\""
     },
     {
-      "filePath": "\/Users\/entitybits\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-eanpcjujfrpwxmhkmgavhlajwnol\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/poojatrivedi\/Library\/Developer\/Xcode\/DerivedData\/MapstedComponentsUI-gllohhpboqwscufzchvpkqyscfcf\/Build\/Intermediates.noindex\/MapstedComponentsUI.build\/Debug-iphonesimulator\/MapstedComponentsUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1159,
       "length": 10,
