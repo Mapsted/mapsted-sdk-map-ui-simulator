@@ -27090,665 +27090,693 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 146823,
+      "offset": 147956,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 151261,
+      "offset": 156054,
+      "length": 87,
+      "value": "\"#FloorTransition: LevelTransitionInstruction: skip due to already on that level\/floor\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 156377,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 156451,
+      "length": 87,
+      "value": "\"FloorTransition: LevelTransitionInstruction: skip due to distance is greater than 5.0\""
+    },
+    {
+      "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 156841,
       "length": 208,
       "value": "\"#FloorTransition - ACFloor - Switch floor to transitionDestinationLoc: (\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 151359,
+      "offset": 156939,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 151398,
+      "offset": 156978,
       "length": 1,
       "value": "\") => (\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 151431,
+      "offset": 157011,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 151467,
+      "offset": 157047,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 151596,
+      "offset": 157167,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 152552,
+      "offset": 158139,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 153260,
+      "offset": 158852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 153317,
+      "offset": 158909,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 153333,
+      "offset": 158925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 153925,
+      "offset": 159517,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 153935,
+      "offset": 159527,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 154037,
+      "offset": 159629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 155029,
+      "offset": 160621,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155070,
+      "offset": 160662,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155135,
+      "offset": 160727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 155253,
+      "offset": 160845,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155452,
+      "offset": 161044,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155558,
+      "offset": 161150,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 155882,
+      "offset": 161474,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155928,
+      "offset": 161520,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155994,
+      "offset": 161586,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 156297,
+      "offset": 161889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 156374,
+      "offset": 161966,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 156807,
+      "offset": 162399,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 156817,
+      "offset": 162409,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 156907,
+      "offset": 162499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 157233,
+      "offset": 162825,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 157243,
+      "offset": 162835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 157336,
+      "offset": 162928,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 158228,
+      "offset": 163820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 158445,
+      "offset": 164037,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 158821,
+      "offset": 164413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 158847,
+      "offset": 164439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 159699,
+      "offset": 165291,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 159921,
+      "offset": 165513,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161128,
+      "offset": 166720,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 161335,
+      "offset": 166927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161571,
+      "offset": 167163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161666,
+      "offset": 167258,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161708,
+      "offset": 167300,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161737,
+      "offset": 167329,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161785,
+      "offset": 167377,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161815,
+      "offset": 167407,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161863,
+      "offset": 167455,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 161893,
+      "offset": 167485,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 162097,
+      "offset": 167689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 162369,
+      "offset": 167961,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 163905,
+      "offset": 169497,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 164022,
+      "offset": 169614,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 164054,
+      "offset": 169646,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 164504,
+      "offset": 170096,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 164536,
+      "offset": 170128,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 164893,
+      "offset": 170485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 165415,
+      "offset": 171007,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 165532,
+      "offset": 171124,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 165564,
+      "offset": 171156,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 166008,
+      "offset": 171600,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 166040,
+      "offset": 171632,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 166366,
+      "offset": 171958,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 166842,
+      "offset": 172434,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 166977,
+      "offset": 172569,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 167026,
+      "offset": 172618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 167155,
+      "offset": 172747,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 167301,
+      "offset": 172893,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 167482,
+      "offset": 173074,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 167776,
+      "offset": 173368,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 167922,
+      "offset": 173514,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 168281,
+      "offset": 173873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 168375,
+      "offset": 173967,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 168674,
+      "offset": 174266,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 168916,
+      "offset": 174508,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 169179,
+      "offset": 174771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 169306,
+      "offset": 174898,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 169664,
+      "offset": 175256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 169758,
+      "offset": 175350,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 170022,
+      "offset": 175614,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 170279,
+      "offset": 175871,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 170352,
+      "offset": 175944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 170424,
+      "offset": 176016,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 170507,
+      "offset": 176099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 170601,
+      "offset": 176193,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 170806,
+      "offset": 176398,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 171356,
+      "offset": 176948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 171450,
+      "offset": 177042,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 171628,
+      "offset": 177220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 171894,
+      "offset": 177486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 171988,
+      "offset": 177580,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 172122,
+      "offset": 177714,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 172135,
+      "offset": 177727,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 172654,
+      "offset": 178246,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 172824,
+      "offset": 178416,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 172915,
+      "offset": 178507,
       "length": 29,
       "value": "\"Test data capture - \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 172943,
+      "offset": 178535,
       "length": 1,
       "value": "\"\""
     },
@@ -27762,2821 +27790,2821 @@
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 173298,
+      "offset": 178890,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173338,
+      "offset": 178930,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173408,
+      "offset": 179000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173551,
+      "offset": 179143,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 173711,
+      "offset": 179303,
       "length": 13,
       "value": "\"Starting...\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174330,
+      "offset": 179922,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 174410,
+      "offset": 180002,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 174423,
+      "offset": 180015,
       "length": 57,
       "value": "\"Would you like to send this data capture to the server?\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 174581,
+      "offset": 180173,
       "length": 4,
       "value": "\"No\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 174696,
+      "offset": 180288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 174716,
+      "offset": 180308,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 174846,
+      "offset": 180438,
       "length": 5,
       "value": "\"Yes\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 175558,
+      "offset": 181150,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 175780,
+      "offset": 181372,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 176298,
+      "offset": 181890,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176369,
+      "offset": 181961,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176459,
+      "offset": 182051,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 176770,
+      "offset": 182362,
       "length": 20,
       "value": "\"collectionViewCell\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 176980,
+      "offset": 182572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177150,
+      "offset": 182742,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 177198,
+      "offset": 182790,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 177287,
+      "offset": 182879,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177522,
+      "offset": 183114,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 177570,
+      "offset": 183162,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 177659,
+      "offset": 183251,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 177745,
+      "offset": 183337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177788,
+      "offset": 183380,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178064,
+      "offset": 183656,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 178137,
+      "offset": 183729,
       "length": 9,
       "value": "\"exitRed\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178452,
+      "offset": 184044,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178458,
+      "offset": 184050,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178509,
+      "offset": 184101,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 179205,
+      "offset": 184797,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 179326,
+      "offset": 184918,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 179405,
+      "offset": 184997,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 179441,
+      "offset": 185033,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 179628,
+      "offset": 185220,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 179699,
+      "offset": 185291,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 181989,
+      "offset": 187581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 182579,
+      "offset": 188171,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 182901,
+      "offset": 188493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 184822,
+      "offset": 190414,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 184855,
+      "offset": 190447,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 184962,
+      "offset": 190554,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 185247,
+      "offset": 190839,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 185285,
+      "offset": 190877,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 186738,
+      "offset": 192330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 186829,
+      "offset": 192421,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 186920,
+      "offset": 192512,
       "length": 14,
       "value": "\"Tag-\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 186933,
+      "offset": 192525,
       "length": 160,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 187845,
+      "offset": 193437,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 187904,
+      "offset": 193496,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 187970,
+      "offset": 193562,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 188016,
+      "offset": 193608,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 188094,
+      "offset": 193686,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 189441,
+      "offset": 195033,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 189478,
+      "offset": 195070,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 190576,
+      "offset": 196168,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 190852,
+      "offset": 196444,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 192511,
+      "offset": 198103,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 194335,
+      "offset": 199927,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 194380,
+      "offset": 199972,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 194957,
+      "offset": 200549,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 195338,
+      "offset": 200930,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 195379,
+      "offset": 200971,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 195424,
+      "offset": 201016,
       "length": 4,
       "value": "1E10"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 195471,
+      "offset": 201063,
       "length": 4,
       "value": "1E10"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 195578,
+      "offset": 201170,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 196805,
+      "offset": 202397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 197517,
+      "offset": 203109,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 198296,
+      "offset": 203888,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 198413,
+      "offset": 204005,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 198486,
+      "offset": 204078,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 198550,
+      "offset": 204142,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 198615,
+      "offset": 204207,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 198740,
+      "offset": 204332,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 198767,
+      "offset": 204359,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 199154,
+      "offset": 204746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 199237,
+      "offset": 204829,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 200676,
+      "offset": 206268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 201839,
+      "offset": 207431,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 201922,
+      "offset": 207514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 202914,
+      "offset": 208506,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 204889,
+      "offset": 210481,
       "length": 94,
       "value": "\"Routing request\/response: Notification to \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 204944,
+      "offset": 210536,
       "length": 6,
       "value": "\"show\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 204953,
+      "offset": 210545,
       "length": 6,
       "value": "\"hide\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 204960,
+      "offset": 210552,
       "length": 4,
       "value": "\" user position marker \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 205344,
+      "offset": 210936,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 205902,
+      "offset": 211494,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 205961,
+      "offset": 211553,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 206312,
+      "offset": 211904,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 206965,
+      "offset": 212557,
       "length": 5,
       "value": "\"TAG\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 207277,
+      "offset": 212869,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 207290,
+      "offset": 212882,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 207625,
+      "offset": 213217,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 209410,
+      "offset": 215002,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 210498,
+      "offset": 216090,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 211087,
+      "offset": 216679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 212186,
+      "offset": 217778,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 213189,
+      "offset": 218781,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 213778,
+      "offset": 219370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 213982,
+      "offset": 219574,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 214822,
+      "offset": 220414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 215470,
+      "offset": 221062,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 215554,
+      "offset": 221146,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 215864,
+      "offset": 221456,
       "length": 20,
       "value": "\"Manual Location:- \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 216016,
+      "offset": 221608,
       "length": 22,
       "value": "\"Set a start location\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 216731,
+      "offset": 222323,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 216747,
+      "offset": 222339,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 216760,
+      "offset": 222352,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 216789,
+      "offset": 222381,
       "length": 85,
       "value": "\"zoneinfo: propertyid=\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 216835,
+      "offset": 222427,
       "length": 1,
       "value": "\", buildingid=\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 216872,
+      "offset": 222464,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217016,
+      "offset": 222608,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217176,
+      "offset": 222768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217192,
+      "offset": 222784,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217891,
+      "offset": 223483,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 218668,
+      "offset": 224260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 218892,
+      "offset": 224484,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 219068,
+      "offset": 224660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 219481,
+      "offset": 225073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 219685,
+      "offset": 225277,
       "length": 73,
       "value": "\"Routing decision: Navigating direct to \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 219757,
+      "offset": 225349,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220164,
+      "offset": 225756,
       "length": 110,
       "value": "\"Routing decision: Routing from (\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220210,
+      "offset": 225802,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220225,
+      "offset": 225817,
       "length": 1,
       "value": "\") to destination \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220273,
+      "offset": 225865,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 220408,
+      "offset": 226000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220482,
+      "offset": 226074,
       "length": 109,
       "value": "\"Routing decision: Routing from (\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220528,
+      "offset": 226120,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220543,
+      "offset": 226135,
       "length": 1,
       "value": "\") to cached destinations under wayfinding mode.\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 223024,
+      "offset": 228616,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 223967,
+      "offset": 229559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 224335,
+      "offset": 229927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 224680,
+      "offset": 230272,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 224691,
+      "offset": 230283,
       "length": 19,
       "value": "\"Starting Route...\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 224752,
+      "offset": 230344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 225165,
+      "offset": 230757,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 225675,
+      "offset": 231267,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 225686,
+      "offset": 231278,
       "length": 19,
       "value": "\"Starting Route...\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 225754,
+      "offset": 231346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 225988,
+      "offset": 231580,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226044,
+      "offset": 231636,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226131,
+      "offset": 231723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226423,
+      "offset": 232015,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226469,
+      "offset": 232061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226485,
+      "offset": 232077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226873,
+      "offset": 232465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 228019,
+      "offset": 233611,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 228552,
+      "offset": 234144,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 228776,
+      "offset": 234368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 228950,
+      "offset": 234542,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 229359,
+      "offset": 234951,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 229614,
+      "offset": 235206,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 229902,
+      "offset": 235494,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 230244,
+      "offset": 235836,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 230702,
+      "offset": 236294,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 230751,
+      "offset": 236343,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 230849,
+      "offset": 236441,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 230866,
+      "offset": 236458,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 230976,
+      "offset": 236568,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 231006,
+      "offset": 236598,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 231151,
+      "offset": 236743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 231168,
+      "offset": 236760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 231523,
+      "offset": 237115,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 231533,
+      "offset": 237125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 231622,
+      "offset": 237214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 231886,
+      "offset": 237478,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 231896,
+      "offset": 237488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 232029,
+      "offset": 237621,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 232336,
+      "offset": 237928,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 232346,
+      "offset": 237938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 232431,
+      "offset": 238023,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 233174,
+      "offset": 238766,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 233184,
+      "offset": 238776,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 233269,
+      "offset": 238861,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 233464,
+      "offset": 239056,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 233493,
+      "offset": 239085,
       "length": 30,
       "value": "\"RouteNavigation.LoadingRoute\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 233729,
+      "offset": 239321,
       "length": 19,
       "value": "\"Loading Route ...\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 234051,
+      "offset": 239643,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 234110,
+      "offset": 239702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 234218,
+      "offset": 239810,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 234270,
+      "offset": 239862,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 234345,
+      "offset": 239937,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 235101,
+      "offset": 240693,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 236495,
+      "offset": 242087,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 236693,
+      "offset": 242285,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 237338,
+      "offset": 242930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 237572,
+      "offset": 243164,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 237582,
+      "offset": 243174,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 237669,
+      "offset": 243261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 237968,
+      "offset": 243560,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 238138,
+      "offset": 243730,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 238151,
+      "offset": 243743,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 238350,
+      "offset": 243942,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 238511,
+      "offset": 244103,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 238524,
+      "offset": 244116,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 239117,
+      "offset": 244709,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 239127,
+      "offset": 244719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 239209,
+      "offset": 244801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 239814,
+      "offset": 245406,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 239824,
+      "offset": 245416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 239911,
+      "offset": 245503,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 240728,
+      "offset": 246320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 240759,
+      "offset": 246351,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 241027,
+      "offset": 246619,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 241057,
+      "offset": 246649,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 241373,
+      "offset": 246965,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 241946,
+      "offset": 247538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 242065,
+      "offset": 247657,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 242729,
+      "offset": 248321,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 242891,
+      "offset": 248483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 243121,
+      "offset": 248713,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 243134,
+      "offset": 248726,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 243170,
+      "offset": 248762,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 243193,
+      "offset": 248785,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 243775,
+      "offset": 249367,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 244232,
+      "offset": 249824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 244518,
+      "offset": 250110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 244562,
+      "offset": 250154,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 245185,
+      "offset": 250777,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 245572,
+      "offset": 251164,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 245962,
+      "offset": 251554,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 246949,
+      "offset": 252541,
       "length": 21,
       "value": "\"kAudioForNavigation\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 247297,
+      "offset": 252889,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 247434,
+      "offset": 253026,
       "length": 30,
       "value": "\"Audio Navigation is Disabled\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 247723,
+      "offset": 253315,
       "length": 7,
       "value": "\"en-US\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 248323,
+      "offset": 253915,
       "length": 45,
       "value": "\"Finished speaking instruction: \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 248367,
+      "offset": 253959,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 249232,
+      "offset": 254824,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 249632,
+      "offset": 255224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 250896,
+      "offset": 256488,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 250943,
+      "offset": 256535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 250989,
+      "offset": 256581,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251033,
+      "offset": 256625,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251115,
+      "offset": 256707,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251130,
+      "offset": 256722,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251179,
+      "offset": 256771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251195,
+      "offset": 256787,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251815,
+      "offset": 257407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251848,
+      "offset": 257440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 251956,
+      "offset": 257548,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252234,
+      "offset": 257826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252285,
+      "offset": 257877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252301,
+      "offset": 257893,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252350,
+      "offset": 257942,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252365,
+      "offset": 257957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252440,
+      "offset": 258032,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252537,
+      "offset": 258129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252656,
+      "offset": 258248,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252881,
+      "offset": 258473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 252993,
+      "offset": 258585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 253113,
+      "offset": 258705,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 253291,
+      "offset": 258883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 253394,
+      "offset": 258986,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 253513,
+      "offset": 259105,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 253710,
+      "offset": 259302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 253795,
+      "offset": 259387,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254005,
+      "offset": 259597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254045,
+      "offset": 259637,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254082,
+      "offset": 259674,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254194,
+      "offset": 259786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254242,
+      "offset": 259834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254289,
+      "offset": 259881,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254337,
+      "offset": 259929,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254386,
+      "offset": 259978,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254468,
+      "offset": 260060,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254596,
+      "offset": 260188,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254680,
+      "offset": 260272,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254723,
+      "offset": 260315,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 254763,
+      "offset": 260355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 254863,
+      "offset": 260455,
       "length": 66,
       "value": "\"Starting point : \""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 254928,
+      "offset": 260520,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255066,
+      "offset": 260658,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255105,
+      "offset": 260697,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255144,
+      "offset": 260736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255181,
+      "offset": 260773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255218,
+      "offset": 260810,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255256,
+      "offset": 260848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 255302,
+      "offset": 260894,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255357,
+      "offset": 260949,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 255420,
+      "offset": 261012,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255717,
+      "offset": 261309,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255755,
+      "offset": 261347,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255791,
+      "offset": 261383,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255827,
+      "offset": 261419,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255864,
+      "offset": 261456,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 255909,
+      "offset": 261501,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 255964,
+      "offset": 261556,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 256026,
+      "offset": 261618,
       "length": 4,
       "value": "-150"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 256622,
+      "offset": 262214,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 257285,
+      "offset": 262877,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 257959,
+      "offset": 263551,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 257989,
+      "offset": 263581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 258909,
+      "offset": 264501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 258954,
+      "offset": 264546,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 259447,
+      "offset": 265039,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 260207,
+      "offset": 265799,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 260227,
+      "offset": 265819,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 261030,
+      "offset": 266622,
       "length": 44,
       "value": "\"View Alert\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 261060,
+      "offset": 266652,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 261064,
+      "offset": 266656,
       "length": 3,
       "value": "\"s\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 261070,
+      "offset": 266662,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 261073,
+      "offset": 266665,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 261372,
+      "offset": 266964,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 261428,
+      "offset": 267020,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 262305,
+      "offset": 267897,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 262426,
+      "offset": 268018,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 262789,
+      "offset": 268381,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 262961,
+      "offset": 268553,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 262983,
+      "offset": 268575,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 263037,
+      "offset": 268629,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 263145,
+      "offset": 268737,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 263202,
+      "offset": 268794,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 263431,
+      "offset": 269023,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 263443,
+      "offset": 269035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 263894,
+      "offset": 269486,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 264075,
+      "offset": 269667,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 264132,
+      "offset": 269724,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 264196,
+      "offset": 269788,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 264289,
+      "offset": 269881,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 264462,
+      "offset": 270054,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 264650,
+      "offset": 270242,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 264934,
+      "offset": 270526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 264995,
+      "offset": 270587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 265085,
+      "offset": 270677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 265650,
+      "offset": 271242,
       "length": 4,
       "value": "90.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 266020,
+      "offset": 271612,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 266257,
+      "offset": 271849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 266343,
+      "offset": 271935,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 266373,
+      "offset": 271965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 266405,
+      "offset": 271997,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 266537,
+      "offset": 272129,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 266566,
+      "offset": 272158,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 266629,
+      "offset": 272221,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 266665,
+      "offset": 272257,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 266777,
+      "offset": 272369,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 266920,
+      "offset": 272512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 267350,
+      "offset": 272942,
       "length": 29,
       "value": "\"DataCapture.HeadingAccuracy\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 267407,
+      "offset": 272999,
       "length": 36,
       "value": "\"DataCapture.OrignalHeadingAccuracy\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 267568,
+      "offset": 273160,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 267646,
+      "offset": 273238,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 267683,
+      "offset": 273275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 267783,
+      "offset": 273375,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 267803,
+      "offset": 273395,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 267906,
+      "offset": 273498,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 267984,
+      "offset": 273576,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268022,
+      "offset": 273614,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 268124,
+      "offset": 273716,
       "length": 12,
       "value": "\"unreliable\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 268150,
+      "offset": 273742,
       "length": 12,
       "value": "\"unreliable\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268257,
+      "offset": 273849,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268328,
+      "offset": 273920,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268366,
+      "offset": 273958,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 268467,
+      "offset": 274059,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 268486,
+      "offset": 274078,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268729,
+      "offset": 274321,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268787,
+      "offset": 274379,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 268831,
+      "offset": 274423,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 268949,
+      "offset": 274541,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 268971,
+      "offset": 274563,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 269237,
+      "offset": 274829,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 269292,
+      "offset": 274884,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 269528,
+      "offset": 275120,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 269623,
+      "offset": 275215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 269771,
+      "offset": 275363,
       "length": 18,
       "value": "\"IsFirstTimeShown\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 269863,
+      "offset": 275455,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 269877,
+      "offset": 275469,
       "length": 18,
       "value": "\"IsFirstTimeShown\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 270570,
+      "offset": 276162,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 271144,
+      "offset": 276736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 271194,
+      "offset": 276786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 271210,
+      "offset": 276802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 271557,
+      "offset": 277149,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 271924,
+      "offset": 277516,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 271938,
+      "offset": 277530,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 272325,
+      "offset": 277917,
       "length": 8,
       "value": "\"Alerts\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 272355,
+      "offset": 277947,
       "length": 16,
       "value": "\"activeAlertsUI\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 273124,
+      "offset": 278716,
       "length": 12,
       "value": "\"do nothing\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 274013,
+      "offset": 279605,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 274064,
+      "offset": 279656,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 274109,
+      "offset": 279701,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 274156,
+      "offset": 279748,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 274511,
+      "offset": 280103,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 276094,
+      "offset": 281686,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 276312,
+      "offset": 281904,
       "length": 7,
       "value": "\"Route\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 276571,
+      "offset": 282163,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 276788,
+      "offset": 282380,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 277550,
+      "offset": 283142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 277604,
+      "offset": 283196,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 277620,
+      "offset": 283212,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 278029,
+      "offset": 283621,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 278039,
+      "offset": 283631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 278132,
+      "offset": 283724,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 278602,
+      "offset": 284194,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 279197,
+      "offset": 284789,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 279796,
+      "offset": 285388,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 280094,
+      "offset": 285686,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 280213,
+      "offset": 285805,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 281251,
+      "offset": 286843,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 281703,
+      "offset": 287295,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 281762,
+      "offset": 287354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 282353,
+      "offset": 287945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 282858,
+      "offset": 288450,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/poojatrivedi\/Documents\/Workspace\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 283107,
+      "offset": 288699,
       "length": 3,
       "value": "0.2"
     },
