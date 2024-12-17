@@ -14136,6 +14136,13 @@
         "moduleName": "MapstedComponentsUI"
       },
       {
+        "kind": "Import",
+        "name": "MapstedTopBarNotification",
+        "printedName": "MapstedTopBarNotification",
+        "declKind": "Import",
+        "moduleName": "MapstedComponentsUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PropertiesListViewControllerDelegate",
         "printedName": "PropertiesListViewControllerDelegate",
@@ -14398,6 +14405,39 @@
               "Override",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MapstedComponentsUI@objc(cs)PropertiesListViewController(im)viewDidAppear:",
+            "mangledName": "$s19MapstedComponentsUI28PropertiesListViewControllerC13viewDidAppearyySbF",
+            "moduleName": "MapstedComponentsUI",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -15193,6 +15233,80 @@
           },
           {
             "kind": "Function",
+            "name": "onTopBarNotificationEnabled",
+            "printedName": "onTopBarNotificationEnabled(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MapstedComponentsUI@objc(cs)PropertiesListViewController(im)onTopBarNotificationEnabledWithEnabled:",
+            "mangledName": "$s19MapstedComponentsUI28PropertiesListViewControllerC27onTopBarNotificationEnabled7enabledySb_tF",
+            "moduleName": "MapstedComponentsUI",
+            "objc_name": "onTopBarNotificationEnabledWithEnabled:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTopBarNotificationCountUpdated",
+            "printedName": "onTopBarNotificationCountUpdated(count:height:heightMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HeightMode",
+                "printedName": "MapstedTopBarNotification.HeightMode",
+                "usr": "c:@M@MapstedTopBarNotification@E@HeightMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MapstedComponentsUI@objc(cs)PropertiesListViewController(im)onTopBarNotificationCountUpdatedWithCount:height:heightMode:",
+            "mangledName": "$s19MapstedComponentsUI28PropertiesListViewControllerC32onTopBarNotificationCountUpdated5count6height0O4ModeySi_12CoreGraphics7CGFloatV0aijK006HeightP0OtF",
+            "moduleName": "MapstedComponentsUI",
+            "objc_name": "onTopBarNotificationCountUpdatedWithCount:height:heightMode:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "numberOfSections",
             "printedName": "numberOfSections(in:)",
             "children": [
@@ -15413,6 +15527,13 @@
             "printedName": "CustomNavigationBarDelegate",
             "usr": "s:19MapstedComponentsUI27CustomNavigationBarDelegateP",
             "mangledName": "$s19MapstedComponentsUI27CustomNavigationBarDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MapstedNotificationListener",
+            "printedName": "MapstedNotificationListener",
+            "usr": "c:@M@MapstedTopBarNotification@objc(pl)MapstedNotificationListener",
+            "mangledName": "$s25MapstedTopBarNotification0aD8ListenerP"
           },
           {
             "kind": "Conformance",
@@ -18797,91 +18918,119 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1518,
+      "offset": 1482,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1533,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1779,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1995,
+      "offset": 2256,
       "length": 12,
       "value": "\"left_arrow\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2125,
+      "offset": 2386,
       "length": 13,
       "value": "\"right_arrow\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2869,
+      "offset": 3130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2994,
+      "offset": 3255,
       "length": 13,
       "value": "\"back_button\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3222,
+      "offset": 3483,
       "length": 13,
       "value": "\"back_button\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3780,
+      "offset": 4041,
       "length": 15,
       "value": "\"calendar_icon\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 4272,
       "length": 15,
       "value": "\"calendar_icon\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4428,
+      "offset": 4775,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4534,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5157,
+      "offset": 4961,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5215,
+      "offset": 5077,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5183,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7360,
+      "offset": 5806,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5864,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/NewsFeed\/NewsFeedsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8009,
       "length": 4,
       "value": "true"
     },
@@ -24850,6 +24999,48 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 9252,
+      "length": 10,
+      "value": "\"Calendar\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 9273,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 9376,
+      "length": 11,
+      "value": "\"Next Date\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 9398,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 9505,
+      "length": 15,
+      "value": "\"Previous Date\""
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
+      "kind": "StringLiteral",
+      "offset": 9531,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertyListViewController+Deeplink.swift",
       "kind": "IntegerLiteral",
       "offset": 379,
@@ -28765,476 +28956,497 @@
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 773,
+      "offset": 932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 938,
+      "offset": 1097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1131,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "Array",
-      "offset": 1118,
+      "offset": 1277,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 1666,
       "length": 17,
       "value": "\"banner_proplist\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "Dictionary",
-      "offset": 1576,
+      "offset": 1735,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "Dictionary",
-      "offset": 1631,
+      "offset": 1790,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1824,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1733,
+      "offset": 1892,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2096,
+      "offset": 2255,
       "length": 13,
       "value": "\"LastPos_lat\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2336,
       "length": 14,
       "value": "\"LastPos_long\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2622,
+      "offset": 2648,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2628,
+      "offset": 2978,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2984,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2674,
+      "offset": 3030,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "Array",
-      "offset": 2846,
+      "offset": 3202,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3701,
+      "offset": 4057,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4211,
+      "offset": 4567,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5025,
+      "offset": 5527,
       "length": 12,
       "value": "\"propertyId\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6889,
+      "offset": 7391,
       "length": 17,
       "value": "\"banner_proplist\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7319,
+      "offset": 7821,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7325,
+      "offset": 7827,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7371,
+      "offset": 7873,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7699,
+      "offset": 8201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7758,
+      "offset": 8260,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7832,
+      "offset": 8334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7903,
+      "offset": 8405,
       "length": 14,
       "value": "\"header_image\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8257,
+      "offset": 8759,
       "length": 13,
       "value": "\"search_icon\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8714,
+      "offset": 9216,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8730,
+      "offset": 9232,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8794,
+      "offset": 9296,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8850,
+      "offset": 9352,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8866,
+      "offset": 9368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8922,
+      "offset": 9424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9648,
+      "offset": 10150,
       "length": 13,
       "value": "\"back_button\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9873,
+      "offset": 10375,
       "length": 13,
       "value": "\"back_button\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10586,
+      "offset": 11088,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10707,
+      "offset": 11209,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10736,
+      "offset": 11238,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10952,
+      "offset": 11454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11037,
+      "offset": 11539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11468,
+      "offset": 12464,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12342,
+      "offset": 13338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13229,
+      "offset": 14225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14220,
+      "offset": 15216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 15488,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14889,
+      "offset": 16199,
       "length": 25,
       "value": "\"onFailure: \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14913,
+      "offset": 16223,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15734,
+      "offset": 17044,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15964,
+      "offset": 17274,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16020,
+      "offset": 17330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16101,
+      "offset": 17411,
       "length": 17,
       "value": "\"downloaded_icon\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16127,
+      "offset": 17437,
       "length": 12,
       "value": "\"Up To Date\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17019,
+      "offset": 18329,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17162,
+      "offset": 18472,
       "length": 78,
       "value": "\"#PropertyDownload - onFailureWithProperty - Failed to download \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17239,
+      "offset": 18549,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17355,
+      "offset": 18665,
       "length": 94,
       "value": "\"#PropertyDownload - onFailureWithBuilding - Failed to download \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17432,
+      "offset": 18742,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17448,
+      "offset": 18758,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17661,
+      "offset": 18971,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17679,
+      "offset": 18989,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17756,
+      "offset": 19066,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18266,
+      "offset": 19576,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18430,
+      "offset": 19740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18481,
+      "offset": 19791,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18538,
+      "offset": 19848,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18730,
+      "offset": 20040,
       "length": 6,
       "value": "\"%.0f\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18751,
+      "offset": 20061,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18758,
+      "offset": 20068,
       "length": 3,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19129,
+      "offset": 20439,
       "length": 1,
       "value": "0"
     },
