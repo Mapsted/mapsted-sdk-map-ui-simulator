@@ -100,28 +100,6 @@ extension MapstedComponentsUI.EntityChooserViewController : UIKit.UITableViewDel
   @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
-public protocol SearchResultSelectionDelegate {
-  func didSelectSearchResult(item: any MapstedCore.CMSSearchable)
-  func didSelectCategoryTag(string: Swift.String)
-  func tableViewDidScrollTowardsEnd()
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SearchResultsManager : ObjectiveC.NSObject {
-  public static let shared: MapstedComponentsUI.SearchResultsManager
-  public func updateSearchResults(newResult: [MapstedComponentsUI.SearchResultSection : [Any]], forTableView tableView: UIKit.UITableView, showRecents: Swift.Bool? = false, categoryTree: MapstedCore.CMSCategoryTree? = nil, withHandler handler: (any MapstedComponentsUI.SearchResultSelectionDelegate)? = nil)
-  @objc deinit
-}
-extension MapstedComponentsUI.SearchResultsManager : UIKit.UITableViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-}
-extension MapstedComponentsUI.SearchResultsManager : UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
-  @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
-}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class KWTextField : UIKit.UITextField {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
@@ -265,34 +243,6 @@ public protocol AlertsTableViewDelegate : UIKit.UITableViewDataSource, UIKit.UIT
 public class Property {
   public init(propertyName: Swift.String, propertyAddress: Swift.String, propertyImageUrl: Swift.String?, propertyId: Swift.Int, imageUId: Swift.String?, isDownloadAvailable: Swift.Bool, propertyRadius: Swift.Double, distance: Swift.Double, propertyCountryCode: Swift.String)
   @objc deinit
-}
-public enum SearchResultSection : Swift.Int {
-  case Entity
-  case Mall
-  case Building
-  case Category
-  case Store
-  case Feed
-  case Tag
-  case Alerts
-  case MapOverlay
-  public var displayOrder: Swift.Int {
-    get
-  }
-  public var displayName: Swift.String {
-    get
-  }
-  public var maxNumberOfItems: (forRecents: Swift.Int, forAll: Swift.Int) {
-    get
-  }
-  public var isOverlay: Swift.Bool {
-    get
-  }
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
 }
 public protocol KWCollectionViewDelegate : UIKit.UIViewController {
   func keywordIsBeingAdded(name: MapstedCore.CMSCategory?)
@@ -492,6 +442,7 @@ public protocol PropertiesListViewControllerDelegate : ObjectiveC.NSObject {
   @_Concurrency.MainActor(unsafe) public var showBannerForSelectProperty: Swift.Bool
   @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedComponentsUI.PropertiesListViewControllerDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLayoutSubviews()
   @_Concurrency.MainActor(unsafe) public func showHeaderView(show: Swift.Bool)
@@ -500,7 +451,6 @@ public protocol PropertiesListViewControllerDelegate : ObjectiveC.NSObject {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 extension MapstedComponentsUI.PropertiesListViewController {
   @_Concurrency.MainActor(unsafe) public func onSuccess()
@@ -552,7 +502,7 @@ public enum CategoryType {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class Category {
+@_hasMissingDesignatedInitializers public class CategoryObject {
   public var categoryId: Swift.String
   public var name: Swift.String
   public var propertyId: Swift.Int
@@ -572,8 +522,5 @@ extension MapstedComponentsUI.KeywordCellLayout.LayoutAlignment : Swift.Hashable
 extension MapstedComponentsUI.KeywordCellLayout.LayoutAlignment : Swift.RawRepresentable {}
 extension MapstedComponentsUI.ActionType : Swift.Equatable {}
 extension MapstedComponentsUI.ActionType : Swift.Hashable {}
-extension MapstedComponentsUI.SearchResultSection : Swift.Equatable {}
-extension MapstedComponentsUI.SearchResultSection : Swift.Hashable {}
-extension MapstedComponentsUI.SearchResultSection : Swift.RawRepresentable {}
 extension MapstedComponentsUI.CategoryType : Swift.Equatable {}
 extension MapstedComponentsUI.CategoryType : Swift.Hashable {}

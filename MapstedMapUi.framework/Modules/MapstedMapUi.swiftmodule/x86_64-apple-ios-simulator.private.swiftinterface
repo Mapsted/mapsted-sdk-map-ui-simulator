@@ -22,6 +22,7 @@ import MapstedTopBarNotification
 import MapstedTriggersCore
 import MessageUI
 import Network
+import SDWebImage
 import SafariServices
 import Swift
 import SwiftUI
@@ -68,9 +69,6 @@ import _SwiftConcurrencyShims
 }
 extension MapstedMapUi.BottomPopupNavigationController {
   @_Concurrency.MainActor(unsafe) open func updatePopupHeight(to height: CoreFoundation.CGFloat)
-}
-extension MapstedCore.CMSCategory : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
 }
 public enum ModelType {
   case Property
@@ -212,6 +210,7 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MapstedMapUiViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public static let shared: UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) public var isTappedOnExploreButton: Swift.Bool
   @_Concurrency.MainActor(unsafe) public func enableFromToLabelsOnRoutePreview(enable: Swift.Bool, fromLabel: Swift.String = "", toLabel: Swift.String = "")
   @_Concurrency.MainActor(unsafe) public func setViewAppearanceDelegate(delegate: any MapstedMapUi.HandlerForWhenViewDoesAppear)
   @_Concurrency.MainActor(unsafe) public func refreshViews()
@@ -409,6 +408,14 @@ extension MapstedCore.PropertyInfo : MapstedMapUi.MapSelectableEntity {
   }
   public func tags() -> [Swift.String]
 }
+extension MapstedMapUi.SearchViewController : UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+}
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func roundCornerWithShadow(cornerRadius: CoreFoundation.CGFloat, shadowRadius: CoreFoundation.CGFloat, offsetX: CoreFoundation.CGFloat, offsetY: CoreFoundation.CGFloat, colour: UIKit.UIColor, opacity: Swift.Float, borderColor: UIKit.UIColor, borderWidth: CoreFoundation.CGFloat)
   @_Concurrency.MainActor(unsafe) public func maskByRoundingCorners(_ masks: UIKit.UIRectCorner, withRadii radii: CoreFoundation.CGSize = CGSize(width: 10, height: 10))
@@ -437,6 +444,16 @@ public enum PERMISSION_REQUEST_TYPE {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+extension MapstedMapUi.SearchViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 public protocol MapstedPermissionsRequestVCDelegate : AnyObject {
   func requestPermissionsDidComplete()
@@ -529,6 +546,7 @@ public enum RouteInterruptionMode {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class MapstedMapUiInternalViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) final public var isDisplaying: Swift.Bool
   @_Concurrency.MainActor(unsafe) final public var curOverlaysVisibility: Swift.Bool
+  @_Concurrency.MainActor(unsafe) final public var isFromLocationAccuracy: Swift.Bool
   #warning("Note: Set isSimulatingRoute to false before release")
   @_Concurrency.MainActor(unsafe) public static let shared: UIKit.UIViewController?
   @_Concurrency.MainActor(unsafe) final public var alertsTableViewDelegate: (any MapstedComponentsUI.AlertsTableViewDelegate)?
@@ -616,6 +634,7 @@ extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedCore.Position
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedCore.ValidBlueDotCallbackListener {
   @_Concurrency.MainActor(unsafe) @objc final public func onValidBlueDotStateChange(error: MapstedCore.EnumValidBlueDotError)
+  @_Concurrency.MainActor(unsafe) final public func showCampassCalibrationView()
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController {
   @_Concurrency.MainActor(unsafe) final public func showTagLocation(tag: MapstedCore.MNTag)
@@ -649,10 +668,6 @@ extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedCore.RoutingR
   @_Concurrency.MainActor(unsafe) @objc final public func onSuccess(routeResponse: MapstedCore.MNRouteResponse)
   @_Concurrency.MainActor(unsafe) @objc final public func onError(errorCode: Swift.Int, errorMessage: Swift.String, alertIds: [Swift.String])
 }
-extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedComponentsUI.KWCollectionViewDelegate {
-  @_Concurrency.MainActor(unsafe) final public func keywordIsBeingAdded(name: MapstedCore.CMSCategory?)
-  @_Concurrency.MainActor(unsafe) final public func keywordIsBeingRemoved(name: MapstedCore.CMSCategory?)
-}
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.POIInfoViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) final public func navigateToCampaignEntity(searchEntity: MapstedCore.Campaign)
   @_Concurrency.MainActor(unsafe) final public func deleteTagFromPOIScreen(tag: MapstedCore.MNTag)
@@ -680,6 +695,13 @@ extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.MapManu
   @_Concurrency.MainActor(unsafe) final public var removedUIToChooseLocation: MapstedMapUi.RoutingState {
     get
   }
+}
+extension MapstedMapUi.MapstedMapUiInternalViewController : CoreBluetooth.CBCentralManagerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+}
+extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.SearchViewDelegate {
+  @_Concurrency.MainActor(unsafe) final public func didSelectItem(selectedItem: any MapstedCore.ISearchable, searchText: Swift.String)
+  @_Concurrency.MainActor(unsafe) final public func itemSelection(selectedItem: any MapstedCore.Searchable, searchText: Swift.String)
 }
 extension MapstedMapUi.POIInfoViewController : UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
@@ -797,12 +819,6 @@ extension MapstedCore.Campaign : MapstedMapUi.MapSelectableEntity {
     get
   }
 }
-extension MapstedMapUi.MapstedMapUiInternalViewController : UIKit.UISearchBarDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func searchBar(_ searchBar: UIKit.UISearchBar, textDidChange searchText: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc final public func searchBarCancelButtonClicked(_ searchBar: UIKit.UISearchBar)
-  @_Concurrency.MainActor(unsafe) @objc final public func searchBarSearchButtonClicked(_ searchBar: UIKit.UISearchBar)
-  @_Concurrency.MainActor(unsafe) @objc final public func searchBarTextDidBeginEditing(_ searchBar: UIKit.UISearchBar)
-}
 public enum CurrentViewHeights {
   case minimal
   case full
@@ -841,9 +857,9 @@ public protocol POIInfoViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public func updateEntityInfo(searchEntity: any MapstedMapUi.MapSelectableEntity)
   @_Concurrency.MainActor(unsafe) public func getTypeOfInfoBeingShown() -> MapstedMapUi.ModelType?
   @_Concurrency.MainActor(unsafe) public func getBuildingName(propertyId: Swift.Int?, buildingId: Swift.Int) -> Swift.String
+  @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 extension MapstedMapUi.POIInfoViewController : SafariServices.SFSafariViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
@@ -1034,6 +1050,7 @@ public enum Translations : Swift.String {
   case ePOIInfoOpensAt
   case ePOIInfoSummary
   case ePOIInfoAbout
+  case eUnableToSharePOI
   case ePOIViewActiveAlerts
   case ePOIInfoPromotion
   case ePOIInfoLetsGo
@@ -1117,6 +1134,11 @@ public enum Translations : Swift.String {
   case eTagDeleteSuccess
   case eTagDeleteTitle
   case eTagDeleteDescription
+  case eSearchCategoryClearAll
+  case eSearchCategoryApply
+  case eSearchCategorySubCategory
+  case eSeachCategoryKeywords
+  case eSearchCategoryResults
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -1205,6 +1227,37 @@ public enum POILinkType {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+public enum SEARCH_MODE {
+  case History
+  case Search_With_Text
+  case Category_Filter
+  public static func == (a: MapstedMapUi.SEARCH_MODE, b: MapstedMapUi.SEARCH_MODE) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol SearchViewDelegate : AnyObject {
+  func didSelectItem(selectedItem: any MapstedCore.ISearchable, searchText: Swift.String)
+  func itemSelection(selectedItem: any MapstedCore.Searchable, searchText: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SearchViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MapstedMapUi.SearchViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public var isPopViewControllerAllowed: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public static func instantiateViewController(propertyId: Swift.Int, isUsingCurrentLocation: Swift.Bool, pickingDestination: Swift.Bool, selectedItineraryEntities: [any MapstedCore.Searchable], removePreviousDestinations: Swift.Bool = false, delegate: (any MapstedMapUi.SearchViewDelegate)? = nil) -> MapstedMapUi.SearchViewController?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension MapstedMapUi.SearchViewController : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldClear(_ textField: UIKit.UITextField) -> Swift.Bool
 }
 @objc @_Concurrency.MainActor(unsafe) public class MPActivityView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -1352,16 +1405,6 @@ extension MapstedMapUi.SavedRoutesViewController : UIKit.UITableViewDataSource, 
 extension MapstedMapUi.SavedRoutesViewController : UIKit.UIPopoverPresentationControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func adaptivePresentationStyle(for controller: UIKit.UIPresentationController) -> UIKit.UIModalPresentationStyle
 }
-extension MapstedCore.CMSCategory : Swift.Hashable, Swift.Equatable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (lhs: MapstedCore.CMSCategory, rhs: MapstedCore.CMSCategory) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension Swift.Sequence {
-  public func filtered(where isIncluded: (Self.Iterator.Element) -> Swift.Bool, limit: Swift.Int) -> [Self.Iterator.Element]
-}
 extension UIKit.UIImage {
   public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
   public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
@@ -1394,6 +1437,16 @@ public enum SearchStyle {
   @_Concurrency.MainActor(unsafe) public func hideSearch()
   @_Concurrency.MainActor(unsafe) public func showSearch()
   @objc deinit
+}
+public enum SelectionState {
+  case UNSELECTED
+  case PARTIALLYSELECTED
+  case FULLYSELECTED
+  public static func == (a: MapstedMapUi.SelectionState, b: MapstedMapUi.SelectionState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct TagsCategory {
 }
@@ -1734,8 +1787,12 @@ extension MapstedMapUi.CurrentViewHeight : Swift.Equatable {}
 extension MapstedMapUi.CurrentViewHeight : Swift.Hashable {}
 extension MapstedMapUi.POILinkType : Swift.Equatable {}
 extension MapstedMapUi.POILinkType : Swift.Hashable {}
+extension MapstedMapUi.SEARCH_MODE : Swift.Equatable {}
+extension MapstedMapUi.SEARCH_MODE : Swift.Hashable {}
 extension MapstedMapUi.POIActionButtonType : Swift.Equatable {}
 extension MapstedMapUi.POIActionButtonType : Swift.Hashable {}
 extension MapstedMapUi.POIActionButtonType : Swift.RawRepresentable {}
 extension MapstedMapUi.SearchStyle : Swift.Equatable {}
 extension MapstedMapUi.SearchStyle : Swift.Hashable {}
+extension MapstedMapUi.SelectionState : Swift.Equatable {}
+extension MapstedMapUi.SelectionState : Swift.Hashable {}

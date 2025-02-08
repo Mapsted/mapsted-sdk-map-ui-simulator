@@ -1,0 +1,45 @@
+
+[
+    {
+        "image": "compass_calibration",
+        "title": "Compass Calibration",
+        "description": "Low compass accuracy. Tap to learn how to calibrate",
+        "btnTitle": "Calibrate",
+        "ytUrl": ""
+    },
+    {
+        "image": "wifi",
+        "title": "Enable Wi-Fi",
+        "description": "Wi-Fi is off. Enable it to enhance location accuracy",
+        "btnTitle": "Go to Settings",
+        "ytUrl": ""
+    },
+    {
+        "image": "setting",
+        "title": "Enable Bluetooth",
+        "description": "Turn on Bluetooth to optimize location accuracy",
+        "btnTitle": "Go to Settings",
+        "ytUrl": ""
+    },
+    {
+        "image": "setting",
+        "title": "Enable Location Services",
+        "description": "Please check if your location services are enabled",
+        "btnTitle": "Go to Settings",
+        "ytUrl": ""
+    },
+       {
+           "image": "setting",
+           "title": "Identify Nearby Landmark",
+           "description": "To improve your location accuracy, please set your location manually",
+           "btnTitle": "Set my Location",
+           "ytUrl": ""
+       },
+       {
+           "image": "setting",
+           "title": "Identify Correct Floor",
+           "description": "To improve your location accuracy, please select the floor you are currently on",
+           "btnTitle": "Select Floor",
+           "ytUrl": ""
+       },
+]
