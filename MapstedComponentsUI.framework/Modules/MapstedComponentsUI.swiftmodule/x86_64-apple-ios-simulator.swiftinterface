@@ -296,7 +296,7 @@ public protocol CustomNavigationBarDelegate : ObjectiveC.NSObject {
   @_Concurrency.MainActor(unsafe) public func hideNavigationBackButton(hide: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func setTitle(_ title: Swift.String)
   @_Concurrency.MainActor(unsafe) public func isFromTabbar(_ value: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func updateUI()
+  @_Concurrency.MainActor(unsafe) public func enterInSearchingMode()
   @_Concurrency.MainActor(unsafe) public func backButtonAction()
   @_Concurrency.MainActor(unsafe) public func updateSearchText(_ text: Swift.String)
   @objc deinit
@@ -444,6 +444,7 @@ public protocol PropertiesListViewControllerDelegate : ObjectiveC.NSObject {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLayoutSubviews()
   @_Concurrency.MainActor(unsafe) public func showHeaderView(show: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func setHeaderViewDetails(title: Swift.String? = nil, message: Swift.String? = nil, titleTextColor: UIKit.UIColor? = nil, messageTextColor: UIKit.UIColor? = nil, image: UIKit.UIImage? = nil)
@@ -480,6 +481,9 @@ extension MapstedComponentsUI.PropertiesListViewController : UIKit.UITableViewDe
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension MapstedComponentsUI.PropertiesListViewController {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CategoryListViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var isFromTabbar: Swift.Bool

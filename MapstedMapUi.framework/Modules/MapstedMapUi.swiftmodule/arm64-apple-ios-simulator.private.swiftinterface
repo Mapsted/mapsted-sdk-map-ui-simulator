@@ -238,6 +238,7 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
   @_Concurrency.MainActor(unsafe) public func showTagManager(propertyId: Swift.Int)
   @_Concurrency.MainActor(unsafe) public func showTagCreationOptions(propertyId: Swift.Int)
   @_Concurrency.MainActor(unsafe) public func displayOnMap(tag: MapstedCore.MNTag, isFromDeeplink: Swift.Bool? = false, completion: (() -> ())? = nil)
+  @_Concurrency.MainActor(unsafe) public func displayOverlayOnMap(overlayItem: MapstedMap.MapOverlayItem, completed: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) public func viewMapOverlay(item: MapstedMap.MapOverlayItem)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public class func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
@@ -431,6 +432,13 @@ public enum PERMISSION_REQUEST_TYPE {
     get
   }
 }
+extension MapstedMapUi.SearchViewController : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldClear(_ textField: UIKit.UITextField) -> Swift.Bool
+}
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class ShadowButton : UIKit.UIButton {
   @_Concurrency.MainActor(unsafe) public var radiusOfCorner: CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) public var shadowOpacity: Swift.Float
@@ -454,6 +462,7 @@ extension MapstedMapUi.SearchViewController : UIKit.UITableViewDelegate, UIKit.U
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
 }
 public protocol MapstedPermissionsRequestVCDelegate : AnyObject {
   func requestPermissionsDidComplete()
@@ -1228,6 +1237,10 @@ public enum POILinkType {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public enum FilterMode {
+  case fullScreen(categories: [MapstedMapUi.PrimaryCategoryFilter])
+  case halfScreen(category: MapstedMapUi.PrimaryCategoryFilter, index: Swift.Int)
+}
 public enum SEARCH_MODE {
   case History
   case Search_With_Text
@@ -1235,6 +1248,30 @@ public enum SEARCH_MODE {
   public static func == (a: MapstedMapUi.SEARCH_MODE, b: MapstedMapUi.SEARCH_MODE) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SEARCHING_STATE {
+  case NoSearch
+  case Searching
+  case Searching_with_ExplicitHidingDidYouMean
+  case SearchCompleteWithFilters
+  case SearchCompleteWithoutFilters
+  public static func == (a: MapstedMapUi.SEARCHING_STATE, b: MapstedMapUi.SEARCHING_STATE) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SearchInSection : Swift.String {
+  case POI
+  case Buildings
+  case Categories
+  case Tags
+  case MapOverlayItems
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -1251,13 +1288,6 @@ public protocol SearchViewDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-}
-extension MapstedMapUi.SearchViewController : UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldClear(_ textField: UIKit.UITextField) -> Swift.Bool
 }
 @objc @_Concurrency.MainActor(unsafe) public class MPActivityView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -1447,6 +1477,23 @@ public enum SelectionState {
   public var hashValue: Swift.Int {
     get
   }
+}
+public enum BaseFilterType {
+  case Category
+  case General
+  public static func == (a: MapstedMapUi.BaseFilterType, b: MapstedMapUi.BaseFilterType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct CatrgoryKeyword {
+}
+public struct SecondaryCategoryFilterItem {
+}
+public struct PrimaryCategoryFilter {
+}
+public struct ChildCategoryFilter {
 }
 public struct TagsCategory {
 }
@@ -1789,6 +1836,11 @@ extension MapstedMapUi.POILinkType : Swift.Equatable {}
 extension MapstedMapUi.POILinkType : Swift.Hashable {}
 extension MapstedMapUi.SEARCH_MODE : Swift.Equatable {}
 extension MapstedMapUi.SEARCH_MODE : Swift.Hashable {}
+extension MapstedMapUi.SEARCHING_STATE : Swift.Equatable {}
+extension MapstedMapUi.SEARCHING_STATE : Swift.Hashable {}
+extension MapstedMapUi.SearchInSection : Swift.Equatable {}
+extension MapstedMapUi.SearchInSection : Swift.Hashable {}
+extension MapstedMapUi.SearchInSection : Swift.RawRepresentable {}
 extension MapstedMapUi.POIActionButtonType : Swift.Equatable {}
 extension MapstedMapUi.POIActionButtonType : Swift.Hashable {}
 extension MapstedMapUi.POIActionButtonType : Swift.RawRepresentable {}
@@ -1796,3 +1848,5 @@ extension MapstedMapUi.SearchStyle : Swift.Equatable {}
 extension MapstedMapUi.SearchStyle : Swift.Hashable {}
 extension MapstedMapUi.SelectionState : Swift.Equatable {}
 extension MapstedMapUi.SelectionState : Swift.Hashable {}
+extension MapstedMapUi.BaseFilterType : Swift.Equatable {}
+extension MapstedMapUi.BaseFilterType : Swift.Hashable {}

@@ -600,6 +600,7 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 @interface PropertiesListViewController : UIViewController
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -607,6 +608,11 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIScrollView;
+
+@interface PropertiesListViewController (SWIFT_EXTENSION(MapstedComponentsUI))
+- (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)scrollView;
+@end
 
 
 
@@ -615,6 +621,7 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 - (void)onTopBarNotificationEnabledWithEnabled:(BOOL)enabled;
 - (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
+
 
 
 
@@ -1313,6 +1320,7 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 @interface PropertiesListViewController : UIViewController
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -1320,6 +1328,11 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIScrollView;
+
+@interface PropertiesListViewController (SWIFT_EXTENSION(MapstedComponentsUI))
+- (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)scrollView;
+@end
 
 
 
@@ -1328,6 +1341,7 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI28PropertiesListViewController")
 - (void)onTopBarNotificationEnabledWithEnabled:(BOOL)enabled;
 - (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
+
 
 
 

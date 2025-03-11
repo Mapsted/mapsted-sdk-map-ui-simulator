@@ -576,21 +576,21 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
-
-
-
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
-- (void)setPositionVisibilityWithVisible:(BOOL)visible;
-@end
-
 @class MNPosition;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionChangeListener>
 /// :nodoc:
 - (void)onPositionChangeWithPosition:(MNPosition * _Nonnull)position;
 @end
+
+
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
+- (void)setPositionVisibilityWithVisible:(BOOL)visible;
+@end
+
+
+
+
 
 
 @class UICollectionView;
@@ -602,19 +602,19 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
+- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
+@end
+
+
+
+
 @class MNRouteResponse;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <RoutingRequestCallback>
 - (void)onSuccessWithRouteResponse:(MNRouteResponse * _Nonnull)routeResponse;
 - (void)onErrorWithErrorCode:(NSInteger)errorCode errorMessage:(NSString * _Nonnull)errorMessage alertIds:(NSArray<NSString *> * _Nonnull)alertIds;
 @end
-
-
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
-- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
-@end
-
 
 
 @class UICollectionViewCell;
@@ -629,6 +629,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <CBCentralManagerDelegate>
 - (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
 @end
+
 
 
 
@@ -659,11 +660,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
-
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <ValidBlueDotCallbackListener>
 - (void)onValidBlueDotStateChangeWithError:(EnumValidBlueDotError)error;
 @end
+
 
 
 
@@ -684,12 +684,12 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 
 
 
-
-
-
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <ShareLiveLocationListener>
 - (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
 @end
+
+
+
 
 
 
@@ -780,20 +780,20 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 @end
 
 
-
-
 @class SFSafariViewController;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <SFSafariViewControllerDelegate>
 - (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
 
+
+
+
 @class UIGestureRecognizer;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -877,6 +877,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 
 
 
+
 @class UITextField;
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITextFieldDelegate>
@@ -886,7 +887,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)textFieldShouldClear:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
@@ -900,6 +900,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 
 
 
+@class UIScrollView;
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
@@ -910,6 +911,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)scrollView;
 @end
 
 
@@ -1551,21 +1553,21 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
-
-
-
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
-- (void)setPositionVisibilityWithVisible:(BOOL)visible;
-@end
-
 @class MNPosition;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionChangeListener>
 /// :nodoc:
 - (void)onPositionChangeWithPosition:(MNPosition * _Nonnull)position;
 @end
+
+
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
+- (void)setPositionVisibilityWithVisible:(BOOL)visible;
+@end
+
+
+
+
 
 
 @class UICollectionView;
@@ -1577,19 +1579,19 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
+- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
+@end
+
+
+
+
 @class MNRouteResponse;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <RoutingRequestCallback>
 - (void)onSuccessWithRouteResponse:(MNRouteResponse * _Nonnull)routeResponse;
 - (void)onErrorWithErrorCode:(NSInteger)errorCode errorMessage:(NSString * _Nonnull)errorMessage alertIds:(NSArray<NSString *> * _Nonnull)alertIds;
 @end
-
-
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
-- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
-@end
-
 
 
 @class UICollectionViewCell;
@@ -1604,6 +1606,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <CBCentralManagerDelegate>
 - (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
 @end
+
 
 
 
@@ -1634,11 +1637,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
-
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <ValidBlueDotCallbackListener>
 - (void)onValidBlueDotStateChangeWithError:(EnumValidBlueDotError)error;
 @end
+
 
 
 
@@ -1659,12 +1661,12 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 
 
 
-
-
-
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <ShareLiveLocationListener>
 - (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
 @end
+
+
+
 
 
 
@@ -1755,20 +1757,20 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 @end
 
 
-
-
 @class SFSafariViewController;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <SFSafariViewControllerDelegate>
 - (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
 
+
+
+
 @class UIGestureRecognizer;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -1852,6 +1854,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 
 
 
+
 @class UITextField;
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITextFieldDelegate>
@@ -1861,7 +1864,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 - (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)textFieldShouldClear:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
@@ -1875,6 +1877,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 
 
 
+@class UIScrollView;
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
@@ -1885,6 +1888,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)scrollView;
 @end
 
 
