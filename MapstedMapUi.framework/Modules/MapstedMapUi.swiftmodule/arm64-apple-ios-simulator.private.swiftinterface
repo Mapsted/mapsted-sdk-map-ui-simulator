@@ -224,7 +224,6 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
   @_Concurrency.MainActor(unsafe) public func setAlertsTableViewDelegate(alertsTableViewDelegate: (any MapstedComponentsUI.AlertsTableViewDelegate)?)
   @_Concurrency.MainActor(unsafe) public func clearAllRouteUi()
   @_Concurrency.MainActor(unsafe) public func displayPropertyOnMap(propertyId: Swift.Int, completion: (() -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) public func displayPropertyOnMapIfReady(ready: Swift.Bool, propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) public func cleanUpProperty()
   @_Concurrency.MainActor(unsafe) public func routeTo(buildingId: Swift.Int, propertyId: Swift.Int, entityId: Swift.Int, showDirections: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) public func navigateTo(searchEntities: [any MapstedCore.Searchable], fromCurrentLocation: Swift.Bool)
@@ -577,7 +576,6 @@ public enum RouteInterruptionMode {
   @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
   @_Concurrency.MainActor(unsafe) final public func downloadAndRenderProperty(propertyId: Swift.Int, completion: (() -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) final public func downloadAndRenderPropertyIfReady(ready: Swift.Bool, propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) final public func cleanUpForNewProperty()
   @_Concurrency.MainActor(unsafe) final public func updateSelectedPropertyInfo()
   @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
@@ -598,7 +596,6 @@ public enum RouteInterruptionMode {
   @_Concurrency.MainActor(unsafe) final public func displayMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) final public func connectWifiBluetoothBannerText() -> Swift.String?
   @_Concurrency.MainActor(unsafe) final public func displayPropertyOnMap(propertyId: Swift.Int, completion: (() -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) final public func displayPropertyOnMapIfReady(ready: Swift.Bool, propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor(unsafe) final public func routeTo(buildingId: Swift.Int, propertyId: Swift.Int, entityId: Swift.Int, showDirections: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) final public func clearAllTags()
   @_Concurrency.MainActor(unsafe) final public func deleteAllTags()

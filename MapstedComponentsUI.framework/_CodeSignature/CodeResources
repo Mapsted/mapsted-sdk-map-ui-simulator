@@ -6,11 +6,11 @@
 	<dict>
 		<key>ArbitraryLocationCell.nib</key>
 		<data>
-		yXIm5jMMD6YSypQxwAwmXj3hnfY=
+		uej1fa49oV8+YIpJmz2I9itXogc=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		O41ZZG7IwTZAXLFDnWKpIwCTB8w=
+		hDEe8oet6RaLgavcwTsnurlFXzo=
 		</data>
 		<key>BuildingListTableViewCell.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>EntityChooser.storyboardc/Y6W-OH-hqX-view-8oy-Dj-F5c.nib</key>
 		<data>
-		f+owVoEa4iRnXv9CNNm9V66Drjw=
+		U4GJGFdk7iv3Mh6w9nZazfKg/Lg=
 		</data>
 		<key>EntityChooser.storyboardc/gGn-43-WfH-view-weZ-UT-AFD.nib</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>ExploreTableViewCell.nib</key>
 		<data>
-		27r3LoFI5FyYyvGiRCwQRb8ZweI=
+		Rkghb/2to7DH4hw6HzgRRHuoxE0=
 		</data>
 		<key>Headers/MapstedComponentsUI-Swift.h</key>
 		<data>
-		r1ohdyMv1uDjKgvam952YS6CQXc=
+		YjqKm8sOHIxN5qmZeyqAip62axc=
 		</data>
 		<key>Headers/MapstedComponentsUI.h</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qdxdt46KtmXSl9jcSjaVfRPlwsM=
+		1mTqra5XbVabZaZ47i/cCgQbdAY=
 		</data>
 		<key>Login.storyboardc/Dvt-Ws-4Q0-view-qOJ-og-7TI.nib</key>
 		<data>
-		62wVDMsIh/9B9U6LlTtG5uT6WQs=
+		i7mNdVdwuZgH2OF7K3UHx/sztxY=
 		</data>
 		<key>Login.storyboardc/Info.plist</key>
 		<data>
@@ -114,51 +114,51 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		uFUe+mfhiOS7pH6JJ9A+uIuDm/A=
+		kGJJseAgxmdIC/knTYq02SK0jOo=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		RZEqmFIjoVkMqL2PC5HFlxqWw7Q=
+		m44M94trc1LkvYW+KxqBK0gptMc=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EVA43AwQWSjtPY1fFVbJyJxpsys=
+		y8jfjkHOkQoz9n89vRWaOxXcJyI=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bYsV4BiIkiCKrB9LNPZU1hCqznQ=
+		opGYy0hmw8rcf3yWm5FRPgz0Vds=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		S+LddzZXUDtBg2FT3MzFET7Os/s=
+		UwUCa1qeTjH/V6h92MiDlz1Zxks=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Zf8wIZBB7QC62xf1Bk3y9smAJtE=
+		3pyFxLlBWBwwWhfvM28gZECmwSs=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WTDA7tcNaFWqUwueJqHdrR1/i+w=
+		xmfMeMz9GGMV9UpqZus56OBCcTo=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EVA43AwQWSjtPY1fFVbJyJxpsys=
+		y8jfjkHOkQoz9n89vRWaOxXcJyI=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wwskWDm1zhO+DZyKQGujUx7/Sy4=
+		X3dsPs9kn2nSzeLiDFI5HFx29vs=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BXouOCcpiS2XfyozOYqSc9A9lJI=
+		xi40uIUkWS4OCuwcG8c0euYcssc=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gyIPSO5NgfN2dGtwIg09MZd3fTk=
+		LEd8MApmF4FWmLNqNpb8VcqEnFQ=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mlT3YtX1O42Lk9Kw4va5OJK2ZD0=
+		wIQnoK4q7yvvgnZZPC+kzMiJV7s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>NewsFeedsViewController.nib/objects-14.0+.nib</key>
 		<data>
-		XmxxIRBnYWJFnlQZPrUmq3gHu0k=
+		66OQKnTmCWFGkNULOuZCs7urvY0=
 		</data>
 		<key>NewsFeedsViewController.nib/runtime.nib</key>
 		<data>
-		/JU44x8boeUdfr1Xz8HjWbVJT4k=
+		QZo/4VQWwYRGvL9fghYP/fEibfA=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -182,15 +182,15 @@
 		</data>
 		<key>PropertiesListViewController.nib</key>
 		<data>
-		nh7wwtB28NxbgbkHVik21ugQGXU=
+		eQnDT2L08LyPh6Bmk0cTAlpxk5A=
 		</data>
 		<key>PropertyListItemCell.nib</key>
 		<data>
-		XucWmtXAjuGvBBAsSUYhBpFCMqk=
+		ZBW780CktVBCnf059RgAOd68/6c=
 		</data>
 		<key>SearchResultTableViewCell.nib</key>
 		<data>
-		ccJ3e2Pr5BupxvmANvGsCE64FeI=
+		rpFd/c98LclrD3ytCE6hfvqy0/4=
 		</data>
 		<key>SearchableChooser.storyboardc/EntityChooser.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>SpeechPopupViewController.nib</key>
 		<data>
-		0rB9PAYU/cjRbGM3GoimIP7Y8GY=
+		wdfLiVnQfyTsKRugo2hEj85Ds2Y=
 		</data>
 		<key>TagCell.nib</key>
 		<data>
@@ -379,14 +379,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			goaX4HUmmhy9hwp6BItIRnr8jkOatRZBMZo6LDcIh7c=
+			69XrUIfto9HIU5ulcJJRygOETD48ZmmMIqDNtEBHqYg=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YdsVC9DMPYlXJ48GfLBPh23teDV3/aAMUQm0e6yg54E=
+			oxsa5ZuK2hzC3yY/rV/g5SiS8unOilh/47wkojRDVjQ=
 			</data>
 		</dict>
 		<key>BuildingListTableViewCell.nib</key>
@@ -477,7 +477,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MVnQj96+zL8fYmtbYBApiPdG7lCi7/XCep8WjYw2lk8=
+			DMYzQZRb2IPLalOU7Z79q7Jm3KI61tIjQY1/LPHorF8=
 			</data>
 		</dict>
 		<key>EntityChooser.storyboardc/gGn-43-WfH-view-weZ-UT-AFD.nib</key>
@@ -498,14 +498,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ClkarQegVpNY46SKJ12JsQpXAuVJwvqOw3wY7+7L70=
+			rqvBOTowxKDx2BD7GR7nNLKXnTugWyfTpMKZYClbAiY=
 			</data>
 		</dict>
 		<key>Headers/MapstedComponentsUI-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z1aYNi0MN0sqEXeTaxkZ3nlHLXR7DpReRqTxp9yNki0=
+			58VLAdCPhSXn2SagBF5Bey0Ph+xUufZt8Mm7kaguBQ8=
 			</data>
 		</dict>
 		<key>Headers/MapstedComponentsUI.h</key>
@@ -519,7 +519,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZYVOr1+jiD4X7X95LU27/7hzPQmqLZmoQolP9eI/aSg=
+			BOcMbKaIjTVN+H+P8DNYcNKizmxIQ5ZjRl+VwqaCUqg=
 			</data>
 		</dict>
 		<key>Login.storyboardc/Info.plist</key>
@@ -561,84 +561,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OeHWqOTjN5Z5VB34991gWhuRcGquZGYcdg7O4c2UhsI=
+			6DhsZCMtGNv/JxmHD0oa75ps36EIUN1j+b+gHvMWcCY=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hGNl+kGyV23llXrq+ntUS9uKj+o7c6gWLSmGXIqgH9M=
+			IteAXLnPpu209iEA86hF607+EUrBeJeX9SAouhPMlKE=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pIQ7Izlh5wPHBuOlLewRTPiYYvrVHD+GMkRk3GevpYI=
+			TxJWOexOWKdmEw6RT7fpwLq7nuVrY9fyqoEymWuwYm0=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y+tShdYHePCIEcYnqF5rvFbhKIvx5Yje+jnIGUy+kg4=
+			iodg2h/fsg2fkZxFbn1a/uof2TywvxHm+fBHxtsUtns=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLHujZPVjUtKfZfFck1/ZwDU7wzzsdbvkxenhOf37NQ=
+			O6IGw0Sye6hVx0MI86ax2/qAZu9ITRkItrCmqYudK5w=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wnBunACFZaxLKllsQ6tlI2xIGvkMVuubJ36riE1z1FQ=
+			uDzxVQYRWCibEaaX1mkPAXYKB4erCY6K9sXn0M87vCc=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EV0eVzLAhFdi9UVsYjw9B17DCbf5vEGtOTAmXEfYUww=
+			JgnLyIRp35SjUnZYA2/SB7ALhUM6u77RT6g5oKu8DXM=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pIQ7Izlh5wPHBuOlLewRTPiYYvrVHD+GMkRk3GevpYI=
+			TxJWOexOWKdmEw6RT7fpwLq7nuVrY9fyqoEymWuwYm0=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YhCvnATxpnzrLmK4qaAwRe/4znAkwcik+uaZsxALoEI=
+			6Xc4J7Hr6BYeA2yP0qce4npsqZH1bIaQXDSX5IQgpns=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qTw6lWkHAFzuiiC0tEGxFwmSr4o6h6wujg8wPh1Cyws=
+			ZuGAq9NVWnmaEwcGHTUFmASHhI95MLVxhB8ta9wbpDA=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BIrsej1RlWP5+kjycIATpwCTxJM9LlH+kWTeXM2u3c=
+			1UKSMLuHbXeJdzPGRXwFOO7vRpWNEaIntgW6j9MtdXE=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zILvGFF9QjU3ObSDRqMDmj6OORn0AbipCRrG/fvWVbQ=
+			/H9mOSCaMEDKfbxmtj5vpXj/4DnV+mnqAOXYzJCmiOg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -659,14 +659,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6REQuYGCNtg6yFhKf/L/ZfwdySrfCtTbp5A7ff2/nlo=
+			u8qVU1iPHQ0p3QZ5AALx+vX5aWTS3QwFE2lPzx5y8Ok=
 			</data>
 		</dict>
 		<key>NewsFeedsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJpOgJ/nEz+skiU2RPS5IOnZsQnj6LWOS/a4GRfuZi8=
+			0nC65hAq/C/XieKbQErIjrceSo6jADVUnnT8J4qH/rE=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -680,21 +680,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rJb685BEoYIjyTml3wSN1Hk+hpIc5VXAXP1BaUz8Yxg=
+			cHWI1bNFNSv1Phiz5er7V7pJmCh+q7uGkeNxVu5hfZk=
 			</data>
 		</dict>
 		<key>PropertyListItemCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kF7CAVXA9AB1XHYMcYt+JM+q7Kyzl6uJ2i7VY0s4mMk=
+			gSGwgtqOvtH0pYmXVJQ7ssugN03Ygx/ZRbyT4xSHjvk=
 			</data>
 		</dict>
 		<key>SearchResultTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivvf8uwVMoBMTwqB2aqfJ5iH0T1FmxFyBHAPdt3Rvr4=
+			QvpdAueJ60pkfQRKgqHCop4d2avAFFskPNf1F69m0zw=
 			</data>
 		</dict>
 		<key>SearchableChooser.storyboardc/EntityChooser.nib</key>
@@ -743,7 +743,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wT8K5RuCKDv7oLq8HuGxKbJvhVItC077uOC77GVogFA=
+			yi5S/6Hxdr7sj6ObPSDkwgh5HMdcOb+pk2GfN2FiCgc=
 			</data>
 		</dict>
 		<key>TagCell.nib</key>
