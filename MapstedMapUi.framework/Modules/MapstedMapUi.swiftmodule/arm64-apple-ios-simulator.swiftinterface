@@ -24,6 +24,7 @@ import MessageUI
 import Network
 import SDWebImage
 import SafariServices
+import Speech
 import Swift
 import SwiftUI
 import UIKit
@@ -222,6 +223,8 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
   @_Concurrency.MainActor @preconcurrency public func setSearchDelegate(searchDelegate: any MapstedMapUi.MNSearchDelegate)
   @_Concurrency.MainActor @preconcurrency public func setAlertDelegate(alertDelegate: any MapstedMapUi.MNAlertDelegate)
   @_Concurrency.MainActor @preconcurrency public func setAlertsTableViewDelegate(alertsTableViewDelegate: (any MapstedComponentsUI.AlertsTableViewDelegate)?)
+  @_Concurrency.MainActor @preconcurrency public func addCustomViewOnMap(_ customView: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency public func removeCustomViewFromMap(_ customView: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency public func clearAllRouteUi()
   @_Concurrency.MainActor @preconcurrency public func displayPropertyOnMap(propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor @preconcurrency public func cleanUpProperty()
@@ -1283,6 +1286,7 @@ public protocol SearchViewDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
@@ -1363,6 +1367,18 @@ public protocol RouteAlertsInfoProtocol : AnyObject {
 }
 extension MapstedCore.MNSearchEntity {
   public func allCampaigns() -> [MapstedCore.Campaign]
+}
+@_hasMissingDesignatedInitializers public class MapUICustomParams {
+  public static let shared: MapstedMapUi.MapUICustomParams
+  public var enableSaveRouteOption: Swift.Bool {
+    get
+    set
+  }
+  public var enableFavoriteOption: Swift.Bool {
+    get
+    set
+  }
+  @objc deinit
 }
 public enum RoutingState : Swift.String {
   case None

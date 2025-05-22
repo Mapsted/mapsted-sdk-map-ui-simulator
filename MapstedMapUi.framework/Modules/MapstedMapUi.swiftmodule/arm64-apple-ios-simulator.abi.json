@@ -5817,6 +5817,64 @@
           },
           {
             "kind": "Function",
+            "name": "addCustomViewOnMap",
+            "printedName": "addCustomViewOnMap(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MapstedMapUi0abC14ViewControllerC09addCustomd2OnB0yySo6UIViewCF",
+            "mangledName": "$s12MapstedMapUi0abC14ViewControllerC09addCustomd2OnB0yySo6UIViewCF",
+            "moduleName": "MapstedMapUi",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCustomViewFromMap",
+            "printedName": "removeCustomViewFromMap(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MapstedMapUi0abC14ViewControllerC012removeCustomd4FromB0yySo6UIViewCF",
+            "mangledName": "$s12MapstedMapUi0abC14ViewControllerC012removeCustomd4FromB0yySo6UIViewCF",
+            "moduleName": "MapstedMapUi",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "clearAllRouteUi",
             "printedName": "clearAllRouteUi()",
             "children": [
@@ -7984,6 +8042,23 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8098,6 +8173,30 @@
         "kind": "Import",
         "name": "MapstedCore",
         "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
         "declKind": "Import",
         "moduleName": "MapstedMapUi"
       },
@@ -20850,6 +20949,37 @@
       },
       {
         "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -30187,6 +30317,20 @@
         "moduleName": "MapstedMapUi"
       },
       {
+        "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FilterMode",
         "printedName": "FilterMode",
@@ -31675,6 +31819,39 @@
             "moduleName": "MapstedMapUi",
             "overriding": true,
             "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MapstedMapUi@objc(cs)SearchViewController(im)viewDidDisappear:",
+            "mangledName": "$s12MapstedMapUi20SearchViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "MapstedMapUi",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -35525,6 +35702,263 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MapUICustomParams",
+        "printedName": "MapUICustomParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MapUICustomParams",
+                "printedName": "MapstedMapUi.MapUICustomParams",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MapstedMapUi0B14UICustomParamsC6sharedACvpZ",
+            "mangledName": "$s12MapstedMapUi0B14UICustomParamsC6sharedACvpZ",
+            "moduleName": "MapstedMapUi",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MapUICustomParams",
+                    "printedName": "MapstedMapUi.MapUICustomParams",
+                    "usr": "s:12MapstedMapUi0B14UICustomParamsC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC6sharedACvgZ",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC6sharedACvgZ",
+                "moduleName": "MapstedMapUi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enableSaveRouteOption",
+            "printedName": "enableSaveRouteOption",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvp",
+            "mangledName": "$s12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvp",
+            "moduleName": "MapstedMapUi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvg",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvg",
+                "moduleName": "MapstedMapUi",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvs",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvs",
+                "moduleName": "MapstedMapUi",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvM",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC21enableSaveRouteOptionSbvM",
+                "moduleName": "MapstedMapUi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enableFavoriteOption",
+            "printedName": "enableFavoriteOption",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvp",
+            "mangledName": "$s12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvp",
+            "moduleName": "MapstedMapUi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvg",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvg",
+                "moduleName": "MapstedMapUi",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvs",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvs",
+                "moduleName": "MapstedMapUi",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvM",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC20enableFavoriteOptionSbvM",
+                "moduleName": "MapstedMapUi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MapstedMapUi0B14UICustomParamsC",
+        "mangledName": "$s12MapstedMapUi0B14UICustomParamsC",
+        "moduleName": "MapstedMapUi",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -37814,6 +38248,37 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
+      },
+      {
+        "kind": "Import",
+        "name": "MapstedCore",
+        "printedName": "MapstedCore",
+        "declKind": "Import",
+        "moduleName": "MapstedMapUi"
       },
       {
         "kind": "Import",
@@ -52698,119 +53163,119 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5366,
+      "offset": 5773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6249,
+      "offset": 6656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6933,
+      "offset": 7340,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7005,
+      "offset": 7412,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7370,
+      "offset": 7777,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8208,
+      "offset": 8615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21890,
+      "offset": 22297,
       "length": 11,
       "value": "\"wifi.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21916,
+      "offset": 22323,
       "length": 55,
       "value": "\"Please connect to wifi for enhanced location accuracy\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22026,
+      "offset": 22433,
       "length": 16,
       "value": "\"bluetooth.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22057,
+      "offset": 22464,
       "length": 57,
       "value": "\"Please turn on bluetooth for enhanced location accuracy\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22185,
+      "offset": 22592,
       "length": 16,
       "value": "\"calibrate.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22216,
+      "offset": 22623,
       "length": 54,
       "value": "\"Please calibrate compass to improve heading accuracy\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22325,
+      "offset": 22732,
       "length": 23,
       "value": "\"BlueDot.TopBarMessage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22363,
+      "offset": 22770,
       "length": 88,
       "value": "\"Blue-dot positioning is temporarily disabled (unreliable data coming from your device)\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22506,
+      "offset": 22913,
       "length": 25,
       "value": "\"LocationInProgress.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22546,
+      "offset": 22953,
       "length": 36,
       "value": "\"Location Sharing is in progress...\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32927,
+      "offset": 33334,
       "length": 20,
       "value": "\"Points of Interest\""
     },
@@ -53467,204 +53932,141 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 570,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 705,
       "length": 79,
       "value": "\"Selected properties: \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 755,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 735,
+      "offset": 772,
       "length": 8,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 778,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 783,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "Array",
-      "offset": 579,
+      "offset": 616,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "Array",
-      "offset": 1603,
+      "offset": 1640,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "Array",
-      "offset": 1709,
+      "offset": 1746,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1810,
+      "offset": 1847,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10955,
+      "offset": 16945,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11145,
+      "offset": 17432,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11200,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11207,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11214,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11306,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11372,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "Array",
-      "offset": 11437,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11530,
+      "offset": 17540,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11538,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13957,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14444,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14552,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14662,
+      "offset": 17650,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14699,
+      "offset": 17687,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 14728,
+      "offset": 17716,
       "length": 3,
       "value": "1E6"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14930,
+      "offset": 17918,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 15012,
+      "offset": 18000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 15476,
+      "offset": 18464,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Utility\/PropertySelectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 15528,
+      "offset": 18516,
       "length": 3,
       "value": "0.8"
     },
@@ -55302,34 +55704,6 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7933,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8023,
-      "length": 54,
-      "value": "\"Audio Error: Unable to activate audio for navigation\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8293,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8384,
-      "length": 56,
-      "value": "\"Audio Error: Unable to deactivate audio for navigation\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
-      "kind": "BooleanLiteral",
       "offset": 7735,
       "length": 5,
       "value": "false"
@@ -55337,924 +55711,924 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8566,
+      "offset": 8179,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8646,
+      "offset": 8259,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8691,
+      "offset": 8304,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8733,
+      "offset": 8346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8773,
+      "offset": 8386,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8821,
+      "offset": 8434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8873,
+      "offset": 8486,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9004,
+      "offset": 8617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8907,
+      "offset": 8520,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9119,
+      "offset": 8732,
       "length": 25,
       "value": "\"ID_MapUI_PropertyAlerts\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9178,
+      "offset": 8791,
       "length": 22,
       "value": "\"ID_MapUI_RouteAlerts\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9236,
+      "offset": 8849,
       "length": 19,
       "value": "\"ID_MapUI_Explores\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9294,
+      "offset": 8907,
       "length": 21,
       "value": "\"HelpMeFind.Explores\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9351,
+      "offset": 8964,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9394,
+      "offset": 9007,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9500,
+      "offset": 9113,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 9630,
+      "offset": 9243,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9778,
+      "offset": 9391,
       "length": 31,
       "value": "\"MapView.Tag.LongPressToCreate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9973,
+      "offset": 9586,
       "length": 43,
       "value": "\"Please long press on map to create a tag!\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10135,
+      "offset": 9748,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10735,
+      "offset": 10348,
       "length": 81,
       "value": "\"New Routing State : \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10778,
+      "offset": 10391,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10815,
+      "offset": 10428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11367,
+      "offset": 10980,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 11424,
+      "offset": 11037,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11511,
+      "offset": 11124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12831,
+      "offset": 12444,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12901,
+      "offset": 12514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12944,
+      "offset": 12557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12985,
+      "offset": 12598,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 13041,
+      "offset": 12654,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13087,
+      "offset": 12700,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18781,
+      "offset": 18394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18823,
+      "offset": 18436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19080,
+      "offset": 18693,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19127,
+      "offset": 18740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19169,
+      "offset": 18782,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19220,
+      "offset": 18833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19284,
+      "offset": 18897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19333,
+      "offset": 18946,
       "length": 5,
       "value": "200.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19388,
+      "offset": 19001,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19452,
+      "offset": 19065,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19499,
+      "offset": 19112,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19741,
+      "offset": 19354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19825,
+      "offset": 19438,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19863,
+      "offset": 19476,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19899,
+      "offset": 19512,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20010,
+      "offset": 19623,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20232,
+      "offset": 19845,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 20327,
+      "offset": 19940,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20373,
+      "offset": 19986,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20422,
+      "offset": 20035,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20469,
+      "offset": 20082,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26629,
+      "offset": 26242,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 52962,
+      "offset": 52596,
       "length": 23,
       "value": "\"kShowTagsOnMapChanged\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 53511,
+      "offset": 53145,
       "length": 16,
       "value": "\"kShowTagsOnMap\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 61073,
+      "offset": 60707,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 62536,
+      "offset": 62170,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 75070,
+      "offset": 74840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 94684,
+      "offset": 94454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 95236,
+      "offset": 95006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 98417,
+      "offset": 98187,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 98489,
+      "offset": 98259,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 100480,
+      "offset": 100250,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 100551,
+      "offset": 100321,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 101776,
+      "offset": 101546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 102505,
+      "offset": 102275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 104506,
+      "offset": 104276,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 106853,
+      "offset": 106623,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 108687,
+      "offset": 108457,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 126130,
+      "offset": 125900,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 126174,
+      "offset": 125944,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 126219,
+      "offset": 125989,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 126279,
+      "offset": 126049,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 126292,
+      "offset": 126062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 126491,
+      "offset": 126261,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 126498,
+      "offset": 126268,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 126549,
+      "offset": 126319,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 126595,
+      "offset": 126365,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 126642,
+      "offset": 126412,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127081,
+      "offset": 126851,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127128,
+      "offset": 126898,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127139,
+      "offset": 126909,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127188,
+      "offset": 126958,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127199,
+      "offset": 126969,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 127417,
+      "offset": 127187,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127724,
+      "offset": 127494,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127735,
+      "offset": 127505,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 127868,
+      "offset": 127638,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 127881,
+      "offset": 127651,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 128065,
+      "offset": 127835,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 128101,
+      "offset": 127871,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 128256,
+      "offset": 128026,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 128292,
+      "offset": 128062,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 128445,
+      "offset": 128215,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 128481,
+      "offset": 128251,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 128575,
+      "offset": 128345,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 128621,
+      "offset": 128391,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 128668,
+      "offset": 128438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 128755,
+      "offset": 128525,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 128855,
+      "offset": 128625,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 128907,
+      "offset": 128677,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 128960,
+      "offset": 128730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 129126,
+      "offset": 128896,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 129148,
+      "offset": 128918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 134022,
+      "offset": 133792,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 145191,
+      "offset": 145318,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 145277,
+      "offset": 145404,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 145329,
+      "offset": 145456,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 145592,
+      "offset": 145719,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 145622,
+      "offset": 145749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 145680,
+      "offset": 145807,
       "length": 21,
       "value": "\"AssistedPositioning\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 145739,
+      "offset": 145866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 145785,
+      "offset": 145912,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 145941,
+      "offset": 146068,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 145977,
+      "offset": 146104,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 146067,
+      "offset": 146194,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 146123,
+      "offset": 146250,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 150594,
+      "offset": 150721,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 195413,
+      "offset": 195540,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 269836,
+      "offset": 269963,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 272282,
+      "offset": 273030,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 273131,
+      "offset": 273879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 309596,
+      "offset": 310467,
       "length": 21,
       "value": "\"kAudioForNavigation\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 309944,
+      "offset": 310815,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 324275,
+      "offset": 325146,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 332518,
+      "offset": 333389,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 332540,
+      "offset": 333411,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 335577,
+      "offset": 336448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 335900,
+      "offset": 336771,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 335930,
+      "offset": 336801,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 335962,
+      "offset": 336833,
       "length": 3,
       "value": "120"
     },
@@ -58290,127 +58664,134 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
+      "kind": "Array",
+      "offset": 3657,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3918,
+      "offset": 3976,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3955,
+      "offset": 4013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4017,
+      "offset": 4075,
       "length": 18,
       "value": "\"TimeDuration.min\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4103,
+      "offset": 4161,
       "length": 5,
       "value": "\"min\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4145,
+      "offset": 4203,
       "length": 12,
       "value": "\"Distance.m\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4225,
+      "offset": 4283,
       "length": 3,
       "value": "\"m\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4393,
+      "offset": 4451,
       "length": 39,
       "value": "\"RouteInstruction.Direction.MyLocation\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4500,
+      "offset": 4558,
       "length": 13,
       "value": "\"My Location\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4546,
+      "offset": 4604,
       "length": 31,
       "value": "\"RouteInstruction.Direction.to\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4645,
+      "offset": 4703,
       "length": 4,
       "value": "\"To\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4718,
+      "offset": 4776,
       "length": 32,
       "value": "\"MapView.Tag.SetCurrentLocation\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4914,
+      "offset": 4972,
       "length": 52,
       "value": "\"Please move map around to set your start location.\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "Array",
-      "offset": 5008,
+      "offset": 5066,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "Array",
-      "offset": 5047,
+      "offset": 5105,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "Array",
-      "offset": 5092,
+      "offset": 5150,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5136,
+      "offset": 5194,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5174,
+      "offset": 5232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/Route\/DirectionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5218,
+      "offset": 5276,
       "length": 5,
       "value": "false"
     },
@@ -59124,259 +59505,259 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 726,
+      "offset": 760,
       "length": 5,
       "value": "\"POI\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 753,
+      "offset": 787,
       "length": 11,
       "value": "\"Buildings\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 821,
       "length": 12,
       "value": "\"Categories\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 816,
+      "offset": 850,
       "length": 6,
       "value": "\"Tags\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 850,
+      "offset": 884,
       "length": 10,
       "value": "\"Overlays\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1090,
+      "offset": 1124,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1858,
+      "offset": 1892,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2266,
+      "offset": 2300,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2307,
+      "offset": 2341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2339,
+      "offset": 2373,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 2454,
+      "offset": 2488,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2505,
+      "offset": 2539,
       "length": 9,
       "value": "\"#777777\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2595,
       "length": 21,
       "value": "\"FilterButtonBgColor\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2682,
+      "offset": 2716,
       "length": 18,
       "value": "\"DYMButtonBgColor\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2801,
+      "offset": 2835,
       "length": 9,
       "value": "\"#EDEEF0\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2867,
+      "offset": 2901,
       "length": 9,
       "value": "\"#D7D7D7\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2927,
+      "offset": 2961,
       "length": 9,
       "value": "\"#C9DDFF\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Dictionary",
-      "offset": 3096,
+      "offset": 3130,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3129,
+      "offset": 3163,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 3182,
+      "offset": 3216,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Dictionary",
-      "offset": 3306,
+      "offset": 3340,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Dictionary",
-      "offset": 3469,
+      "offset": 3503,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Dictionary",
-      "offset": 3518,
+      "offset": 3552,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 3572,
+      "offset": 3606,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 3605,
+      "offset": 3639,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 3764,
+      "offset": 3798,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 3822,
+      "offset": 3856,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3868,
+      "offset": 3902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 3931,
+      "offset": 3965,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 4098,
+      "offset": 4132,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "Array",
-      "offset": 4146,
+      "offset": 4180,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4330,
+      "offset": 4364,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4368,
+      "offset": 4402,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4406,
+      "offset": 4440,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4429,
+      "offset": 4463,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4475,
+      "offset": 4509,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/ViewController\/SearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4804,
+      "offset": 4838,
       "length": 5,
       "value": "false"
     },
@@ -60466,6 +60847,20 @@
       "value": "\"reuse_id\""
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/CustomParams\/MapUICustomParams.swift",
+      "kind": "BooleanLiteral",
+      "offset": 383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/CustomParams\/MapUICustomParams.swift",
+      "kind": "BooleanLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search_Category\/View\/SearchCategoryHeaderCell\/SearchCategoryHeaderTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 583,
@@ -60562,6 +60957,13 @@
       "offset": 3874,
       "length": 3,
       "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search\/Models\/MicrophoneServiceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 4,
+      "value": "\"en\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Views\/Tags\/TagCreatorAndEditorViewController.swift",
@@ -61504,1358 +61906,1365 @@
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5399,
+      "offset": 5397,
+      "length": 12,
+      "value": "\"Microphone\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5541,
       "length": 13,
       "value": "\"MoreDetails\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5538,
+      "offset": 5680,
       "length": 10,
       "value": "\"Navigate\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5694,
+      "offset": 5836,
       "length": 20,
       "value": "\"NoResultsInSection\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5857,
+      "offset": 5999,
       "length": 19,
       "value": "\"Overlays_SearchIn\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6009,
+      "offset": 6151,
       "length": 14,
       "value": "\"POI_SearchIn\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6153,
+      "offset": 6295,
       "length": 12,
       "value": "\"Promotions\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6305,
+      "offset": 6447,
       "length": 17,
       "value": "\"TagCoverDefault\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6457,
+      "offset": 6599,
       "length": 15,
       "value": "\"Tags_SearchIn\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6610,
+      "offset": 6752,
       "length": 16,
       "value": "\"addDestination\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6747,
+      "offset": 6889,
       "length": 8,
       "value": "\"add_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6886,
+      "offset": 7028,
       "length": 13,
       "value": "\"alert_white\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7032,
+      "offset": 7174,
       "length": 14,
       "value": "\"alert_yellow\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7176,
+      "offset": 7318,
       "length": 12,
       "value": "\"apHelpIcon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7320,
+      "offset": 7462,
       "length": 13,
       "value": "\"attribution\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7451,
+      "offset": 7593,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7586,
+      "offset": 7728,
       "length": 12,
       "value": "\"back_arrow\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7721,
+      "offset": 7863,
       "length": 9,
       "value": "\"back_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7865,
+      "offset": 8007,
       "length": 15,
       "value": "\"bluetooth_img\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8006,
+      "offset": 8148,
       "length": 10,
       "value": "\"building\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8147,
+      "offset": 8289,
       "length": 13,
       "value": "\"calendar_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8283,
+      "offset": 8425,
       "length": 9,
       "value": "\"call_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8425,
+      "offset": 8567,
       "length": 14,
       "value": "\"checked_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8564,
+      "offset": 8706,
       "length": 10,
       "value": "\"clock_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8714,
+      "offset": 8856,
       "length": 18,
       "value": "\"close_black_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8857,
+      "offset": 8999,
       "length": 10,
       "value": "\"close_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8996,
+      "offset": 9138,
       "length": 12,
       "value": "\"close_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9132,
+      "offset": 9274,
       "length": 9,
       "value": "\"compass\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9288,
+      "offset": 9430,
       "length": 21,
       "value": "\"compass_calibration\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9437,
+      "offset": 9579,
       "length": 11,
       "value": "\"contactus\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9606,
+      "offset": 9748,
       "length": 27,
       "value": "\"coverimage_placeholder_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9755,
+      "offset": 9897,
       "length": 8,
       "value": "\"delete\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9896,
+      "offset": 10038,
       "length": 14,
       "value": "\"delete-route\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10037,
+      "offset": 10179,
       "length": 11,
       "value": "\"delete_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10180,
+      "offset": 10322,
       "length": 13,
       "value": "\"destination\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10340,
+      "offset": 10482,
       "length": 21,
       "value": "\"destination reached\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10490,
+      "offset": 10632,
       "length": 12,
       "value": "\"details_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10631,
+      "offset": 10773,
       "length": 12,
       "value": "\"dir_bottom\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10777,
+      "offset": 10919,
       "length": 15,
       "value": "\"dir_elev_down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10922,
+      "offset": 11064,
       "length": 13,
       "value": "\"dir_elev_up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11062,
+      "offset": 11204,
       "length": 11,
       "value": "\"dir_enter\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11205,
+      "offset": 11347,
       "length": 14,
       "value": "\"dir_esc_down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11347,
+      "offset": 11489,
       "length": 12,
       "value": "\"dir_esc_up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11484,
+      "offset": 11626,
       "length": 10,
       "value": "\"dir_exit\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11630,
+      "offset": 11772,
       "length": 16,
       "value": "\"dir_sharp_turn\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11784,
+      "offset": 11926,
       "length": 17,
       "value": "\"dir_stairs_down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11935,
+      "offset": 12077,
       "length": 15,
       "value": "\"dir_stairs_up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12073,
+      "offset": 12215,
       "length": 9,
       "value": "\"dir_top\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12214,
+      "offset": 12356,
       "length": 14,
       "value": "\"dir_top_left\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12362,
+      "offset": 12504,
       "length": 15,
       "value": "\"dir_top_right\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12505,
+      "offset": 12647,
       "length": 11,
       "value": "\"direction\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12632,
+      "offset": 12774,
       "length": 5,
       "value": "\"dot\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12755,
+      "offset": 12897,
       "length": 6,
       "value": "\"dots\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12879,
+      "offset": 13021,
       "length": 6,
       "value": "\"down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13013,
+      "offset": 13155,
       "length": 11,
       "value": "\"downArrow\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13294,
+      "offset": 13436,
       "length": 15,
       "value": "\"down_arrow_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13443,
+      "offset": 13585,
       "length": 14,
       "value": "\"edestination\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13588,
+      "offset": 13730,
       "length": 13,
       "value": "\"edir_bottom\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13737,
+      "offset": 13879,
       "length": 16,
       "value": "\"edir_elev_down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13885,
+      "offset": 14027,
       "length": 14,
       "value": "\"edir_elev_up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14028,
+      "offset": 14170,
       "length": 12,
       "value": "\"edir_enter\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14174,
+      "offset": 14316,
       "length": 15,
       "value": "\"edir_esc_down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14319,
+      "offset": 14461,
       "length": 13,
       "value": "\"edir_esc_up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14459,
+      "offset": 14601,
       "length": 11,
       "value": "\"edir_exit\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14608,
+      "offset": 14750,
       "length": 17,
       "value": "\"edir_sharp_turn\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14765,
+      "offset": 14907,
       "length": 18,
       "value": "\"edir_stairs_down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14919,
+      "offset": 15061,
       "length": 16,
       "value": "\"edir_stairs_up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15060,
+      "offset": 15202,
       "length": 10,
       "value": "\"edir_top\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15204,
+      "offset": 15346,
       "length": 15,
       "value": "\"edir_top_left\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15355,
+      "offset": 15497,
       "length": 16,
       "value": "\"edir_top_right\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15489,
+      "offset": 15631,
       "length": 6,
       "value": "\"edit\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15624,
+      "offset": 15766,
       "length": 12,
       "value": "\"edit-route\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15778,
+      "offset": 15920,
       "length": 19,
       "value": "\"edit_tag_Location\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15936,
+      "offset": 16078,
       "length": 17,
       "value": "\"editlocation_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16084,
+      "offset": 16226,
       "length": 13,
       "value": "\"editname_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16217,
+      "offset": 16359,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16353,
+      "offset": 16495,
       "length": 12,
       "value": "\"enav_start\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16486,
+      "offset": 16628,
       "length": 8,
       "value": "\"fav_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16636,
+      "offset": 16778,
       "length": 19,
       "value": "\"fav_unselected_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16778,
+      "offset": 16920,
       "length": 9,
       "value": "\"fb_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16918,
+      "offset": 17060,
       "length": 13,
       "value": "\"filter_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17061,
+      "offset": 17203,
       "length": 12,
       "value": "\"fourpoints\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17229,
+      "offset": 17371,
       "length": 26,
       "value": "\"general_filter_buildings\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17420,
+      "offset": 17562,
       "length": 31,
       "value": "\"general_filter_indoor-outdoor\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17604,
+      "offset": 17746,
       "length": 25,
       "value": "\"general_filter_open-now\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17785,
+      "offset": 17927,
       "length": 26,
       "value": "\"general_filter_proximity\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17962,
+      "offset": 18104,
       "length": 24,
       "value": "\"general_filter_sort_by\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18113,
+      "offset": 18255,
       "length": 11,
       "value": "\"green-dot\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18249,
+      "offset": 18391,
       "length": 10,
       "value": "\"ic_Saved\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18406,
+      "offset": 18548,
       "length": 21,
       "value": "\"ic_checkBoxSelected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18578,
+      "offset": 18720,
       "length": 23,
       "value": "\"ic_checkBoxUnselected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18726,
+      "offset": 18868,
       "length": 10,
       "value": "\"ic_close\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18867,
+      "offset": 19009,
       "length": 13,
       "value": "\"ic_collapse\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19007,
+      "offset": 19149,
       "length": 11,
       "value": "\"ic_expand\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19149,
+      "offset": 19291,
       "length": 13,
       "value": "\"ic_listView\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19295,
+      "offset": 19437,
       "length": 14,
       "value": "\"ic_listView1\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19456,
+      "offset": 19598,
       "length": 21,
       "value": "\"ic_locationAccuracy\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19606,
+      "offset": 19748,
       "length": 12,
       "value": "\"ic_mapView\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19749,
+      "offset": 19891,
       "length": 13,
       "value": "\"ic_mapView1\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19901,
+      "offset": 20043,
       "length": 17,
       "value": "\"ic_meetingPoint\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20049,
+      "offset": 20191,
       "length": 13,
       "value": "\"ic_navigate\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20187,
+      "offset": 20329,
       "length": 10,
       "value": "\"ic_noTag\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20326,
+      "offset": 20468,
       "length": 12,
       "value": "\"ic_parking\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20487,
+      "offset": 20629,
       "length": 22,
       "value": "\"ic_partiallySelected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20640,
+      "offset": 20782,
       "length": 13,
       "value": "\"ic_selected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20780,
+      "offset": 20922,
       "length": 11,
       "value": "\"ic_sortBy\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20912,
+      "offset": 21054,
       "length": 8,
       "value": "\"ic_tag\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21047,
+      "offset": 21189,
       "length": 11,
       "value": "\"ic_tagPin\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21193,
+      "offset": 21335,
       "length": 15,
       "value": "\"ic_unSelected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21357,
+      "offset": 21499,
       "length": 23,
       "value": "\"icon-arrow-back-black\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21509,
+      "offset": 21651,
       "length": 12,
       "value": "\"icon_close\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21661,
+      "offset": 21803,
       "length": 18,
       "value": "\"icon_close_small\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21806,
+      "offset": 21948,
       "length": 11,
       "value": "\"icon_down\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21952,
+      "offset": 22094,
       "length": 15,
       "value": "\"icon_favorite\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22119,
+      "offset": 22261,
       "length": 24,
       "value": "\"icon_favorite_selected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22274,
+      "offset": 22416,
       "length": 13,
       "value": "\"icon_search\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22425,
+      "offset": 22567,
       "length": 17,
       "value": "\"icon_tag_delete\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22579,
+      "offset": 22721,
       "length": 16,
       "value": "\"icon_telephone\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22720,
+      "offset": 22862,
       "length": 10,
       "value": "\"info_map\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22855,
+      "offset": 22997,
       "length": 10,
       "value": "\"insta_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22983,
+      "offset": 23125,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23123,
+      "offset": 23265,
       "length": 15,
       "value": "\"left_arrow_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23258,
+      "offset": 23400,
       "length": 7,
       "value": "\"legal\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23387,
+      "offset": 23529,
       "length": 8,
       "value": "\"locate\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23521,
+      "offset": 23663,
       "length": 10,
       "value": "\"locateMe\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23664,
+      "offset": 23806,
       "length": 14,
       "value": "\"location_img\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23813,
+      "offset": 23955,
       "length": 15,
       "value": "\"location_step\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23946,
+      "offset": 24088,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24073,
+      "offset": 24215,
       "length": 8,
       "value": "\"logo-2\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24214,
+      "offset": 24356,
       "length": 14,
       "value": "\"logo_default\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24357,
+      "offset": 24499,
       "length": 12,
       "value": "\"logo_short\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24494,
+      "offset": 24636,
       "length": 10,
       "value": "\"map-dark\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24634,
+      "offset": 24776,
       "length": 13,
       "value": "\"map-dark-3D\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24774,
+      "offset": 24916,
       "length": 11,
       "value": "\"map-light\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24917,
+      "offset": 25059,
       "length": 14,
       "value": "\"map-light-3D\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25060,
+      "offset": 25202,
       "length": 12,
       "value": "\"map-search\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25196,
+      "offset": 25338,
       "length": 9,
       "value": "\"mapType\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25336,
+      "offset": 25478,
       "length": 13,
       "value": "\"map_default\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25470,
+      "offset": 25612,
       "length": 8,
       "value": "\"map_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25596,
+      "offset": 25738,
       "length": 6,
       "value": "\"maps\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25733,
+      "offset": 25875,
       "length": 13,
       "value": "\"marker_user\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25870,
+      "offset": 26012,
       "length": 9,
       "value": "\"micIcon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26008,
+      "offset": 26150,
       "length": 12,
       "value": "\"minus_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26138,
+      "offset": 26280,
       "length": 6,
       "value": "\"more\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26288,
+      "offset": 26430,
       "length": 20,
       "value": "\"motion_and_fitness\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26431,
+      "offset": 26573,
       "length": 9,
       "value": "\"nav_end\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26567,
+      "offset": 26709,
       "length": 11,
       "value": "\"nav_start\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26713,
+      "offset": 26855,
       "length": 15,
       "value": "\"navigation_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26860,
+      "offset": 27002,
       "length": 14,
       "value": "\"new_alert_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26997,
+      "offset": 27139,
       "length": 9,
       "value": "\"news_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27135,
+      "offset": 27277,
       "length": 12,
       "value": "\"next_arrow\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27267,
+      "offset": 27409,
       "length": 10,
       "value": "\"no-image\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27418,
+      "offset": 27560,
       "length": 18,
       "value": "\"notification_img\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27560,
+      "offset": 27702,
       "length": 9,
       "value": "\"options\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27694,
+      "offset": 27836,
       "length": 10,
       "value": "\"phone_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27820,
+      "offset": 27962,
       "length": 5,
       "value": "\"pin\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27950,
+      "offset": 28092,
       "length": 10,
       "value": "\"pin_blue\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28078,
+      "offset": 28220,
       "length": 6,
       "value": "\"plus\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28211,
+      "offset": 28353,
       "length": 11,
       "value": "\"plus_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28345,
+      "offset": 28487,
       "length": 9,
       "value": "\"pull_up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28476,
+      "offset": 28618,
       "length": 8,
       "value": "\"remove\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28628,
+      "offset": 28770,
       "length": 20,
       "value": "\"remove_search_text\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28772,
+      "offset": 28914,
       "length": 9,
       "value": "\"reorder\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28901,
+      "offset": 29043,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29044,
+      "offset": 29186,
       "length": 16,
       "value": "\"right_arrow_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29180,
+      "offset": 29322,
       "length": 7,
       "value": "\"route\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29319,
+      "offset": 29461,
       "length": 13,
       "value": "\"routeOption\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29472,
+      "offset": 29614,
       "length": 18,
       "value": "\"route_next_arrow\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29640,
+      "offset": 29782,
       "length": 23,
       "value": "\"route_previouse_arrow\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29796,
+      "offset": 29938,
       "length": 14,
       "value": "\"saveroute_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29967,
+      "offset": 30109,
       "length": 27,
       "value": "\"search_no_data_background\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30120,
+      "offset": 30262,
       "length": 10,
       "value": "\"selected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30254,
+      "offset": 30396,
       "length": 9,
       "value": "\"setting\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30394,
+      "offset": 30536,
       "length": 13,
       "value": "\"share-route\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30532,
+      "offset": 30674,
       "length": 10,
       "value": "\"share_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30686,
+      "offset": 30828,
       "length": 20,
       "value": "\"small_alert_yellow\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30845,
+      "offset": 30987,
       "length": 17,
       "value": "\"social_facebook\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31003,
+      "offset": 31145,
       "length": 18,
       "value": "\"social_instagram\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31158,
+      "offset": 31300,
       "length": 16,
       "value": "\"social_twitter\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31303,
+      "offset": 31445,
       "length": 12,
       "value": "\"speaker_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31431,
+      "offset": 31573,
       "length": 5,
       "value": "\"tag\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31561,
+      "offset": 31703,
       "length": 10,
       "value": "\"tag-list\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31702,
+      "offset": 31844,
       "length": 13,
       "value": "\"tag-option1\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31846,
+      "offset": 31988,
       "length": 13,
       "value": "\"tag-option2\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31990,
+      "offset": 32132,
       "length": 13,
       "value": "\"tag-option3\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32124,
+      "offset": 32266,
       "length": 8,
       "value": "\"tag_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32261,
+      "offset": 32403,
       "length": 12,
       "value": "\"three_dots\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32402,
+      "offset": 32544,
       "length": 12,
       "value": "\"twitter_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32552,
+      "offset": 32694,
       "length": 17,
       "value": "\"un-checked_icon\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32708,
+      "offset": 32850,
       "length": 17,
       "value": "\"unfilled_circle\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32855,
+      "offset": 32997,
       "length": 12,
       "value": "\"unselected\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32981,
+      "offset": 33123,
       "length": 4,
       "value": "\"up\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33115,
+      "offset": 33257,
       "length": 13,
       "value": "\"view-on-map\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33249,
+      "offset": 33391,
       "length": 8,
       "value": "\"web_ic\""
     },
     {
       "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/mapuikit-ebefttxrvhjdtebqgpzxedwbvuhb\/Build\/Intermediates.noindex\/mapuikit.build\/Release-iphonesimulator\/mapuikit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33375,
+      "offset": 33517,
       "length": 6,
       "value": "\"wifi\""
     }
