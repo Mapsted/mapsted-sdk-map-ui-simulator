@@ -423,17 +423,6 @@ extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func roundCornerWithShadow(cornerRadius: CoreFoundation.CGFloat, shadowRadius: CoreFoundation.CGFloat, offsetX: CoreFoundation.CGFloat, offsetY: CoreFoundation.CGFloat, colour: UIKit.UIColor, opacity: Swift.Float, borderColor: UIKit.UIColor, borderWidth: CoreFoundation.CGFloat)
   @_Concurrency.MainActor @preconcurrency public func maskByRoundingCorners(_ masks: UIKit.UIRectCorner, withRadii radii: CoreFoundation.CGSize = CGSize(width: 10, height: 10))
 }
-public enum PERMISSION_REQUEST_TYPE {
-  case location
-  case motionAndFitness
-  case notification
-  case bluetooth
-  public static func == (a: MapstedMapUi.PERMISSION_REQUEST_TYPE, b: MapstedMapUi.PERMISSION_REQUEST_TYPE) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 extension MapstedMapUi.SearchViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
@@ -470,8 +459,8 @@ public protocol MapstedPermissionsRequestVCDelegate : AnyObject {
   func requestPermissionsDidComplete()
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MapstedPermissionsRequestViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency public var requestPermissions: [MapstedMapUi.PERMISSION_REQUEST_TYPE]
-  @_Concurrency.MainActor @preconcurrency public static func instantiateViewController(requestPermissions: [MapstedMapUi.PERMISSION_REQUEST_TYPE], delegate: any MapstedMapUi.MapstedPermissionsRequestVCDelegate) -> MapstedMapUi.MapstedPermissionsRequestViewController
+  @_Concurrency.MainActor @preconcurrency public var requestPermissions: [MapstedCore.PERMISSION_REQUEST_TYPE]
+  @_Concurrency.MainActor @preconcurrency public static func instantiateViewController(requestPermissions: [MapstedCore.PERMISSION_REQUEST_TYPE], delegate: any MapstedMapUi.MapstedPermissionsRequestVCDelegate) -> MapstedMapUi.MapstedPermissionsRequestViewController
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -1053,10 +1042,6 @@ public enum Translations : Swift.String {
   case ePOIActionDelete
   case ePOISectionTags
   case ePOIInfoTag
-  case ePOIInfoOpen
-  case ePOIInfoClosesAt
-  case ePOIInfoClosed
-  case ePOIInfoOpensAt
   case ePOIInfoSummary
   case ePOIInfoAbout
   case eUnableToSharePOI
@@ -1064,7 +1049,6 @@ public enum Translations : Swift.String {
   case ePOIInfoPromotion
   case ePOIInfoLetsGo
   case ePOIInfoExplore
-  case ePOIInfoTimings
   case eStopSharing
   case eStartSharing
   case eLoaderText
@@ -1481,6 +1465,14 @@ public enum SearchStyle {
   @_Concurrency.MainActor @preconcurrency public func showSearch()
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class RoutingOptionsManager {
+  public static let shared: MapstedMapUi.RoutingOptionsManager
+  public var useStairs: Swift.Bool
+  public var useEscalators: Swift.Bool
+  public var useElevators: Swift.Bool
+  public func isRouteTypeShortest() -> Swift.Bool
+  @objc deinit
+}
 public enum SelectionState {
   case UNSELECTED
   case PARTIALLYSELECTED
@@ -1500,7 +1492,7 @@ public enum BaseFilterType {
     get
   }
 }
-public struct CatrgoryKeyword {
+public struct CategoryKeyword {
 }
 public struct SecondaryCategoryFilterItem {
 }
@@ -1826,8 +1818,6 @@ extension MapstedMapUi.Tag : Swift.Identifiable {
 }
 extension MapstedMapUi.ModelType : Swift.Equatable {}
 extension MapstedMapUi.ModelType : Swift.Hashable {}
-extension MapstedMapUi.PERMISSION_REQUEST_TYPE : Swift.Equatable {}
-extension MapstedMapUi.PERMISSION_REQUEST_TYPE : Swift.Hashable {}
 extension MapstedMapUi.MapState : Swift.Equatable {}
 extension MapstedMapUi.MapState : Swift.Hashable {}
 extension MapstedMapUi.MapState : Swift.RawRepresentable {}

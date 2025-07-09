@@ -786,7 +786,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 
 
 
-
 @class UIGestureRecognizer;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UIGestureRecognizerDelegate>
@@ -813,6 +812,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 - (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
@@ -906,7 +906,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 @end
 
 
-
 @class UIScrollView;
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
@@ -920,6 +919,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 SWIFT_CLASS("_TtC12MapstedMapUi12ShadowButton")
@@ -1770,7 +1770,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 
 
 
-
 @class UIGestureRecognizer;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UIGestureRecognizerDelegate>
@@ -1797,6 +1796,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 - (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
@@ -1890,7 +1890,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 @end
 
 
-
 @class UIScrollView;
 
 @interface SearchViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
@@ -1904,6 +1903,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi20SearchViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)scrollViewWillBeginDragging:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 SWIFT_CLASS("_TtC12MapstedMapUi12ShadowButton")
