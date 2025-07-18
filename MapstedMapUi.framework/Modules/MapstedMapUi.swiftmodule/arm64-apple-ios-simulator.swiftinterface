@@ -290,6 +290,11 @@ extension MapstedMapUi.MapstedMapUiViewController : MapstedTopBarNotification.Ma
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTopBarNotificationEnabled(enabled: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTopBarNotificationCountUpdated(count: Swift.Int, height: CoreFoundation.CGFloat, heightMode: MapstedTopBarNotification.HeightMode)
 }
+extension MapstedMapUi.MapstedMapUiViewController {
+  @_Concurrency.MainActor @preconcurrency public func showWebView(websiteUrl: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func showEventDetailForCampaign(campaignId: Swift.String, propertyId: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency public func showEntityOnMapForCampaign(campaignId: Swift.String, propertyId: Swift.Int)
+}
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedComponentsUI.EntityChoiceSelectionHandler {
   @_Concurrency.MainActor @preconcurrency final public func selectEntity(searchable: any MapstedCore.Searchable, hostVC: UIKit.UIViewController?)
   @_Concurrency.MainActor @preconcurrency final public func selectNearest(group: MapstedCore.SearchEntity, hostVC: UIKit.UIViewController?)
@@ -700,6 +705,14 @@ extension MapstedMapUi.MapstedMapUiInternalViewController : CoreBluetooth.CBCent
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.SearchViewDelegate {
   @_Concurrency.MainActor @preconcurrency final public func didSelectItem(selectedItem: any MapstedCore.ISearchable, searchText: Swift.String)
   @_Concurrency.MainActor @preconcurrency final public func itemSelection(selectedItem: any MapstedCore.Searchable, searchText: Swift.String)
+}
+extension MapstedMapUi.MapstedMapUiInternalViewController {
+  @_Concurrency.MainActor @preconcurrency final public func showEventDetailForCampaign(campaignId: Swift.String, propertyId: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency final public func showEntityOnMapForCampaign(campaignId: Swift.String, propertyId: Swift.Int)
+}
+extension MapstedMapUi.MapstedMapUiInternalViewController : SafariServices.SFSafariViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency final public func showWebView(websiteUrl: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc final public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
 }
 extension MapstedMapUi.POIInfoViewController : UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
