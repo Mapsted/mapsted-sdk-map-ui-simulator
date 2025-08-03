@@ -240,6 +240,7 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
   @_Concurrency.MainActor @preconcurrency public func showTagManager(propertyId: Swift.Int)
   @_Concurrency.MainActor @preconcurrency public func showTagCreationOptions(propertyId: Swift.Int)
   @_Concurrency.MainActor @preconcurrency public func displayOnMap(tag: MapstedCore.MNTag, isFromDeeplink: Swift.Bool? = false, completion: (() -> ())? = nil)
+  @_Concurrency.MainActor @preconcurrency public func displayDroppedPinOnMap(pin: MapstedCore.MNTag, isFromDeeplink: Swift.Bool? = false, completion: (() -> ())? = nil)
   @_Concurrency.MainActor @preconcurrency public func displayOverlayOnMap(overlayItem: MapstedMap.MapOverlayItem, completed: (() -> ())? = nil)
   @_Concurrency.MainActor @preconcurrency public func viewMapOverlay(item: MapstedMap.MapOverlayItem)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public class func awakeFromNib()
@@ -589,6 +590,7 @@ public enum RouteInterruptionMode {
   @_Concurrency.MainActor @preconcurrency final public func zoomTo(level: Swift.Float)
   @_Concurrency.MainActor @preconcurrency final public func zoomToUserLocation()
   @_Concurrency.MainActor @preconcurrency final public func displayOnMap(tag: MapstedCore.MNTag, isFromDeeplink: Swift.Bool? = false, completion: (() -> ())? = nil)
+  @_Concurrency.MainActor @preconcurrency final public func displayDroppedPinOnMap(pin: MapstedCore.MNTag, isFromDeeplink: Swift.Bool? = false, completion: (() -> ())? = nil)
   @_Concurrency.MainActor @preconcurrency final public func displayOnMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int?, floorId: Swift.Int? = -1, completion: (() -> ())? = nil)
   @_Concurrency.MainActor @preconcurrency final public func displayMap(dataType: MapstedCore.MNDataType? = nil, render: Swift.Bool = true, propertyId: Swift.Int, completion: (() -> ())? = nil)
   @_Concurrency.MainActor @preconcurrency final public func connectWifiBluetoothBannerText() -> Swift.String?
@@ -705,6 +707,9 @@ extension MapstedMapUi.MapstedMapUiInternalViewController : CoreBluetooth.CBCent
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.SearchViewDelegate {
   @_Concurrency.MainActor @preconcurrency final public func didSelectItem(selectedItem: any MapstedCore.ISearchable, searchText: Swift.String)
   @_Concurrency.MainActor @preconcurrency final public func itemSelection(selectedItem: any MapstedCore.Searchable, searchText: Swift.String)
+}
+extension MapstedMapUi.MapstedMapUiInternalViewController {
+  @_Concurrency.MainActor @preconcurrency final public func addDroppedPinDestination(pin: any MapstedCore.Searchable)
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController {
   @_Concurrency.MainActor @preconcurrency final public func showEventDetailForCampaign(campaignId: Swift.String, propertyId: Swift.Int)
@@ -1049,6 +1054,7 @@ public enum Translations : Swift.String {
   case ePOIActionDetails
   case ePOIActionShare
   case ePOIActionTag
+  case ePOISaveAsTag
   case ePOIActionCall
   case ePOIActionEditName
   case ePOIActionEditLocation
@@ -1315,6 +1321,7 @@ public enum POIActionButtonType : Swift.String {
   case SaveRoute
   case ShareRoute
   case ShareTag
+  case SaveAsTag
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
