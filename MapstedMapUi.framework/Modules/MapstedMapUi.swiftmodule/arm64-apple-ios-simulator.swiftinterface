@@ -295,6 +295,7 @@ extension MapstedMapUi.MapstedMapUiViewController {
   @_Concurrency.MainActor @preconcurrency public func showWebView(websiteUrl: Swift.String)
   @_Concurrency.MainActor @preconcurrency public func showEventDetailForCampaign(campaignId: Swift.String, propertyId: Swift.Int)
   @_Concurrency.MainActor @preconcurrency public func showEntityOnMapForCampaign(campaignId: Swift.String, propertyId: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency public func selectNearestEntityFromGroup(entityGroup: [any MapstedCore.ISearchable])
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedComponentsUI.EntityChoiceSelectionHandler {
   @_Concurrency.MainActor @preconcurrency final public func selectEntity(searchable: any MapstedCore.Searchable, hostVC: UIKit.UIViewController?)
@@ -428,6 +429,59 @@ extension MapstedMapUi.SearchViewController : UIKit.UICollectionViewDelegate, UI
 extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func roundCornerWithShadow(cornerRadius: CoreFoundation.CGFloat, shadowRadius: CoreFoundation.CGFloat, offsetX: CoreFoundation.CGFloat, offsetY: CoreFoundation.CGFloat, colour: UIKit.UIColor, opacity: Swift.Float, borderColor: UIKit.UIColor, borderWidth: CoreFoundation.CGFloat)
   @_Concurrency.MainActor @preconcurrency public func maskByRoundingCorners(_ masks: UIKit.UIRectCorner, withRadii radii: CoreFoundation.CGSize = CGSize(width: 10, height: 10))
+}
+extension MapstedCore.BuildingInfo : MapstedMapUi.MapSelectableEntity {
+  public var modelDataType: MapstedMapUi.ModelType {
+    get
+  }
+  public var entityNameEnglish: Swift.String {
+    get
+  }
+  public var entityName: Swift.String {
+    get
+  }
+  public var categoryName: Swift.String {
+    get
+  }
+  public var subcategoryNames: [Swift.String] {
+    get
+  }
+  public var logoImageUid: Swift.String {
+    get
+  }
+  public var logoImageBaseUrl: Swift.String {
+    get
+  }
+  public var timeHint: MapstedCore.DailyBusinessHours? {
+    get
+  }
+  public var coverImages: [Swift.String] {
+    get
+  }
+  public var entityPropertyId: Swift.Int {
+    get
+  }
+  public var entityBuildingId: Swift.Int {
+    get
+  }
+  public var entityIdentifier: Swift.Int {
+    get
+  }
+  public var entityDescription: Swift.String? {
+    get
+  }
+  public var dataType: MapstedCore.MNDataType {
+    get
+  }
+  public var entityZones: [MapstedCore.MNEntityZone] {
+    get
+  }
+  public var hasAlerts: Swift.Bool {
+    get
+  }
+  public var address: Swift.String {
+    get
+  }
 }
 extension MapstedMapUi.SearchViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
@@ -671,7 +725,7 @@ extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedComponentsUI.
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedCore.RoutingRequestCallback {
   @_Concurrency.MainActor @preconcurrency @objc final public func onSuccess(routeResponse: MapstedCore.MNRouteResponse)
-  @_Concurrency.MainActor @preconcurrency @objc final public func onError(errorCode: Swift.Int, errorMessage: Swift.String, alertIds: [Swift.String])
+  @_Concurrency.MainActor @preconcurrency @objc final public func onError(routeResponse: MapstedCore.MNRouteResponse)
 }
 extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedMapUi.POIInfoViewControllerDelegate {
   @_Concurrency.MainActor @preconcurrency final public func navigateToCampaignEntity(searchEntity: MapstedCore.Campaign)
@@ -1285,6 +1339,7 @@ public protocol SearchViewDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SearchViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any MapstedMapUi.SearchViewDelegate)?
   @_Concurrency.MainActor @preconcurrency public var isPopViewControllerAllowed: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var showMicrophonePopup: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public static func instantiateViewController(propertyId: Swift.Int, isUsingCurrentLocation: Swift.Bool, pickingDestination: Swift.Bool, selectedItineraryEntities: [any MapstedCore.Searchable], removePreviousDestinations: Swift.Bool = false, delegate: (any MapstedMapUi.SearchViewDelegate)? = nil) -> MapstedMapUi.SearchViewController?
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
@@ -1420,6 +1475,14 @@ public enum RoutingState : Swift.String {
   case RemovedUIToChooseCurrentLocation
   case RoutePreviewModeStarted
   case RoutePreviewModeEnded
+  case NotifiedNoRoutingPermission
+  case NotifiedImpossibleRoute
+  case NotifiedBuildingDataUnavailable
+  case NotifiedPropertyDataUnavailable
+  case NotifiedDestinationNoNode
+  case NotifiedStartNoNode
+  case NotifiedInvalidRequest
+  case NotifiedInvalidRequestDueToTransitionOptions
   public var description: Swift.String {
     get
   }

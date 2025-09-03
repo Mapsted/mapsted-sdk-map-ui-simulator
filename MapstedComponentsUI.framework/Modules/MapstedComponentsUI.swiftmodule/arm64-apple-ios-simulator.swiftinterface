@@ -518,8 +518,8 @@ public enum CategoryType {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ComponentFactory {
-  public static func getEntityChooser(handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, routingOptions: MapstedCore.MNRouteOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserViewController
-  public static func getEntityChooser(name: Swift.String, handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, searchables: [any MapstedCore.ISearchable], routingOptions: MapstedCore.MNRouteOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserContainerViewController
+  public static func getEntityChooser(handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, routingOptions: MapstedCore.MNRoutingOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserViewController
+  public static func getEntityChooser(name: Swift.String, handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, searchables: [any MapstedCore.ISearchable], routingOptions: MapstedCore.MNRoutingOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserContainerViewController
   public static func getSearchableChooser(name: Swift.String, handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, searchables: [any MapstedCore.ISearchable]) -> MapstedComponentsUI.SearchableChooserViewController
   @objc deinit
 }
