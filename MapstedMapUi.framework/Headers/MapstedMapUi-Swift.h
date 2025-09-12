@@ -476,18 +476,18 @@ SWIFT_CLASS_NAMED("DOSearchableEntity")
 
 
 @interface DOSearchableEntity (SWIFT_EXTENSION(MapstedMapUi))
-- (void)addEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
-- (void)removeEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
-- (void)addEntityZones:(NSSet * _Nonnull)values;
-- (void)removeEntityZones:(NSSet * _Nonnull)values;
-@end
-
-
-@interface DOSearchableEntity (SWIFT_EXTENSION(MapstedMapUi))
 - (void)addLocationsObject:(DOMNMercatorZone * _Nonnull)value;
 - (void)removeLocationsObject:(DOMNMercatorZone * _Nonnull)value;
 - (void)addLocations:(NSSet * _Nonnull)values;
 - (void)removeLocations:(NSSet * _Nonnull)values;
+@end
+
+
+@interface DOSearchableEntity (SWIFT_EXTENSION(MapstedMapUi))
+- (void)addEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
+- (void)removeEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
+- (void)addEntityZones:(NSSet * _Nonnull)values;
+- (void)removeEntityZones:(NSSet * _Nonnull)values;
 @end
 
 
@@ -511,6 +511,16 @@ SWIFT_CLASS_NAMED("DOSearchableEntity")
 @property (nonatomic, strong) DOMNMercator * _Nullable location;
 @property (nonatomic, strong) NSSet * _Nullable locations;
 @end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi26FavoriteListViewController")
+@interface FavoriteListViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC12MapstedMapUi21MNAndroidActivityView")
@@ -583,10 +593,13 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+
+
+
+
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
 - (void)setPositionVisibilityWithVisible:(BOOL)visible;
 @end
-
 
 @class MNPosition;
 
@@ -596,14 +609,20 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @end
 
 
-
-
-
 @class UICollectionView;
 @class NSIndexPath;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+
+@class UICollectionViewCell;
+
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class SFSafariViewController;
@@ -615,6 +634,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
+- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
+@end
+
 @class MNRouteResponse;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <RoutingRequestCallback>
@@ -623,18 +646,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @end
 
 
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
-- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
-@end
-
-
-@class UICollectionViewCell;
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource>
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
 
 @class CBCentralManager;
 
@@ -684,6 +695,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+
 SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 @interface MapstedMapUiViewController : UIViewController
 + (void)awakeFromNib;
@@ -700,15 +712,9 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 
 
 
+
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <ShareLiveLocationListener>
 - (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
-@end
-
-
-
-@interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <MapstedNotificationListener>
-- (void)onTopBarNotificationEnabledWithEnabled:(BOOL)enabled;
-- (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
 
 @class UITableView;
@@ -717,6 +723,12 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <MapstedNotificationListener>
+- (void)onTopBarNotificationEnabledWithEnabled:(BOOL)enabled;
+- (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
 
 
@@ -744,6 +756,36 @@ SWIFT_CLASS("_TtC12MapstedMapUi17MapstedSearchView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi18MenuViewController")
+@interface MenuViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+@interface MenuViewController (SWIFT_EXTENSION(MapstedMapUi)) <ShareLiveLocationListener>
+- (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
+@end
+
+
+
+
+@interface MenuViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC12MapstedMapUi23MyTagListViewController")
@@ -796,16 +838,16 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 
 
 
-@interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <SFSafariViewControllerDelegate>
-- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
-@end
-
-
-
 @class UIGestureRecognizer;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+@interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
 
 
@@ -816,12 +858,12 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 
 
 
-
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDelegateFlowLayout>
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
@@ -856,10 +898,30 @@ SWIFT_CLASS("_TtC12MapstedMapUi26PropertyListViewController")
 @end
 
 
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC12MapstedMapUi16RightArrowButton")
+@interface RightArrowButton : UIButton
+/// Initialize the button view
+- (nonnull instancetype)init;
+/// Initialize the button view
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+/// Initialize the button view
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi17RoundCornerButton")
+@interface RoundCornerButton : UIButton
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC12MapstedMapUi25SavedRoutesViewController")
 @interface SavedRoutesViewController : UIViewController
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -944,6 +1006,25 @@ SWIFT_CLASS("_TtC12MapstedMapUi10ShadowView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+
+SWIFT_CLASS("_TtC12MapstedMapUi15TableHeaderView")
+@interface TableHeaderView : UIView
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified subTitleLabel;
+@property (nonatomic, weak) IBOutlet RightArrowButton * _Null_unspecified viewAllButton;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified view;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi24TableHeaderViewWithTitle")
+@interface TableHeaderViewWithTitle : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
 
 
@@ -1469,18 +1550,18 @@ SWIFT_CLASS_NAMED("DOSearchableEntity")
 
 
 @interface DOSearchableEntity (SWIFT_EXTENSION(MapstedMapUi))
-- (void)addEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
-- (void)removeEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
-- (void)addEntityZones:(NSSet * _Nonnull)values;
-- (void)removeEntityZones:(NSSet * _Nonnull)values;
-@end
-
-
-@interface DOSearchableEntity (SWIFT_EXTENSION(MapstedMapUi))
 - (void)addLocationsObject:(DOMNMercatorZone * _Nonnull)value;
 - (void)removeLocationsObject:(DOMNMercatorZone * _Nonnull)value;
 - (void)addLocations:(NSSet * _Nonnull)values;
 - (void)removeLocations:(NSSet * _Nonnull)values;
+@end
+
+
+@interface DOSearchableEntity (SWIFT_EXTENSION(MapstedMapUi))
+- (void)addEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
+- (void)removeEntityZonesObject:(DOMNEntityZone * _Nonnull)value;
+- (void)addEntityZones:(NSSet * _Nonnull)values;
+- (void)removeEntityZones:(NSSet * _Nonnull)values;
 @end
 
 
@@ -1504,6 +1585,16 @@ SWIFT_CLASS_NAMED("DOSearchableEntity")
 @property (nonatomic, strong) DOMNMercator * _Nullable location;
 @property (nonatomic, strong) NSSet * _Nullable locations;
 @end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi26FavoriteListViewController")
+@interface FavoriteListViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC12MapstedMapUi21MNAndroidActivityView")
@@ -1576,10 +1667,13 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+
+
+
+
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
 - (void)setPositionVisibilityWithVisible:(BOOL)visible;
 @end
-
 
 @class MNPosition;
 
@@ -1589,14 +1683,20 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @end
 
 
-
-
-
 @class UICollectionView;
 @class NSIndexPath;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+
+@class UICollectionViewCell;
+
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class SFSafariViewController;
@@ -1608,6 +1708,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
+- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
+@end
+
 @class MNRouteResponse;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <RoutingRequestCallback>
@@ -1616,18 +1720,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @end
 
 
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
-- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
-@end
-
-
-@class UICollectionViewCell;
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDataSource>
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
 
 @class CBCentralManager;
 
@@ -1677,6 +1769,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+
 SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 @interface MapstedMapUiViewController : UIViewController
 + (void)awakeFromNib;
@@ -1693,15 +1786,9 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 
 
 
+
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <ShareLiveLocationListener>
 - (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
-@end
-
-
-
-@interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <MapstedNotificationListener>
-- (void)onTopBarNotificationEnabledWithEnabled:(BOOL)enabled;
-- (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
 
 @class UITableView;
@@ -1710,6 +1797,12 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <MapstedNotificationListener>
+- (void)onTopBarNotificationEnabledWithEnabled:(BOOL)enabled;
+- (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
 
 
@@ -1737,6 +1830,36 @@ SWIFT_CLASS("_TtC12MapstedMapUi17MapstedSearchView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi18MenuViewController")
+@interface MenuViewController : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+@interface MenuViewController (SWIFT_EXTENSION(MapstedMapUi)) <ShareLiveLocationListener>
+- (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
+@end
+
+
+
+
+@interface MenuViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC12MapstedMapUi23MyTagListViewController")
@@ -1789,16 +1912,16 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 
 
 
-@interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <SFSafariViewControllerDelegate>
-- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
-@end
-
-
-
 @class UIGestureRecognizer;
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+@interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
 
 
@@ -1809,12 +1932,12 @@ SWIFT_CLASS("_TtC12MapstedMapUi21POIInfoViewController")
 
 
 
-
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UICollectionViewDelegateFlowLayout>
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface POIInfoViewController (SWIFT_EXTENSION(MapstedMapUi)) <UITableViewDataSource, UITableViewDelegate>
@@ -1849,10 +1972,30 @@ SWIFT_CLASS("_TtC12MapstedMapUi26PropertyListViewController")
 @end
 
 
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC12MapstedMapUi16RightArrowButton")
+@interface RightArrowButton : UIButton
+/// Initialize the button view
+- (nonnull instancetype)init;
+/// Initialize the button view
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+/// Initialize the button view
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi17RoundCornerButton")
+@interface RoundCornerButton : UIButton
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC12MapstedMapUi25SavedRoutesViewController")
 @interface SavedRoutesViewController : UIViewController
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1937,6 +2080,25 @@ SWIFT_CLASS("_TtC12MapstedMapUi10ShadowView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+
+SWIFT_CLASS("_TtC12MapstedMapUi15TableHeaderView")
+@interface TableHeaderView : UIView
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified subTitleLabel;
+@property (nonatomic, weak) IBOutlet RightArrowButton * _Null_unspecified viewAllButton;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified view;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC12MapstedMapUi24TableHeaderViewWithTitle")
+@interface TableHeaderViewWithTitle : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
 
 

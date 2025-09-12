@@ -14,6 +14,7 @@ import Foundation
 import ImageIO
 import LocationMarketing
 @_spi(InternalMapstedAlerts) import MapstedAlerts
+import MapstedComponentsCore
 import MapstedComponentsUI
 @_spi(InternalAssistedPositioning) @_spi(InternalCategories) @_spi(InternalImages) @_spi(InternalLocationServices) @_spi(InternalPropertyServices) @_spi(InternalUtilities) import MapstedCore
 import MapstedLocationShare
@@ -364,6 +365,9 @@ extension MapstedCore.MNTag : MapstedMapUi.MapSelectableEntity {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class ExploreViewModel {
+  @objc deinit
+}
 extension MapstedCore.PropertyInfo : MapstedMapUi.MapSelectableEntity {
   public var modelDataType: MapstedMapUi.ModelType {
     get
@@ -504,6 +508,53 @@ extension MapstedMapUi.SearchViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public protocol MenuViewControllerDelegate : AnyObject {
+  func onDidSelectMenu(_ itemData: [Swift.String : Any]?, didSelect action: MapstedMapUi.MenuAction)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MenuViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var onFavoritesSelected: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onSavedRoutesSelected: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onBuildingSwitchingSelected: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onTagsSelected: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency weak public var menuDelegate: (any MapstedMapUi.MenuViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var menuMode: MapstedMapUi.MenuMode
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension MapstedMapUi.MenuViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension MapstedMapUi.MenuViewController : MapstedLocationShare.ShareLiveLocationListener {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onShareLiveLocationEnabled(enabled: Swift.Bool)
+}
+extension MapstedMapUi.MenuViewController : MapstedComponentsUI.NewsFeedsViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency public func openNewsFeedDetails(campaign: MapstedCore.Campaign?)
+}
+extension MapstedMapUi.MenuViewController : MapstedComponentsUI.ArbitraryLocationSelectionDelegate {
+  @_Concurrency.MainActor @preconcurrency public func selected(tag: MapstedCore.MNTag)
+}
+extension MapstedMapUi.MenuViewController : MapstedMapUi.POIInfoViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency public func shareTagFromPOIScreen(tag: MapstedCore.MNTag)
+  @_Concurrency.MainActor @preconcurrency public func addOverlayToItinerary(overlay: any MapstedCore.Searchable)
+  @_Concurrency.MainActor @preconcurrency public func editTagNameFromPOIScreen(tag: MapstedCore.MNTag)
+  @_Concurrency.MainActor @preconcurrency public func editTagLocationFromPOIScreen(tag: MapstedCore.MNTag)
+  @_Concurrency.MainActor @preconcurrency public func showItineraryListPOI()
+  @_Concurrency.MainActor @preconcurrency public func deleteTagFromPOIScreen(tag: MapstedCore.MNTag)
+  @_Concurrency.MainActor @preconcurrency public func moveUp(amount: CoreFoundation.CGFloat, maxHeight: CoreFoundation.CGFloat, actionAtMaximumPoint: (() -> ())?)
+  @_Concurrency.MainActor @preconcurrency public func moveDown(amount: CoreFoundation.CGFloat, minHeight: CoreFoundation.CGFloat, actionAtMinimumPoint: (() -> ())?)
+  @_Concurrency.MainActor @preconcurrency public func selectedEntityVisibleHeight() -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public func addToItineraryPOI(searchEntity: any MapstedCore.Searchable)
+  @_Concurrency.MainActor @preconcurrency public func navigateToPOI(searchEntity: any MapstedCore.Searchable)
+  @_Concurrency.MainActor @preconcurrency public func navigateToCampaignEntity(searchEntity: MapstedCore.Campaign)
+}
 extension MapstedMapUi.SearchViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
@@ -514,6 +565,26 @@ extension MapstedMapUi.SearchViewController : UIKit.UITableViewDelegate, UIKit.U
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
+}
+public protocol TableHeaderViewDelegate : ObjectiveC.NSObject {
+  func viewAllClicked(section: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TableHeaderView : UIKit.UIView {
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var titleLabel: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var subTitleLabel: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var viewAllButton: MapstedMapUi.RightArrowButton!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency public var view: UIKit.UIView!
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any MapstedMapUi.TableHeaderViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var section: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public var title: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var subTitle: Swift.String? {
+    get
+    set
+  }
+  @objc deinit
 }
 public protocol MapstedPermissionsRequestVCDelegate : AnyObject {
   func requestPermissionsDidComplete()
@@ -703,9 +774,6 @@ extension MapstedMapUi.MapstedMapUiInternalViewController {
   @_Concurrency.MainActor @preconcurrency final public func addTag(tagName: Swift.String, tagPos: MapstedCore.MNPosition, category: MapstedMapUi.TagsCategory?, closure: (() -> ())? = nil)
   @_Concurrency.MainActor @preconcurrency final public func addTags(tags: [MapstedCore.MNTag])
 }
-extension UIKit.UITableView {
-  @_Concurrency.MainActor @preconcurrency public func scrollTo(row: Swift.Int, section: Swift.Int, scrollPosition: UIKit.UITableView.ScrollPosition = .top, animated: Swift.Bool = false)
-}
 extension MapstedMapUi.MapstedMapUiInternalViewController {
   @_Concurrency.MainActor @preconcurrency final public func showAlerts(alerts: [MapstedAlerts.AlertSearchable])
 }
@@ -772,6 +840,9 @@ extension MapstedMapUi.MapstedMapUiInternalViewController {
 extension MapstedMapUi.MapstedMapUiInternalViewController : SafariServices.SFSafariViewControllerDelegate {
   @_Concurrency.MainActor @preconcurrency final public func showWebView(websiteUrl: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc final public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+}
+extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedComponentsUI.BuildingListViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency final public func openBuildingDetails(buildingInfo: MapstedCore.BuildingInfo)
 }
 extension MapstedMapUi.POIInfoViewController : UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
@@ -1051,9 +1122,7 @@ public enum Translations : Swift.String {
   case eDragHint
   case eSelectedLocation
   case eSelectLocation
-  case eOpen
   case eCloses
-  case eClosed
   case eOpens
   case eFloorChangeConfirm
   case eResultsFor
@@ -1061,7 +1130,6 @@ public enum Translations : Swift.String {
   case eRecents
   case eAlerts
   case eTags
-  case eBuildings
   case eCategories
   case ePointsOfInterest
   case eMapOverlay
@@ -1294,6 +1362,11 @@ public enum POILinkType {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class RoundCornerButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 public enum FilterMode {
   case fullScreen(categories: [MapstedMapUi.PrimaryCategoryFilter])
   case halfScreen(category: MapstedMapUi.PrimaryCategoryFilter, index: Swift.Int)
@@ -1347,6 +1420,37 @@ public protocol SearchViewDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+public enum MenuAction {
+  case favorites
+  case chooseBuilding
+  case chooseProperty
+  case alerts
+  case newsEvents
+  case settings
+  case tags
+  case savedRoutes
+  public static func == (a: MapstedMapUi.MenuAction, b: MapstedMapUi.MenuAction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum MenuMode : Swift.Equatable {
+  case full
+  case limited(options: [MapstedMapUi.LimitedMenuOption])
+  public static func == (a: MapstedMapUi.MenuMode, b: MapstedMapUi.MenuMode) -> Swift.Bool
+}
+public enum LimitedMenuOption {
+  case favorites
+  case savedRoutes
+  case chooseBuilding
+  case tags
+  public static func == (a: MapstedMapUi.LimitedMenuOption, b: MapstedMapUi.LimitedMenuOption) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc @_Concurrency.MainActor @preconcurrency public class MPActivityView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -1427,6 +1531,16 @@ public protocol RouteAlertsInfoProtocol : AnyObject {
 extension MapstedCore.MNSearchEntity {
   public func allCampaigns() -> [MapstedCore.Campaign]
 }
+public protocol FavoriteListSelectDelegate : AnyObject {
+  func onDidSelectFavoriteItem(_ itemData: [Swift.String : Any]?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class FavoriteListViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency weak public var favDelegate: (any MapstedMapUi.FavoriteListSelectDelegate)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class MapUICustomParams {
   public static let shared: MapstedMapUi.MapUICustomParams
   public var enableSaveRouteOption: Swift.Bool {
@@ -1496,6 +1610,7 @@ public enum RoutingState : Swift.String {
   @_Concurrency.MainActor @preconcurrency public var propertyInfo: MapstedCore.PropertyInfo?
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -1556,6 +1671,60 @@ public enum SearchStyle {
   public func isRouteTypeShortest() -> Swift.Bool
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency public class RightArrowButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FeedRequest : MapstedCore.MNNetworkRequestBase {
+  override public func parameters() -> [Swift.String : Any]
+  @objc deinit
+}
+public class ZoneItem : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class FeedItem : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class FeatureItem : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class TimeSpan : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class Schedule : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class Feed : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class FeedLikeRequest : MapstedCore.MNNetworkRequestBase {
+  override public func parameters() -> [Swift.String : Any]
+  @objc deinit
+}
+public class FeedLikeResponse : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class FeedResponse : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public enum SelectionState {
   case UNSELECTED
   case PARTIALLYSELECTED
@@ -1584,6 +1753,10 @@ public struct PrimaryCategoryFilter {
 public struct ChildCategoryFilter {
 }
 public struct TagsCategory {
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TableHeaderViewWithTitle : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func setTitle(to string: Swift.String)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(Category) public class Category : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
@@ -1927,6 +2100,10 @@ extension MapstedMapUi.SEARCHING_STATE : Swift.Hashable {}
 extension MapstedMapUi.SearchInSection : Swift.Equatable {}
 extension MapstedMapUi.SearchInSection : Swift.Hashable {}
 extension MapstedMapUi.SearchInSection : Swift.RawRepresentable {}
+extension MapstedMapUi.MenuAction : Swift.Equatable {}
+extension MapstedMapUi.MenuAction : Swift.Hashable {}
+extension MapstedMapUi.LimitedMenuOption : Swift.Equatable {}
+extension MapstedMapUi.LimitedMenuOption : Swift.Hashable {}
 extension MapstedMapUi.POIActionButtonType : Swift.Equatable {}
 extension MapstedMapUi.POIActionButtonType : Swift.Hashable {}
 extension MapstedMapUi.POIActionButtonType : Swift.RawRepresentable {}

@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		U3iMhQP7aRLagn3WD7iThDoc8Tw=
+		4YiT5lz4bXuqf5aWNe3p2NSLc7o=
 		</data>
 		<key>BuildingListTableViewCell.nib</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>CustomNavigationBar.nib</key>
 		<data>
-		peZPYmBVcloUjuGCnuTgk7EisfM=
+		ajuyFkbd3brOU9PagfspEU6nVAk=
 		</data>
 		<key>EntityChooser.storyboardc/EntityChooser.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qP16tTRfN83E2VwHzRY2OwJbL0o=
+		XQVr4bgLNZ1fx8AeHhSmCNTTHo8=
 		</data>
 		<key>Login.storyboardc/Dvt-Ws-4Q0-view-qOJ-og-7TI.nib</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		pUAivrGCMgb2lOEbUxg8v70EsKA=
+		57ob4Fs9XmOypcUyLpc2+ciZFrA=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		fQ8/n9sJQJxMjhHxYb1snPq6hyI=
+		U8xh23AlXI9adZfDVwvuQ79D5P8=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>NewsFeedsViewController.nib/runtime.nib</key>
 		<data>
-		3QtJMPhv05hE2ukIai3u7RNcF/Y=
+		FCb4I5W2qlENHd9mct9UKIRCjjg=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -286,7 +286,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XiYAFq9url9Puwq2wZVsaWZHKN4=
+			FGQJ+YgTy8o5w/84wmhyPfqcflg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -386,7 +386,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d2IvLT/cj9Om8AjUJqjFAYdoEJuFb2FCV8odSRIMhVE=
+			G8aFrG+q2LUorH0LwcA10Uq/DqPr2gb8nL6iK634oSM=
 			</data>
 		</dict>
 		<key>BuildingListTableViewCell.nib</key>
@@ -435,7 +435,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kpaDcrfrodP4gty48ctgzGJ3WJmUfvQxKboBq/oGVgE=
+			jWpzbl1hwIWzX9pLFrb22VcR5PAryhfKY/URhqxyKOc=
 			</data>
 		</dict>
 		<key>EntityChooser.storyboardc/EntityChooser.nib</key>
@@ -561,14 +561,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ELOd5K8wbJiCC5U0xBkqaS5ivfLlnEYhSFyk++RZX1w=
+			g//I1HPV2AqRpEpt3DuVGu1gzdK3MxARi2ReTUU+JW8=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			88v5tinKiF1k5YC5SvcLmegVdxN37rNn1xNjnBF/F7A=
+			86uRONPnIR+MfNeYalA0UuLrRYascxNAsa4o/AfXybo=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -666,7 +666,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mT4SRNKt27u5DFkxcSabVdfDqc8tLfxIL0qiuZW0VJI=
+			/cEY8icnT1jK9n6vn9u3dZ77fnNM95ayOEEohNhqneE=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -818,7 +818,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJ+69fmZOlPlcGaBsrJ+b42gMe4B2qyYxkwJFL3Ote0=
+			QiGEAbFOk9hko3mPqujdUrHeYZHQXoBUnTO0PvVAuac=
 			</data>
 			<key>optional</key>
 			<true/>
