@@ -19014,7 +19014,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Views\/EntityChooser\/EntityChooserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2182,
+      "offset": 2325,
       "length": 10,
       "value": "\"reuse_id\""
     },
@@ -19471,6 +19471,13 @@
       "kind": "Array",
       "offset": 499,
       "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/ViewModel\/PropertyViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 640,
+      "length": 3,
       "value": "[]"
     },
     {
@@ -20178,14 +20185,14 @@
       "kind": "StringLiteral",
       "offset": 2629,
       "length": 17,
-      "value": "\"locations found\""
+      "value": "\"Locations found\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2657,
       "length": 17,
-      "value": "\"locations found\""
+      "value": "\"Locations found\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
@@ -22962,7 +22969,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController+TableViewDelegate.swift",
       "kind": "FloatLiteral",
-      "offset": 6524,
+      "offset": 7000,
       "length": 3,
       "value": "0.0"
     },
@@ -23150,64 +23157,113 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 784,
-      "length": 34,
-      "value": "\"propertyListItemBottomBackground\""
+      "kind": "FloatLiteral",
+      "offset": 768,
+      "length": 4,
+      "value": "48.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 976,
-      "length": 5,
-      "value": "213.0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 982,
+      "offset": 773,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 996,
+      "offset": 787,
       "length": 5,
-      "value": "213.0"
+      "value": "100.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 1002,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 1015,
-      "length": 5,
-      "value": "213.0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 1021,
+      "offset": 793,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 1035,
+      "offset": 806,
+      "length": 5,
+      "value": "206.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 812,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 826,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 886,
+      "length": 34,
+      "value": "\"propertyListItemBottomBackground\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1078,
+      "length": 5,
+      "value": "213.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1084,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1098,
+      "length": 5,
+      "value": "213.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1104,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1117,
+      "length": 5,
+      "value": "213.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1123,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1137,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Utilities\/ColorUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
       "length": 39,
       "value": "\"propertyListItemDetailDisclosureColor\""
     },
