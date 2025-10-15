@@ -22967,6 +22967,13 @@
       "value": "1000.0"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1984,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController+TableViewDelegate.swift",
       "kind": "FloatLiteral",
       "offset": 7000,
