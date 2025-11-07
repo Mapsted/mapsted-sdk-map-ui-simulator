@@ -74,7 +74,7 @@ extension MapstedComponentsUI.KeywordCellLayout {
 }
 public protocol EntityChoiceSelectionHandler : AnyObject {
   func selectEntity(searchable: any MapstedCore.Searchable, hostVC: UIKit.UIViewController?)
-  func selectNearest(group: MapstedCore.SearchEntity, hostVC: UIKit.UIViewController?)
+  func selectNearest(group: MapstedCore.SearchEntity, hostVC: UIKit.UIViewController?, isNearByMode: Swift.Bool, nearByMercatorZone: MapstedCore.MNMercatorZone?)
   func exitChooser(hostVC: UIKit.UIViewController?)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class EntityChooserViewController : UIKit.UIViewController {
@@ -518,7 +518,7 @@ public enum CategoryType {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ComponentFactory {
-  public static func getEntityChooser(handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, routingOptions: MapstedCore.MNRoutingOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserViewController
+  public static func getEntityChooser(handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, routingOptions: MapstedCore.MNRoutingOptions, localizationProvider: any MapstedCore.LocalizationProvider, isNearByMode: Swift.Bool = false, nearByMercatorZone: MapstedCore.MNMercatorZone? = nil) -> MapstedComponentsUI.EntityChooserViewController
   public static func getEntityChooser(name: Swift.String, handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, searchables: [any MapstedCore.ISearchable], routingOptions: MapstedCore.MNRoutingOptions, localizationProvider: any MapstedCore.LocalizationProvider) -> MapstedComponentsUI.EntityChooserContainerViewController
   public static func getSearchableChooser(name: Swift.String, handler: any MapstedComponentsUI.EntityChoiceSelectionHandler, searchables: [any MapstedCore.ISearchable]) -> MapstedComponentsUI.SearchableChooserViewController
   @objc deinit

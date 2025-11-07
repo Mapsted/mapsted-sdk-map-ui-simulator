@@ -456,6 +456,8 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI27EntityChooserViewController")
 @end
 
 
+
+
 @interface EntityChooserViewController (SWIFT_EXTENSION(MapstedComponentsUI)) <UITableViewDelegate>
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -1178,6 +1180,8 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI27EntityChooserViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 @interface EntityChooserViewController (SWIFT_EXTENSION(MapstedComponentsUI)) <UITableViewDelegate>
