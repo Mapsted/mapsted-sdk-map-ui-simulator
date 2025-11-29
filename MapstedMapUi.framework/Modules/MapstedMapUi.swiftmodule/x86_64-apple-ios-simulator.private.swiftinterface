@@ -1581,6 +1581,10 @@ public protocol FavoriteListSelectDelegate : AnyObject {
     get
     set
   }
+  public var disableAutoChangeFloorTransition: Swift.Bool {
+    get
+    set
+  }
   @objc deinit
 }
 public enum RoutingState : Swift.String {

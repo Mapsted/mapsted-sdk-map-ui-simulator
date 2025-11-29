@@ -41905,6 +41905,88 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "disableAutoChangeFloorTransition",
+            "printedName": "disableAutoChangeFloorTransition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvp",
+            "mangledName": "$s12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvp",
+            "moduleName": "MapstedMapUi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvg",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvg",
+                "moduleName": "MapstedMapUi",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvs",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvs",
+                "moduleName": "MapstedMapUi",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvM",
+                "mangledName": "$s12MapstedMapUi0B14UICustomParamsC32disableAutoChangeFloorTransitionSbvM",
+                "moduleName": "MapstedMapUi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -65765,91 +65847,91 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 211839,
+      "offset": 212634,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 294425,
+      "offset": 295220,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 297492,
+      "offset": 298287,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 299500,
+      "offset": 300295,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 299529,
+      "offset": 300324,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 336800,
+      "offset": 337595,
       "length": 21,
       "value": "\"kAudioForNavigation\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 337148,
+      "offset": 337943,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 351581,
+      "offset": 352376,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 359825,
+      "offset": 360620,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 359847,
+      "offset": 360642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362701,
+      "offset": 363496,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362731,
+      "offset": 363526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362763,
+      "offset": 363558,
       "length": 3,
       "value": "120"
     },
@@ -70206,6 +70288,13 @@
       "offset": 705,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/CustomParams\/MapUICustomParams.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1037,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/Search_Category\/View\/SearchCategoryHeaderCell\/SearchCategoryHeaderTableViewCell.swift",

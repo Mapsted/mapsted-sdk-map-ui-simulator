@@ -58,7 +58,7 @@
 		</data>
 		<key>EntityChooser.storyboardc/Vhc-u8-kVh-view-Li5-y4-rFN.nib</key>
 		<data>
-		YX5WjY5V/ffBjE86dT+MHyQasjU=
+		hpGoK7LGKv57lpWyyvZ7AkUSHr0=
 		</data>
 		<key>EntityChooser.storyboardc/Y6W-OH-hqX-view-8oy-Dj-F5c.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>EntityChooser.storyboardc/gGn-43-WfH-view-weZ-UT-AFD.nib</key>
 		<data>
-		Gwlo5xA0iycmRdURRdJJwJLGYmk=
+		b5d0k+BXC3i1JgZe6Y0F6EYsALY=
 		</data>
 		<key>EntityChooserHeaderView.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IKK6cQLITcssvVey7ukKu6TRF10=
+		YRUhuzyyi6htSakN1oioW17ttOs=
 		</data>
 		<key>Login.storyboardc/Dvt-Ws-4Q0-view-qOJ-og-7TI.nib</key>
 		<data>
@@ -114,15 +114,15 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5KDQYAZWrafta3FMwnV4SFyI1Wo=
+		XDj1J/a1JwfTihz6J6aSMBT6d0Q=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		qiFYQ2CbxPOTr71vGmdG5PbmhGs=
+		UTqvvc2JxPKhVgNVPOBiuGhL794=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QZoiIP8B8rZmOzavCO77m9eFwH4=
+		XyIGh8vxAXQsILNF8GRnLTZtJWk=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DUYj9IC7vbuLkExzxab6Mo4ULEQ=
+		0cjf39FUYrXe64l/5w5E8NASgXo=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QZoiIP8B8rZmOzavCO77m9eFwH4=
+		XyIGh8vxAXQsILNF8GRnLTZtJWk=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fLzPm/SEvyKcImEYv02ROSnPpV8=
+		b2AIJAGgpKPH5UD6AMz0nDJ6+7A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,11 +210,11 @@
 		</data>
 		<key>SearchableChooser.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		0vp0codjDBHPcWC83h2bbAdXFA4=
+		lLEkHtDC3ES06l/rTVObdlnxhWA=
 		</data>
 		<key>SearchableChooser.storyboardc/jxw-qw-BqZ-view-LaA-Zx-S07.nib</key>
 		<data>
-		T843un9ME1KE6XvJTJpuAGcxToU=
+		8BRFS3oQVAcDXNf+Yqesx1wHAJ0=
 		</data>
 		<key>SpeechPopupViewController.nib</key>
 		<data>
@@ -470,7 +470,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			akZg4JN8fjGOYXOoSOxNrBSe2NnIzLq6525gD4V2wX4=
+			LI/kEqaa3mSH3pOHB+MzYXvZMCAoph3R2QRzoLG32z8=
 			</data>
 		</dict>
 		<key>EntityChooser.storyboardc/Y6W-OH-hqX-view-8oy-Dj-F5c.nib</key>
@@ -484,7 +484,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tr5VCljKDihnhztwsT0lUi+QPmdS42UpepCRkk+M7W0=
+			0XqnSWpvuUR2EuyXPE3ZfIyetEyeO6R4n23TyKrYwtY=
 			</data>
 		</dict>
 		<key>EntityChooserHeaderView.nib</key>
@@ -561,21 +561,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LV8n4FL3wNGO4Tus+qCBnMSk6w34X7/DPzZJwnQy+sI=
+			cvq1IFciTvA10c9o51izXa1g6VLsDD2EVriVGH5f11g=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hi+UvcuVyH0y2DDf1PazzKCCwIgCsCZT2tVuNN9+ZuE=
+			q35i1SnZL1TFwFlVUJWJdwMk6uw+tC5xm6mDAd0EIFY=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			21SF27o/TFbfZSLqkexvs9j0eltqtbrBF2QwmD5KRY0=
+			WntSsSzE2WO259D8KeKMVCUvMv6pE3lAZwK8jIchPZM=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -603,14 +603,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yz51ZFFhOfgQ3jC/Wq0q0cpYGmJKKxcQcVIadkUkfHk=
+			sh6G8cIHYQlAXVJ/8sFKYayFuG8XPw/6bAmVqgpoH70=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			21SF27o/TFbfZSLqkexvs9j0eltqtbrBF2QwmD5KRY0=
+			WntSsSzE2WO259D8KeKMVCUvMv6pE3lAZwK8jIchPZM=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -638,7 +638,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			el37M/gqWBbtODfA5Vv84NdrW3wCOIbD5Mg+XJcNSZ8=
+			rBriBbt0+iacJ/IGkcdSUfn3s/d2dOiD5fcHT+rxSgg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -729,14 +729,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bvI8EMvu4gtK2XCuqs0ZnBNvooPR33wYo3k93MzVGf4=
+			+/cWNnzYhOiU5bUG2CpxamJKomJSokaX32zoe0T6ZTY=
 			</data>
 		</dict>
 		<key>SearchableChooser.storyboardc/jxw-qw-BqZ-view-LaA-Zx-S07.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uao3pVeGkjjayr1pE0Y13VsbjdDGSRqZyxfIXcvSNRs=
+			eKDv5La1erzWGItqY5YD1ozmgO1L5GU++x43o279YNQ=
 			</data>
 		</dict>
 		<key>SpeechPopupViewController.nib</key>
