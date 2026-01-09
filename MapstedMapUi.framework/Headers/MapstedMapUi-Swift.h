@@ -704,10 +704,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <ValidBlueDotCallbackListener>
 - (void)onValidBlueDotStateChangeWithError:(EnumValidBlueDotError)error;
 @end
+
 
 
 
@@ -1799,10 +1799,10 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
-
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <ValidBlueDotCallbackListener>
 - (void)onValidBlueDotStateChangeWithError:(EnumValidBlueDotError)error;
 @end
+
 
 
 

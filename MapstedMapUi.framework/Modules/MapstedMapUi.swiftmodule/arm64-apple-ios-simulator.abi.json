@@ -6018,6 +6018,29 @@
           },
           {
             "kind": "Function",
+            "name": "isMapReady",
+            "printedName": "isMapReady()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MapstedMapUi0abC14ViewControllerC02isB5ReadySbyF",
+            "mangledName": "$s12MapstedMapUi0abC14ViewControllerC02isB5ReadySbyF",
+            "moduleName": "MapstedMapUi",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "cleanUpProperty",
             "printedName": "cleanUpProperty()",
             "children": [
@@ -62186,126 +62209,126 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5835,
+      "offset": 5929,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6787,
+      "offset": 6881,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7471,
+      "offset": 7565,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7543,
+      "offset": 7637,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7908,
+      "offset": 8002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8746,
+      "offset": 8840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9066,
+      "offset": 9160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22758,
+      "offset": 22852,
       "length": 11,
       "value": "\"wifi.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22784,
+      "offset": 22878,
       "length": 55,
       "value": "\"Please connect to wifi for enhanced location accuracy\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22894,
+      "offset": 22988,
       "length": 16,
       "value": "\"bluetooth.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22925,
+      "offset": 23019,
       "length": 57,
       "value": "\"Please turn on bluetooth for enhanced location accuracy\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23053,
+      "offset": 23147,
       "length": 16,
       "value": "\"calibrate.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23084,
+      "offset": 23178,
       "length": 54,
       "value": "\"Please calibrate compass to improve heading accuracy\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23193,
+      "offset": 23287,
       "length": 23,
       "value": "\"BlueDot.TopBarMessage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23231,
+      "offset": 23325,
       "length": 88,
       "value": "\"Blue-dot positioning is temporarily disabled (unreliable data coming from your device)\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23374,
+      "offset": 23468,
       "length": 25,
       "value": "\"LocationInProgress.Text\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23414,
+      "offset": 23508,
       "length": 36,
       "value": "\"Location Sharing is in progress...\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38321,
+      "offset": 38415,
       "length": 20,
       "value": "\"Points of Interest\""
     },
@@ -65028,910 +65051,910 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8536,
+      "offset": 8593,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8667,
+      "offset": 8724,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8570,
+      "offset": 8627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8782,
+      "offset": 8839,
       "length": 25,
       "value": "\"ID_MapUI_PropertyAlerts\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8841,
+      "offset": 8898,
       "length": 22,
       "value": "\"ID_MapUI_RouteAlerts\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8899,
+      "offset": 8956,
       "length": 19,
       "value": "\"ID_MapUI_Explores\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8957,
+      "offset": 9014,
       "length": 21,
       "value": "\"HelpMeFind.Explores\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9014,
+      "offset": 9071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9057,
+      "offset": 9114,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9163,
+      "offset": 9220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 9293,
+      "offset": 9350,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9441,
+      "offset": 9498,
       "length": 31,
       "value": "\"MapView.Tag.LongPressToCreate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9636,
+      "offset": 9693,
       "length": 43,
       "value": "\"Please long press on map to create a tag!\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9798,
+      "offset": 9855,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10398,
+      "offset": 10455,
       "length": 81,
       "value": "\"New Routing State : \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10441,
+      "offset": 10498,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10478,
+      "offset": 10535,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11030,
+      "offset": 11087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 11087,
+      "offset": 11144,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11134,
+      "offset": 11191,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11229,
+      "offset": 11286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12549,
+      "offset": 12606,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12619,
+      "offset": 12676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12662,
+      "offset": 12719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12703,
+      "offset": 12760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 12759,
+      "offset": 12816,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12805,
+      "offset": 12862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18507,
+      "offset": 18564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18549,
+      "offset": 18606,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18806,
+      "offset": 18863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18853,
+      "offset": 18910,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18895,
+      "offset": 18952,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18946,
+      "offset": 19003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19010,
+      "offset": 19067,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19059,
+      "offset": 19116,
       "length": 5,
       "value": "200.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19114,
+      "offset": 19171,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19178,
+      "offset": 19235,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19225,
+      "offset": 19282,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19467,
+      "offset": 19524,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19551,
+      "offset": 19608,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19589,
+      "offset": 19646,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19625,
+      "offset": 19682,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19736,
+      "offset": 19793,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20051,
+      "offset": 20108,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 20146,
+      "offset": 20203,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20192,
+      "offset": 20249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20241,
+      "offset": 20298,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20288,
+      "offset": 20345,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26669,
+      "offset": 26726,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 53910,
+      "offset": 53967,
       "length": 23,
       "value": "\"kShowTagsOnMapChanged\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 54459,
+      "offset": 54516,
       "length": 16,
       "value": "\"kShowTagsOnMap\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 62064,
+      "offset": 62121,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 63527,
+      "offset": 63584,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 79531,
+      "offset": 79588,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 99345,
+      "offset": 99402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 99945,
+      "offset": 100002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 100630,
+      "offset": 100687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 101246,
+      "offset": 101303,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 105891,
+      "offset": 105948,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 105963,
+      "offset": 106020,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 107954,
+      "offset": 108011,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 108025,
+      "offset": 108082,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 109250,
+      "offset": 109307,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 109979,
+      "offset": 110036,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 111980,
+      "offset": 112037,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 114327,
+      "offset": 114384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 116161,
+      "offset": 116218,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 122687,
+      "offset": 122744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 132665,
+      "offset": 132722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 132709,
+      "offset": 132766,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 132754,
+      "offset": 132811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 132814,
+      "offset": 132871,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 132827,
+      "offset": 132884,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133026,
+      "offset": 133083,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133033,
+      "offset": 133090,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133084,
+      "offset": 133141,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133130,
+      "offset": 133187,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133177,
+      "offset": 133234,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133616,
+      "offset": 133673,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133663,
+      "offset": 133720,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133674,
+      "offset": 133731,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133723,
+      "offset": 133780,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 133734,
+      "offset": 133791,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 133952,
+      "offset": 134009,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 134259,
+      "offset": 134316,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 134270,
+      "offset": 134327,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 134403,
+      "offset": 134460,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 134416,
+      "offset": 134473,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 134600,
+      "offset": 134657,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 134636,
+      "offset": 134693,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 134791,
+      "offset": 134848,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 134827,
+      "offset": 134884,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 134980,
+      "offset": 135037,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 135016,
+      "offset": 135073,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 135110,
+      "offset": 135167,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 135156,
+      "offset": 135213,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 135203,
+      "offset": 135260,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 135290,
+      "offset": 135347,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 135390,
+      "offset": 135447,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 135442,
+      "offset": 135499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 135495,
+      "offset": 135552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 135661,
+      "offset": 135718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 135683,
+      "offset": 135740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 140823,
+      "offset": 140880,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 155730,
+      "offset": 155787,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 155816,
+      "offset": 155873,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155868,
+      "offset": 155925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 156131,
+      "offset": 156188,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 156161,
+      "offset": 156218,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 156219,
+      "offset": 156276,
       "length": 21,
       "value": "\"AssistedPositioning\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 156278,
+      "offset": 156335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 156324,
+      "offset": 156381,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 156480,
+      "offset": 156537,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 156516,
+      "offset": 156573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 156606,
+      "offset": 156663,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 156662,
+      "offset": 156719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 161521,
+      "offset": 161578,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 212634,
+      "offset": 212691,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 295220,
+      "offset": 294437,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 298287,
+      "offset": 297504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 300295,
+      "offset": 299512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 300324,
+      "offset": 299541,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 337595,
+      "offset": 336812,
       "length": 21,
       "value": "\"kAudioForNavigation\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 337943,
+      "offset": 337160,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 352376,
+      "offset": 351593,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "Array",
-      "offset": 360620,
+      "offset": 359837,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 360642,
+      "offset": 359859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 363496,
+      "offset": 362713,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 363526,
+      "offset": 362743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-map-ui\/mapuikit\/ViewControllers\/Maps\/MapstedMapUiInternalViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 363558,
+      "offset": 362775,
       "length": 3,
       "value": "120"
     },

@@ -228,6 +228,7 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
   @_Concurrency.MainActor @preconcurrency public func removeCustomViewFromMap(_ customView: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency public func clearAllRouteUi()
   @_Concurrency.MainActor @preconcurrency public func displayPropertyOnMap(propertyId: Swift.Int, completion: (() -> ())? = nil)
+  @_Concurrency.MainActor @preconcurrency public func isMapReady() -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency public func cleanUpProperty()
   @_Concurrency.MainActor @preconcurrency public func routeTo(buildingId: Swift.Int, propertyId: Swift.Int, entityId: Swift.Int, showDirections: Swift.Bool = true)
   @_Concurrency.MainActor @preconcurrency public func navigateTo(searchEntities: [any MapstedCore.Searchable], fromCurrentLocation: Swift.Bool)
