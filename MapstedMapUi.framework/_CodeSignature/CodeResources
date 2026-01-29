@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		9Jg7Wr6oUsZtULLeRDhZb4TCRC0=
+		1qrvdcf1vQ7xTx17FImfe/hEWRc=
 		</data>
 		<key>Base.lproj/Alerts.storyboardc/Info.plist</key>
 		<data>
@@ -626,7 +626,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/8Sgy2cB3j2s9ChCe/6FV3btP0o=
+		euChBW/hnVaybIEjN00gu/c7pVA=
 		</data>
 		<key>InfoAboutTableViewCell.nib</key>
 		<data>
@@ -690,11 +690,11 @@
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		c96sLRz2cJ+1XQv2qkz7zUL+LnM=
+		mmzbiJkqUF7sJF8KIgJRqp8oM0o=
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yrZmWWvd/WPsxszJ8cVof+Ci2gs=
+		yVAn+IhAXo87E9ureZGn063RMHs=
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -1024,7 +1024,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3gdXsrL5gU7eyhKcKl7MZTXq2hk=
+			TYwg2V3zQKAqzxHRVgnmI7eOdXU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1336,7 +1336,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8Z1WuTSTHVVt8R9D+bqn13YeZXUvRjFZVAkXph6bik=
+			R+JKmtnhQo5x1UZIEA/Duuh0ts23UH34CcevPL6XsbA=
 			</data>
 		</dict>
 		<key>Base.lproj/Alerts.storyboardc/Info.plist</key>
@@ -2505,14 +2505,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DItTuBDti8EpnzYZ5iiqJieKtuKVffrmavPEmjmOoEQ=
+			ZuiVrVb6CUrZp5mfEsqtEEu5UlKfpfge76oYCkKrp70=
 			</data>
 		</dict>
 		<key>Modules/MapstedMapUi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VKqY/0LhcoWWg+tLZycQr7RiMaPLkp02zKZunMObyAU=
+			koNFh9GmnH2Z3JjftDY4oaKwTOy70SCg+DUS9WAupQQ=
 			</data>
 		</dict>
 		<key>Modules/MapstedMapUi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -3059,7 +3059,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4PPYjGpRTqak/lsvmNxEgO9iBgCJF43mLElZfDF9qUo=
+			FIKHnTZ5qMLz0jVYIOHTcNoJdzIbSgwRNE8LZyCzSOI=
 			</data>
 			<key>optional</key>
 			<true/>

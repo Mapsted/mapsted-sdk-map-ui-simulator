@@ -19916,34 +19916,6 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/Cells\/PropertyListItemCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1474,
-      "length": 17,
-      "value": "\"downloaded_icon\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/Cells\/PropertyListItemCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1500,
-      "length": 12,
-      "value": "\"Up To Date\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/Cells\/PropertyListItemCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1612,
-      "length": 15,
-      "value": "\"download_icon\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/Cells\/PropertyListItemCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1636,
-      "length": 10,
-      "value": "\"Download\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/Cells\/PropertyListItemCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1340,
       "length": 5,
@@ -20675,7 +20647,7 @@
       "kind": "StringLiteral",
       "offset": 6866,
       "length": 43,
-      "value": "\"© 2025 Mapsted Corp. All rights reserved\""
+      "value": "\"© 2026 Mapsted Corp. All rights reserved\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/Model\/Translations.swift",
@@ -23025,7 +22997,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-mapsted-components\/MapstedComponentsUI\/MapstedComponentsUI\/View\/PropertyList\/PropertiesListViewController+TableViewDelegate.swift",
       "kind": "FloatLiteral",
-      "offset": 7000,
+      "offset": 8700,
       "length": 3,
       "value": "0.0"
     },
