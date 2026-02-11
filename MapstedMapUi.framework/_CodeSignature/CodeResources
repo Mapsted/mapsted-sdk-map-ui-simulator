@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		1qrvdcf1vQ7xTx17FImfe/hEWRc=
+		eRMXPW4LinZEhgN2IEdpRZzORlU=
 		</data>
 		<key>Base.lproj/Alerts.storyboardc/Info.plist</key>
 		<data>
@@ -626,7 +626,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		euChBW/hnVaybIEjN00gu/c7pVA=
+		w9lHNU68gyIFM0z7hT02iWZCOks=
 		</data>
 		<key>InfoAboutTableViewCell.nib</key>
 		<data>
@@ -690,15 +690,15 @@
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		mmzbiJkqUF7sJF8KIgJRqp8oM0o=
+		VX0o+UThDwb3RI6fhBe3TJ3F4R0=
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yVAn+IhAXo87E9ureZGn063RMHs=
+		FJ0mEKv1kXqils8XzIw5dKneA3g=
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Y87jtUb6GRpzBpL7kdZdof7err8=
+		/p/lXby5uonE6vu3CXAKvV59NUQ=
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -714,11 +714,11 @@
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ygOjjqBYqddTPOWy+/mMArkOT60=
+		ynVdHdkqrCN5Pcx87E9QEp+WO4k=
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Y87jtUb6GRpzBpL7kdZdof7err8=
+		/p/lXby5uonE6vu3CXAKvV59NUQ=
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -734,7 +734,7 @@
 		</data>
 		<key>Modules/MapstedMapUi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TRqdkwOo8sya/7RCtMvfSwWU2Bk=
+		dYZp/VPVY37G/jUH60RTI71jDgc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1336,7 +1336,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R+JKmtnhQo5x1UZIEA/Duuh0ts23UH34CcevPL6XsbA=
+			2IXfiLxjvb8Tja3awIbsaFrpQROdnHtKXaSv8cD9NP4=
 			</data>
 		</dict>
 		<key>Base.lproj/Alerts.storyboardc/Info.plist</key>
@@ -2505,21 +2505,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZuiVrVb6CUrZp5mfEsqtEEu5UlKfpfge76oYCkKrp70=
+			05yVmoDdWomQCkecHVRU3JBxdHQQErMrtVk2RCtEEqM=
 			</data>
 		</dict>
 		<key>Modules/MapstedMapUi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			koNFh9GmnH2Z3JjftDY4oaKwTOy70SCg+DUS9WAupQQ=
+			+jYzCgNNWwIa51Q8gwOft3/Uw218vAR9mvIXv9K6t3w=
 			</data>
 		</dict>
 		<key>Modules/MapstedMapUi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gHloRrvbuH8pFe56zezQO0jVmfNV69X1eFBzP3/jI9A=
+			DETqG83F/5IcSaSqfBDlNvu+Eu1seDfuZjzcNLfulm0=
 			</data>
 		</dict>
 		<key>Modules/MapstedMapUi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2547,14 +2547,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F4FpxGe/zCti3s9vPPAl14DAjzlo+Lttr/cCBWeer8Q=
+			y+EtoUiMIt+yUhUhH3lPu5GwKawoeAsdPQd7ZhGApHI=
 			</data>
 		</dict>
 		<key>Modules/MapstedMapUi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gHloRrvbuH8pFe56zezQO0jVmfNV69X1eFBzP3/jI9A=
+			DETqG83F/5IcSaSqfBDlNvu+Eu1seDfuZjzcNLfulm0=
 			</data>
 		</dict>
 		<key>Modules/MapstedMapUi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -2582,7 +2582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mvjFNKOwz0ivsYARVPTFIFb3j0DfroIQJUwAoE6O4o=
+			0Rmnca3ZTnRIK85FQIPXVuf5A7qtm0whiwydHwOLA+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

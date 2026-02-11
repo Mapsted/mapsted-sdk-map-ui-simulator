@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UYkcdVJQwbmmmXGW1ByKW0rtprk=
+		gBaLvSdKTXxrKS9RWyMqseAngLE=
 		</data>
 		<key>Modules/MapstedComponentsCore.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/MapstedComponentsCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qbk97YCxfqC8bgCAoFBIek3qltY=
+		50AMaPUDwwwtGFIJGgy4z+pauy4=
 		</data>
 		<key>Modules/MapstedComponentsCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/MapstedComponentsCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		U/ch3Od/o/hBdDnfaO+X1QamHhY=
+		2PZHhR24JnA1FeK3sR/6BCSnjlo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n4Ujp3SvLuQeQ70XvNaQP25XogV3Q3ZHnnFQEaHxheE=
+			e7bd6oktHR6fN7BwwN6nsmPf52geu427sNgaZ//Yu6o=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MOGqZ0osmOM1HIrLIA5x3qgViYXRhjHmWmqe79ooKns=
+			p7hXopUMvJehUqOU3Rucvk9eK39gNaPU0uYMm6IlaJU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
