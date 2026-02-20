@@ -271,7 +271,7 @@ public protocol KWCollectionViewDelegate : UIKit.UIViewController {
   @objc deinit
 }
 public class Building {
-  public init(buildingId: Swift.Int, buildingName: Swift.String, shopStatus: Swift.String?, buildingUid: Swift.String?, buildingImageBaseUrl: Swift.String?, buildingCoverImages: [Swift.String]?, timeHint: (Swift.String, Swift.String), isCurrentlyOpen: Swift.Bool)
+  public init(propertyId: Swift.Int, buildingId: Swift.Int, buildingName: Swift.String, shopStatus: Swift.String?, buildingUid: Swift.String?, buildingImageBaseUrl: Swift.String?, buildingCoverImages: [Swift.String]?, timeHint: (Swift.String, Swift.String), isCurrentlyOpen: Swift.Bool, buildingStatus: MapstedCore.EntityStatus, openingDate: Swift.String, showPartialOpeningHours: Swift.Bool)
   @objc deinit
 }
 public protocol CustomNavigationBarDelegate : ObjectiveC.NSObject {

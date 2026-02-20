@@ -120,6 +120,7 @@ public protocol MapSelectableEntity {
   var campaignLabels: [MapstedCore.Labels]? { get }
   var campaignFeatures: [MapstedCore.Features]? { get }
   var postiveButtonTitle: Swift.String? { get }
+  var showPartialOpeningHours: Swift.Bool { get }
 }
 extension MapstedMapUi.MapSelectableEntity {
   public var supportsFavorites: Swift.Bool {
@@ -305,6 +306,9 @@ extension MapstedMapUi.MapstedMapUiInternalViewController : MapstedComponentsUI.
   @_Concurrency.MainActor @preconcurrency final public func exitChooser(hostVC: UIKit.UIViewController?)
 }
 extension MapstedCore.MNTag : MapstedMapUi.MapSelectableEntity {
+  public var showPartialOpeningHours: Swift.Bool {
+    get
+  }
   public var modelDataType: MapstedMapUi.ModelType {
     get
   }
@@ -422,6 +426,12 @@ extension MapstedCore.PropertyInfo : MapstedMapUi.MapSelectableEntity {
     get
   }
   public func tags() -> [Swift.String]
+  public var showPartialOpeningHours: Swift.Bool {
+    get
+  }
+  public var storeStaus: MapstedCore.StoreStatus? {
+    get
+  }
 }
 extension MapstedMapUi.SearchViewController : UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
@@ -460,6 +470,9 @@ extension MapstedCore.BuildingInfo : MapstedMapUi.MapSelectableEntity {
   public var timeHint: MapstedCore.DailyBusinessHours? {
     get
   }
+  public var showPartialOpeningHours: Swift.Bool {
+    get
+  }
   public var coverImages: [Swift.String] {
     get
   }
@@ -485,6 +498,15 @@ extension MapstedCore.BuildingInfo : MapstedMapUi.MapSelectableEntity {
     get
   }
   public var address: Swift.String {
+    get
+  }
+  public var storeStatus: MapstedCore.StoreStatus? {
+    get
+  }
+  public var openingDate: Swift.String {
+    get
+  }
+  public var entityStatus: MapstedCore.EntityStatus {
     get
   }
 }
@@ -906,6 +928,9 @@ public protocol BottomPopupAttributesDelegate : AnyObject {
 public enum BottomPopupConstants {
 }
 extension MapstedCore.Campaign : MapstedMapUi.MapSelectableEntity {
+  public var showPartialOpeningHours: Swift.Bool {
+    get
+  }
   public var modelDataType: MapstedMapUi.ModelType {
     get
   }
@@ -1066,6 +1091,9 @@ extension MapstedMapUi.CoreDataHelper {
   public func deleteRoute(atIndex index: Swift.Int, propertyId: Swift.Int64) -> Swift.Bool
 }
 extension MapstedMap.MapOverlayItem : MapstedMapUi.MapSelectableEntity {
+  public var showPartialOpeningHours: Swift.Bool {
+    get
+  }
   public var entityNameEnglish: Swift.String {
     get
   }
@@ -1307,6 +1335,18 @@ extension MapstedCore.MNSearchEntity : MapstedMapUi.MapSelectableEntity {
     get
   }
   public var address: Swift.String {
+    get
+  }
+  public var storeStatus: MapstedCore.StoreStatus? {
+    get
+  }
+  public var openingDate: Swift.String {
+    get
+  }
+  public var entityStatus: MapstedCore.EntityStatus {
+    get
+  }
+  public var showPartialOpeningHours: Swift.Bool {
     get
   }
 }
