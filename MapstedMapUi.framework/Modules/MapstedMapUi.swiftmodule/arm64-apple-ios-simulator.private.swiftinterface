@@ -617,9 +617,9 @@ public protocol MapstedPermissionsRequestVCDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency public var requestPermissions: [MapstedCore.PERMISSION_REQUEST_TYPE]
   @_Concurrency.MainActor @preconcurrency public static func instantiateViewController(requestPermissions: [MapstedCore.PERMISSION_REQUEST_TYPE], delegate: any MapstedMapUi.MapstedPermissionsRequestVCDelegate) -> MapstedMapUi.MapstedPermissionsRequestViewController
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MNAndroidActivityView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToSuperview()
@@ -1031,7 +1031,7 @@ public protocol POIInfoViewControllerDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class POIInfoViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any MapstedMapUi.POIInfoViewControllerDelegate)?
   @_Concurrency.MainActor @preconcurrency public var currentViewHeight: MapstedMapUi.CurrentViewHeights
-  @_Concurrency.MainActor @preconcurrency public var locationMarketingDelegate: (any MapstedCore.LocationMarketingCreativeDelegate)!
+  @_Concurrency.MainActor @preconcurrency weak public var locationMarketingDelegate: (any MapstedCore.LocationMarketingCreativeDelegate)?
   @_Concurrency.MainActor @preconcurrency public var isViewToBePushed: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public static func instantiateViewController(searchEntity: any MapstedMapUi.MapSelectableEntity) -> UIKit.UIViewController?
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
@@ -1392,7 +1392,7 @@ extension MapstedMapUi.PropertyListViewController : UIKit.UITableViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-public protocol MapSelectionProtocol {
+public protocol MapSelectionProtocol : AnyObject {
   func displayOnMap(dataType: MapstedCore.MNDataType?, render: Swift.Bool, propertyId: Swift.Int, buildingId: Swift.Int, entityId: Swift.Int, completion: (() -> ())?)
   func makeChooseFrom(searchEntityGroup: MapstedCore.SearchEntity)
 }
