@@ -251,7 +251,26 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
     get
   }
 }
+public enum MapstedPipMode {
+  case collapsed
+  case expanded
+  public static func == (a: MapstedMapUi.MapstedPipMode, b: MapstedMapUi.MapstedPipMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol MapstedPipModeDelegate : AnyObject {
+  func mapstedPipModeDidChange(to mode: MapstedMapUi.MapstedPipMode)
+  func mapstedPipModeDidFail(reason: Swift.String)
+}
+extension MapstedMapUi.MapstedPipModeDelegate {
+  public func mapstedPipModeDidFail(reason: Swift.String)
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MapstedMapUiViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public static let navigationStartedNotification: Foundation.Notification.Name
+  @_Concurrency.MainActor @preconcurrency public static let navigationEndedNotification: Foundation.Notification.Name
+  @_Concurrency.MainActor @preconcurrency public static let routeClearedNotification: Foundation.Notification.Name
   @_Concurrency.MainActor @preconcurrency public static let shared: UIKit.UIViewController?
   @_Concurrency.MainActor @preconcurrency public var isTappedOnExploreButton: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public func enableFromToLabelsOnRoutePreview(enable: Swift.Bool, fromLabel: Swift.String = "", toLabel: Swift.String = "")
@@ -277,6 +296,17 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
   @_Concurrency.MainActor @preconcurrency public func cleanUpProperty()
   @_Concurrency.MainActor @preconcurrency public func routeTo(buildingId: Swift.Int, propertyId: Swift.Int, entityId: Swift.Int, showDirections: Swift.Bool = true)
   @_Concurrency.MainActor @preconcurrency public func navigateTo(searchEntities: [any MapstedCore.Searchable], fromCurrentLocation: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func navigateTo(searchEntities: [any MapstedCore.Searchable], fromCurrentLocation: Swift.Bool, pipMode: MapstedMapUi.MapstedPipMode)
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func startNavigation() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public func stopNavigation()
+  @_Concurrency.MainActor @preconcurrency public func isRouteReady() -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public func addNavigationInstructionListener(listener: any MapstedMapUi.MNNavigationInstructionListener)
+  @objc @_Concurrency.MainActor @preconcurrency public func removeNavigationInstructionListener(listener: any MapstedMapUi.MNNavigationInstructionListener)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency public func getRouteInstructions() -> [MapstedMapUi.MNNavigationInstructionInfo]?
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func preparePipCollapsedMode()
   @_Concurrency.MainActor @preconcurrency public func clearAllTags()
   @_Concurrency.MainActor @preconcurrency public func deleteAllTags()
   #if compiler(>=5.3) && $NonescapableTypes
@@ -314,7 +344,18 @@ extension MapstedMapUi.MyTagListViewController : MapstedMapUi.MapManualLocationC
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public func showLoadingSpinner(text: Swift.String)
   @_Concurrency.MainActor @preconcurrency public func hideLoadingSpinner()
-  @_Concurrency.MainActor @preconcurrency public func selectAndDrawProperty(propertyId: Swift.Int, callback: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func applyPipMode(_ mode: MapstedMapUi.MapstedPipMode)
+  @_Concurrency.MainActor @preconcurrency public var currentPipMode: MapstedMapUi.MapstedPipMode {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public func isPipModeAllowed() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public func setPipMode(enable: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func isPipModeEnabled() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public func addPipModeDelegate(_ delegate: any MapstedMapUi.MapstedPipModeDelegate)
+  @_Concurrency.MainActor @preconcurrency public func removePipModeDelegate(_ delegate: any MapstedMapUi.MapstedPipModeDelegate)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func selectAndDrawProperty(propertyId: Swift.Int, pipMode: MapstedMapUi.MapstedPipMode? = nil, callback: @escaping (Swift.Bool) -> Swift.Void)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func unloadProperty(propertyId: Swift.Int)
   @_Concurrency.MainActor @preconcurrency public func zoomToUserLocation()
   @_Concurrency.MainActor @preconcurrency public func takeToNearest(fromHomeEntities homeEntities: [MapstedCore.HomeEntity])
@@ -2004,6 +2045,41 @@ extension MapstedMapUi.SavedRoutesViewController : UIKit.UITableViewDataSource, 
 extension MapstedMapUi.SavedRoutesViewController : UIKit.UIPopoverPresentationControllerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func adaptivePresentationStyle(for controller: UIKit.UIPresentationController) -> UIKit.UIModalPresentationStyle
 }
+public protocol MapstedPipContainerDelegate : AnyObject {
+  func pipContainerDidChangeMode(_ container: MapstedMapUi.MapstedPipContainerView, mode: MapstedMapUi.MapstedPipMode)
+  func pipContainerDidFailToChangeMode(_ container: MapstedMapUi.MapstedPipContainerView, reason: Swift.String)
+}
+extension MapstedMapUi.MapstedPipContainerDelegate {
+  public func pipContainerDidFailToChangeMode(_ container: MapstedMapUi.MapstedPipContainerView, reason: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MapstedPipContainerView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var collapsedHeight: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var animationDuration: Swift.Double
+  @_Concurrency.MainActor @preconcurrency public var currentMode: MapstedMapUi.MapstedPipMode {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any MapstedMapUi.MapstedPipContainerDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func embed(in parent: UIKit.UIViewController, initialMode: MapstedMapUi.MapstedPipMode = .expanded, destinations: [Any]? = nil, fromCurrentLocation: Swift.Bool = true)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func toggleMode()
+  @_Concurrency.MainActor @preconcurrency public func setMode(_ mode: MapstedMapUi.MapstedPipMode)
+  @_Concurrency.MainActor @preconcurrency public func setPipEnabled(_ enabled: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func removeMap()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+extension MapstedMapUi.MapstedPipContainerView : MapstedMapUi.MapstedPipModeDelegate {
+  @_Concurrency.MainActor @preconcurrency public func mapstedPipModeDidChange(to mode: MapstedMapUi.MapstedPipMode)
+  @_Concurrency.MainActor @preconcurrency public func mapstedPipModeDidFail(reason: Swift.String)
+}
 extension UIKit.UIImage {
   #if compiler(>=5.3) && $NonescapableTypes
   public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
@@ -2110,6 +2186,28 @@ public class FeedResponse : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public protocol MNNavigationInstructionListener {
+  @objc func onNavigationStarted(allInstructions: [MapstedMapUi.MNNavigationInstructionInfo], currentInstruction: MapstedMapUi.MNNavigationInstructionInfo)
+  @objc func onInstructionAdvanced(allInstructions: [MapstedMapUi.MNNavigationInstructionInfo], currentInstruction: MapstedMapUi.MNNavigationInstructionInfo, passedInstructions: [MapstedMapUi.MNNavigationInstructionInfo])
+  @objc func onNavigationRouteRecalculated(allInstructions: [MapstedMapUi.MNNavigationInstructionInfo], currentInstruction: MapstedMapUi.MNNavigationInstructionInfo)
+  @objc func onDestinationReached()
+  @objc func onNavigationStopped()
+}
+@_hasMissingDesignatedInitializers @objc public class MNNavigationInstructionInfo : ObjectiveC.NSObject {
+  @objc final public let instruction: MapstedCore.MNRoutePointInstruction
+  @objc final public let resolvedInstruction: MapstedCore.MNInstruction
+  @objc final public let index: Swift.Int
+  @objc final public let propertyId: Swift.Int
+  @objc final public let buildingId: Swift.Int
+  @objc final public let buildingName: Swift.String
+  @objc final public let floorId: Swift.Int
+  @objc final public let floorName: Swift.String
+  @objc final public let distanceTimeToNextInstruction: MapstedCore.MNDistanceTime?
+  @objc final public let cumulativeDistanceTimeFromStart: MapstedCore.MNDistanceTime?
+  @objc final public let isLevelTransition: Swift.Bool
+  @objc final public let isBuildingTransition: Swift.Bool
+  @objc deinit
 }
 public enum SelectionState {
   case UNSELECTED
@@ -2536,6 +2634,8 @@ public typealias coredbFoundationFrameworkSet = Foundation.NSSet
 public typealias coredbCoreDataFrameworkManagedObject = CoreData.NSManagedObject
 extension MapstedMapUi.ModelType : Swift.Equatable {}
 extension MapstedMapUi.ModelType : Swift.Hashable {}
+extension MapstedMapUi.MapstedPipMode : Swift.Equatable {}
+extension MapstedMapUi.MapstedPipMode : Swift.Hashable {}
 extension MapstedMapUi.MapState : Swift.Equatable {}
 extension MapstedMapUi.MapState : Swift.Hashable {}
 extension MapstedMapUi.MapState : Swift.RawRepresentable {}

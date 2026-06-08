@@ -517,6 +517,83 @@ SWIFT_CLASS("_TtC12MapstedMapUi21MNAndroidActivityView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class MNRoutePointInstruction;
+@class MNInstruction;
+@class MNDistanceTime;
+/// Enriched navigation instruction model that wraps <code>MNRoutePointInstruction</code>
+/// with additional context: floor details, cumulative distance, and transition flags.
+/// Instances are immutable and safe to pass across threads after creation.
+SWIFT_CLASS("_TtC12MapstedMapUi27MNNavigationInstructionInfo")
+@interface MNNavigationInstructionInfo : NSObject
+/// The underlying route point instruction from the route engine.
+@property (nonatomic, readonly, strong) MNRoutePointInstruction * _Nonnull instruction;
+/// Human-readable instruction text and icon, derived from the instruction type and landmarks.
+@property (nonatomic, readonly, strong) MNInstruction * _Nonnull resolvedInstruction;
+/// Zero-based index of this instruction in the full ordered instruction list for the active route.
+@property (nonatomic, readonly) NSInteger index;
+/// The property ID where this instruction is located.
+@property (nonatomic, readonly) NSInteger propertyId;
+/// The building ID where this instruction is located. -1 if outside a building.
+@property (nonatomic, readonly) NSInteger buildingId;
+/// Building name (e.g. “Cardiac Sciences Building”). Empty string if building info
+/// is unavailable or the instruction is outside a building.
+@property (nonatomic, readonly, copy) NSString * _Nonnull buildingName;
+/// The floor ID where this instruction is located. -1 if outside a building.
+@property (nonatomic, readonly) NSInteger floorId;
+/// Short floor name (e.g. “L1”, “B2”). Empty string if floor info is unavailable.
+@property (nonatomic, readonly, copy) NSString * _Nonnull floorName;
+/// Distance and time from this instruction to the next instruction.
+/// Nil for the last instruction (destination).
+@property (nonatomic, readonly, strong) MNDistanceTime * _Nullable distanceTimeToNextInstruction;
+/// Cumulative distance and time from route start to this instruction.
+/// Nil for the first instruction (route start).
+@property (nonatomic, readonly, strong) MNDistanceTime * _Nullable cumulativeDistanceTimeFromStart;
+/// Whether this instruction involves a floor/level transition
+/// (elevator, escalator, stairs, go up/down).
+@property (nonatomic, readonly) BOOL isLevelTransition;
+/// Whether this instruction involves a building transition
+/// (enter building, exit building).
+@property (nonatomic, readonly) BOOL isBuildingTransition;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// Listener protocol for receiving live navigation instruction updates.
+/// Register this listener before navigation starts to receive the full
+/// sequence of callbacks. All callbacks are delivered on the main thread.
+SWIFT_PROTOCOL("_TtP12MapstedMapUi31MNNavigationInstructionListener_")
+@protocol MNNavigationInstructionListener
+/// Called when live navigation starts. Provides the complete instruction list.
+/// \param allInstructions All instructions for the route, in order.
+///
+/// \param currentInstruction The first instruction the user is navigating toward.
+///
+- (void)onNavigationStartedWithAllInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)allInstructions currentInstruction:(MNNavigationInstructionInfo * _Nonnull)currentInstruction;
+/// Called when the current instruction advances (user passed an instruction).
+/// \param allInstructions All instructions for the route, in order.
+///
+/// \param currentInstruction The instruction the user is now navigating toward.
+///
+/// \param passedInstructions All instructions already completed by the user, in order.
+///
+- (void)onInstructionAdvancedWithAllInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)allInstructions currentInstruction:(MNNavigationInstructionInfo * _Nonnull)currentInstruction passedInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)passedInstructions;
+/// Called when the route is recalculated during navigation (user deviated from route).
+/// The instruction list is entirely new – previous references are stale.
+/// \param allInstructions All instructions for the new route, in order.
+///
+/// \param currentInstruction The first instruction on the new route.
+///
+- (void)onNavigationRouteRecalculatedWithAllInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)allInstructions currentInstruction:(MNNavigationInstructionInfo * _Nonnull)currentInstruction;
+/// Called when the user reaches the destination and navigation ends.
+/// Note: this method is intentionally named <code>onDestinationReached</code> (without
+/// the <code>onNavigation</code> prefix used by the other transition callbacks) to avoid
+/// an Obj-C selector collision with React Native bridge view properties that
+/// expose the same conceptual event under the name <code>onNavigationDestinationReached</code>.
+- (void)onDestinationReached;
+/// Called when navigation is cancelled or stopped by the user.
+- (void)onNavigationStopped;
+@end
+
 SWIFT_CLASS("_TtC12MapstedMapUi14MPActivityView")
 @interface MPActivityView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -617,6 +694,42 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 @interface MapstedMapUiViewController : UIViewController
+/// Adds a listener for live navigation instruction updates.
+/// The listener receives callbacks when:
+/// <ul>
+///   <li>
+///     Navigation starts (complete instruction list + first current instruction)
+///   </li>
+///   <li>
+///     The current instruction advances (updated current + passed list)
+///   </li>
+///   <li>
+///     Route is recalculated (new instruction list)
+///   </li>
+///   <li>
+///     Destination is reached
+///   </li>
+///   <li>
+///     Navigation is cancelled/stopped
+///   </li>
+/// </ul>
+/// Multiple listeners may be registered. Listeners are held weakly.
+/// All callbacks are delivered on the main thread.
+/// Important: Register your listener before starting navigation to receive
+/// the full sequence of callbacks.
+/// \param listener The listener to add.
+///
+- (void)addNavigationInstructionListenerWithListener:(id <MNNavigationInstructionListener> _Nonnull)listener;
+/// Removes a previously registered navigation instruction listener.
+/// \param listener The listener to remove.
+///
+- (void)removeNavigationInstructionListenerWithListener:(id <MNNavigationInstructionListener> _Nonnull)listener;
+/// Returns the current route’s instructions as enriched models.
+/// Useful for route preview (before navigation starts) or one-time queries.
+/// Returns nil if no route has been computed.
+/// important:
+/// Must be called on the main thread.
+- (NSArray<MNNavigationInstructionInfo *> * _Nullable)getRouteInstructions SWIFT_WARN_UNUSED_RESULT;
 + (void)awakeFromNib;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
@@ -654,6 +767,40 @@ SWIFT_CLASS("_TtC12MapstedMapUi39MapstedPermissionsRequestViewController")
 @interface MapstedPermissionsRequestViewController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// A drop-in UIView that embeds the Mapsted map with built-in PiP (Picture-in-Picture) support.
+/// This view handles all PiP boilerplate internally:
+/// <ul>
+///   <li>
+///     Embeds <code>MapstedMapUiViewController.shared</code> as a child of the provided parent VC
+///   </li>
+///   <li>
+///     Manages constraint toggling between full-height (expanded) and fixed-height (collapsed) modes
+///   </li>
+///   <li>
+///     Calls <code>setPipMode(enable:)</code>, <code>preparePipCollapsedMode()</code>, and <code>applyPipMode(_:)</code> automatically
+///   </li>
+///   <li>
+///     Listens for SDK-driven PiP changes (e.g., auto-reset on navigation end) and resizes accordingly
+///   </li>
+/// </ul>
+/// Usage:
+/// \code
+/// let pipView = MapstedPipContainerView()
+/// pipView.collapsedHeight = 240
+/// pipView.delegate = self
+/// view.addSubview(pipView)
+/// // Add your own leading/trailing/top constraints, plus bottom to safe area
+/// pipView.embed(in: self, initialMode: .collapsed, destinations: destinations)
+///
+/// \endcodeWhen PiP is not needed, use <code>embed(in:)</code> without specifying <code>initialMode</code> (defaults to <code>.expanded</code>)
+/// and the view behaves as a standard full-size map container with PiP disabled.
+SWIFT_CLASS("_TtC12MapstedMapUi23MapstedPipContainerView")
+@interface MapstedPipContainerView : UIView
+- (void)didMoveToSuperview;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1423,6 +1570,83 @@ SWIFT_CLASS("_TtC12MapstedMapUi21MNAndroidActivityView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class MNRoutePointInstruction;
+@class MNInstruction;
+@class MNDistanceTime;
+/// Enriched navigation instruction model that wraps <code>MNRoutePointInstruction</code>
+/// with additional context: floor details, cumulative distance, and transition flags.
+/// Instances are immutable and safe to pass across threads after creation.
+SWIFT_CLASS("_TtC12MapstedMapUi27MNNavigationInstructionInfo")
+@interface MNNavigationInstructionInfo : NSObject
+/// The underlying route point instruction from the route engine.
+@property (nonatomic, readonly, strong) MNRoutePointInstruction * _Nonnull instruction;
+/// Human-readable instruction text and icon, derived from the instruction type and landmarks.
+@property (nonatomic, readonly, strong) MNInstruction * _Nonnull resolvedInstruction;
+/// Zero-based index of this instruction in the full ordered instruction list for the active route.
+@property (nonatomic, readonly) NSInteger index;
+/// The property ID where this instruction is located.
+@property (nonatomic, readonly) NSInteger propertyId;
+/// The building ID where this instruction is located. -1 if outside a building.
+@property (nonatomic, readonly) NSInteger buildingId;
+/// Building name (e.g. “Cardiac Sciences Building”). Empty string if building info
+/// is unavailable or the instruction is outside a building.
+@property (nonatomic, readonly, copy) NSString * _Nonnull buildingName;
+/// The floor ID where this instruction is located. -1 if outside a building.
+@property (nonatomic, readonly) NSInteger floorId;
+/// Short floor name (e.g. “L1”, “B2”). Empty string if floor info is unavailable.
+@property (nonatomic, readonly, copy) NSString * _Nonnull floorName;
+/// Distance and time from this instruction to the next instruction.
+/// Nil for the last instruction (destination).
+@property (nonatomic, readonly, strong) MNDistanceTime * _Nullable distanceTimeToNextInstruction;
+/// Cumulative distance and time from route start to this instruction.
+/// Nil for the first instruction (route start).
+@property (nonatomic, readonly, strong) MNDistanceTime * _Nullable cumulativeDistanceTimeFromStart;
+/// Whether this instruction involves a floor/level transition
+/// (elevator, escalator, stairs, go up/down).
+@property (nonatomic, readonly) BOOL isLevelTransition;
+/// Whether this instruction involves a building transition
+/// (enter building, exit building).
+@property (nonatomic, readonly) BOOL isBuildingTransition;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// Listener protocol for receiving live navigation instruction updates.
+/// Register this listener before navigation starts to receive the full
+/// sequence of callbacks. All callbacks are delivered on the main thread.
+SWIFT_PROTOCOL("_TtP12MapstedMapUi31MNNavigationInstructionListener_")
+@protocol MNNavigationInstructionListener
+/// Called when live navigation starts. Provides the complete instruction list.
+/// \param allInstructions All instructions for the route, in order.
+///
+/// \param currentInstruction The first instruction the user is navigating toward.
+///
+- (void)onNavigationStartedWithAllInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)allInstructions currentInstruction:(MNNavigationInstructionInfo * _Nonnull)currentInstruction;
+/// Called when the current instruction advances (user passed an instruction).
+/// \param allInstructions All instructions for the route, in order.
+///
+/// \param currentInstruction The instruction the user is now navigating toward.
+///
+/// \param passedInstructions All instructions already completed by the user, in order.
+///
+- (void)onInstructionAdvancedWithAllInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)allInstructions currentInstruction:(MNNavigationInstructionInfo * _Nonnull)currentInstruction passedInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)passedInstructions;
+/// Called when the route is recalculated during navigation (user deviated from route).
+/// The instruction list is entirely new – previous references are stale.
+/// \param allInstructions All instructions for the new route, in order.
+///
+/// \param currentInstruction The first instruction on the new route.
+///
+- (void)onNavigationRouteRecalculatedWithAllInstructions:(NSArray<MNNavigationInstructionInfo *> * _Nonnull)allInstructions currentInstruction:(MNNavigationInstructionInfo * _Nonnull)currentInstruction;
+/// Called when the user reaches the destination and navigation ends.
+/// Note: this method is intentionally named <code>onDestinationReached</code> (without
+/// the <code>onNavigation</code> prefix used by the other transition callbacks) to avoid
+/// an Obj-C selector collision with React Native bridge view properties that
+/// expose the same conceptual event under the name <code>onNavigationDestinationReached</code>.
+- (void)onDestinationReached;
+/// Called when navigation is cancelled or stopped by the user.
+- (void)onNavigationStopped;
+@end
+
 SWIFT_CLASS("_TtC12MapstedMapUi14MPActivityView")
 @interface MPActivityView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -1523,6 +1747,42 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 @interface MapstedMapUiViewController : UIViewController
+/// Adds a listener for live navigation instruction updates.
+/// The listener receives callbacks when:
+/// <ul>
+///   <li>
+///     Navigation starts (complete instruction list + first current instruction)
+///   </li>
+///   <li>
+///     The current instruction advances (updated current + passed list)
+///   </li>
+///   <li>
+///     Route is recalculated (new instruction list)
+///   </li>
+///   <li>
+///     Destination is reached
+///   </li>
+///   <li>
+///     Navigation is cancelled/stopped
+///   </li>
+/// </ul>
+/// Multiple listeners may be registered. Listeners are held weakly.
+/// All callbacks are delivered on the main thread.
+/// Important: Register your listener before starting navigation to receive
+/// the full sequence of callbacks.
+/// \param listener The listener to add.
+///
+- (void)addNavigationInstructionListenerWithListener:(id <MNNavigationInstructionListener> _Nonnull)listener;
+/// Removes a previously registered navigation instruction listener.
+/// \param listener The listener to remove.
+///
+- (void)removeNavigationInstructionListenerWithListener:(id <MNNavigationInstructionListener> _Nonnull)listener;
+/// Returns the current route’s instructions as enriched models.
+/// Useful for route preview (before navigation starts) or one-time queries.
+/// Returns nil if no route has been computed.
+/// important:
+/// Must be called on the main thread.
+- (NSArray<MNNavigationInstructionInfo *> * _Nullable)getRouteInstructions SWIFT_WARN_UNUSED_RESULT;
 + (void)awakeFromNib;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
@@ -1560,6 +1820,40 @@ SWIFT_CLASS("_TtC12MapstedMapUi39MapstedPermissionsRequestViewController")
 @interface MapstedPermissionsRequestViewController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// A drop-in UIView that embeds the Mapsted map with built-in PiP (Picture-in-Picture) support.
+/// This view handles all PiP boilerplate internally:
+/// <ul>
+///   <li>
+///     Embeds <code>MapstedMapUiViewController.shared</code> as a child of the provided parent VC
+///   </li>
+///   <li>
+///     Manages constraint toggling between full-height (expanded) and fixed-height (collapsed) modes
+///   </li>
+///   <li>
+///     Calls <code>setPipMode(enable:)</code>, <code>preparePipCollapsedMode()</code>, and <code>applyPipMode(_:)</code> automatically
+///   </li>
+///   <li>
+///     Listens for SDK-driven PiP changes (e.g., auto-reset on navigation end) and resizes accordingly
+///   </li>
+/// </ul>
+/// Usage:
+/// \code
+/// let pipView = MapstedPipContainerView()
+/// pipView.collapsedHeight = 240
+/// pipView.delegate = self
+/// view.addSubview(pipView)
+/// // Add your own leading/trailing/top constraints, plus bottom to safe area
+/// pipView.embed(in: self, initialMode: .collapsed, destinations: destinations)
+///
+/// \endcodeWhen PiP is not needed, use <code>embed(in:)</code> without specifying <code>initialMode</code> (defaults to <code>.expanded</code>)
+/// and the view behaves as a standard full-size map container with PiP disabled.
+SWIFT_CLASS("_TtC12MapstedMapUi23MapstedPipContainerView")
+@interface MapstedPipContainerView : UIView
+- (void)didMoveToSuperview;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 

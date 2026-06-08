@@ -101,6 +101,7 @@ public protocol EntityChoiceSelectionHandler : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class EntityChooserViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency final public func setSearchEntityGroup(group: MapstedCore.SearchEntity)
+  @_Concurrency.MainActor @preconcurrency final public var onBackAction: (() -> Swift.Void)?
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency final public func setSelectionDelegate(_ delegate: ((any MapstedCore.Searchable) -> Swift.Void)?)
   #endif
